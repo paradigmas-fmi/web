@@ -1,0 +1,138 @@
+- semana: 1
+  miercoles: 
+    fecha: 23/08
+    teorica: Presentación de la Materia. Conceptos de paradigmas de programación. Paradigmas fundamentales.
+    practica: Introducción a Scala para el Paradigma de Programación Funcional. Herramientas. IDE. Git. GitHub.
+  viernes: 
+    fecha: 25/08
+    teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables.
+    practica: Ejercitación práctica de Paradigma Funcional.
+- semana: 2
+  miercoles: 
+    fecha: 30/08
+    teorica: Paradigma Funcional. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
+    practica: Ejercitación práctica de Paradigma Funcional.
+  viernes: 
+    fecha: 01/09
+    teorica: Recursividad. Pattern matching. Lazy evaluation. Currying.
+    practica: Ejercitación práctica de Paradigma Funcional.
+- semana: 3
+  miercoles: 
+    fecha: 06/09
+    teorica: Paradigma Orientado a Objetos. Objetos. Clases. Estado y Atributos. Comportamiento, Metodos y Mensajes. Abstracción. Encapsulamiento.
+    practica: Intro a Java. Entorno de desarrollo. Ejercitación práctica de Paradigma Orientado a Objetos.
+  viernes: 
+    fecha: 08/09
+    teorica: Interfaces. Herencia. Polimorfismo. Visibilidad. Override.
+    practica: Ejercitación práctica de Paradigma Orientado a Objetos.
+- semana: 4
+  miercoles: 
+    fecha: 13/09
+    teorica: UML. Diagrama de Clases.
+    practica: Ejercitación práctica de Paradigma Orientado a Objetos. Diseño y UML.
+  viernes: 
+    fecha: 15/09
+    teorica: UML. Diagrama de Clases. Diagrama de Secuencias
+    practica: Ejercitación práctica de Paradigma Orientado a Objetos. Diseño y UML.
+- semana: 5
+  miercoles: 
+    fecha: 20/09
+    teorica: Definición. Tipos de pruebas. Automatización de pruebas.
+    practica: Intro a Framework de Pruebas. Pruebas unitarias. Pruebas e2e.
+  viernes: 
+    fecha: 22/09
+    teorica: Diseño de pruebas. Desarrollo guiado por pruebas. Refactorización
+    practica: Ejercitación de diseño de pruebas.
+- semana: 6
+  miercoles: 
+    fecha: 27/09
+    teorica: "Principios de diseño I: TDA. PoLC. PoLA. PoLK. DRY."
+    practica: Ejercitación de diseño aplicando principios de diseño.
+  viernes: 
+    fecha: 29/09
+    teorica: "Principios de diseño I: YAGNI. KISS. EDP. KOP. SoC"
+    practica: Ejercitación de diseño aplicando principios de diseño.
+- semana: 7
+  miercoles: 
+    fecha: 04/10
+    teorica: "Principios de diseño II: SOLID."
+    practica: Ejercitación de diseño aplicando principios de diseño.
+  viernes: 
+    fecha: 06/10
+    teorica: "Principios de diseño II: FIRST."
+    practica: Ejercitación de diseño aplicando principios de diseño. Práctica pre parcial.
+- semana: 8
+  miercoles: 
+    fecha: 11/10
+    parcial: Primer parcial
+  viernes: 
+    fecha: 13/10
+    feriado: true
+- semana: 9
+  miercoles: 
+    fecha: 18/10
+    teorica: Patrones de diseño I
+    practica: Ejercitación de patrones de diseño
+  viernes: 
+    fecha: 20/10
+    teorica: Patrones de diseño II
+    practica: Ejercitación de patrones de diseño
+- semana: 10
+  miercoles: 
+    fecha: 25/10
+    teorica: Excepciones
+    practica: Ejercitación de excepciones
+  viernes: 
+    fecha: 27/10
+    teorica: Persistencia
+    practica: Ejercitación de persistencia
+- semana: 11
+  miercoles: 
+    fecha: 01/11
+    teorica: Interfaz Gráfica
+    practica: Ejercitación de interfaz gráfica
+  viernes: 
+    fecha: 03/11
+    teorica: Interfaz Gráfica
+    practica: Ejercitación de interfaz gráfica
+- semana: 12
+  miercoles: 
+    fecha: 08/11
+    teorica: Concurrencia. Threads
+    practica: Ejercitación de concurrencia
+  viernes: 
+    fecha: 10/11
+    teorica: Programacion Orientada a Eventos.
+    practica: Ejercitación de concurrencia
+- semana: 13
+  miercoles: 
+    fecha: 15/11
+    teorica: Programación con Callbacks. Lazy Evaluation
+    practica: Ejercitación de concurrencia
+  viernes: 
+    fecha: 17/11
+    teorica: Co-routines. Generators.
+    practica: Ejercitación de concurrencia
+- semana: 14
+  miercoles: 
+    fecha: 22/11
+    teorica: Otros Paradigmas
+    practica: Práctica pre parcial.
+  viernes: 
+    fecha: 24/11
+    teorica: Segundo parcial
+    practica: Segundo parcial
+- semana: 15
+  miercoles: 
+    fecha: 29/11
+    tp: Presentacion de Trabajos Practicos
+  viernes: 
+    fecha: 01/12
+    parcial: Primer recuperatorio. Primer parcial
+- semana: 16
+  miercoles: 
+    fecha: 06/12
+    parcial: Primer recuperatorio. Segundo parcial
+  viernes: 
+    fecha: 08/12
+    parcial: Segundos recuperatorios

@@ -1,0 +1,8 @@
+# main links
+main:
+  - title: "Régimen"
+    url: /regimen
+  - title: "Calendario"
+    url: /calendario
+  - title: "Docentes"
+    url: /docentes
