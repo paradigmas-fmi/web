@@ -3,7 +3,8 @@ layout: single
 permalink: /docentes
 ---
 
-# Docentes
+Docentes
+========
 
 <!-- TODO: Mejorar página de docentes -->
 
@@ -14,7 +15,7 @@ permalink: /docentes
     <td class="tg-0lax">
       <figure class="figure text-center d-block">
         <img class="figure-img rounded img-fluid" style="height:180px;width:auto;" title="{{docente.nombre}}"
-            src="{{docente.foto}}" alt="{{docente.nombre}}">
+            src="{{site.baseurl}}{{docente.foto}}" alt="{{docente.nombre}}">
         <figcaption>
           {{docente.nombre}}
         </figcaption>

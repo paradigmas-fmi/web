@@ -3,8 +3,8 @@ layout: single
 permalink: /regimen
 ---
 
-# Régimen de cursada
-
+Régimen de cursada
+==================
 
 ### Aprobación
 
