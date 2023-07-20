@@ -14,9 +14,7 @@ title: Docentes
       <figure class="figure text-center d-block">
         <img class="figure-img rounded img-fluid" style="height:180px;width:auto;" title="{{docente.nombre}}"
             src="{{site.baseurl}}{{docente.foto}}" alt="{{docente.nombre}}">
-        <figcaption>
-          {{docente.nombre}}
-        </figcaption>
+        <span style="font-weight: bold;">{{docente.nombre}}</span>
       </figure>
     </td>
     {% endfor %}
