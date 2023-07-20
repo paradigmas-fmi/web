@@ -1,10 +1,8 @@
 ---
 layout: single
 permalink: /calendario
+title: Calendario
 ---
-
-Calendario
-==========
 
 La materia será dictada en 32 clases a lo largo de 16 semanas.
 Cada clase estará dividida en una parte teórica y una práctica, de 1:30 hs cada una. Los horarios serán:

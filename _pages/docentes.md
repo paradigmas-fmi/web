@@ -1,10 +1,8 @@
 ---
 layout: single
 permalink: /docentes
+title: Docentes
 ---
-
-Docentes
-========
 
 <!-- TODO: Mejorar página de docentes -->
 
