@@ -10,15 +10,15 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "es-AR"
 title                    : "Algoritmos y Programación III - FIUBA"
 title_separator          : "|"
-subtitle                 : "cátedra Cano, Raik, Brasburg"
+subtitle                 : "Cátedra Cano, Raik, Brasburg"
 name                     : ""
 description              : "Sitio de Algoritmos y Programación III, cátedra Cano, Raik, Brasburg"
 url                      : "https://paradigmas-fmi.github.io"

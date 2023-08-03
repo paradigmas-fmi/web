@@ -1,7 +1,6 @@
-# Web de Algoritmos y Programacion 3 - FIUBA - Cátedra Cano, Raik, Brasburg
+# Web de Algoritmos y Programacion 3 - FIUBA - Cátedra Brasbrg, Cano, Raik
 
-<!-- TODO: Mejorar README -->
-
+La página esta alojada en `https://paradigmas-fmi.github.io`
 Este repo se creo usando el siguiente comando:
 
 ```

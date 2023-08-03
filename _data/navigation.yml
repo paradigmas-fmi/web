@@ -6,3 +6,5 @@ main:
     url: /calendario
   - title: "Docentes"
     url: /docentes
+  - title: "Contacto"
+    url: /contacto
