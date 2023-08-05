@@ -1,7 +1,8 @@
 ---
 layout: js
 ---
-window.onload = ordenarNombres;
+
+window.addEventListener("load", ordenarNombres);
 
 // Function to shuffle an array randomly
 function shuffleArray(array) {

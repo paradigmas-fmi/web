@@ -1,7 +1,8 @@
 ---
 layout: js
 ---
-window.onload = renderizarProximasClases;
+
+window.addEventListener("load", renderizarProximasClases);
 
 function renderizarFila(dia) {
     if (dia.parcial) {
