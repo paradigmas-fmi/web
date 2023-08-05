@@ -8,28 +8,13 @@ Este es el sitio de la materia **Algoritmos y Programación III**, curso **<span
 
 ## Links Principales
 
+- Drive con material de la materia: <{{site.data.info.material}}>
 <!-- TODO -->
 
-## Información sobre próximas clases
+## Próximas clases
 
-<!-- TODO -->
+<div id="proximas-clases"></div>
 
-<script>
-  // Function to shuffle an array randomly
-  function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-  }
-
-  // Get the element containing the names
-  const namesElement = document.getElementById("sorted-names");
-
-  // Extract and shuffle the names
-  const namesArray = namesElement.innerText.split(", ");
-  shuffleArray(namesArray);
-
-  // Update the element with shuffled names
-  namesElement.innerText = namesArray.join(", ");
-</script>
+<!-- JS -->
+<script src="{{ '/assets/js/proximasClases.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/ordenarNombres.js' | relative_url }}"></script>
