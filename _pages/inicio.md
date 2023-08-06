@@ -10,6 +10,7 @@ Este es el sitio de la materia **Algoritmos y Programación III**, curso **<span
 
 - Drive con material de la materia: <{{site.data.info.material}}>
 - <a target="_blanck" href="{{site.data.info.canal}}"> Canal de Youtube </a>
+- <a href="{{site.data.info.slack}}" target="_blanck">Inscripción al grupo de Slack</a>
 <!-- TODO -->
 
 ## Próximas clases
