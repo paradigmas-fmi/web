@@ -1,6 +1,6 @@
 # Web de Algoritmos y Programacion 3 - FIUBA - Cátedra Brasbrg, Cano, Raik
 
-La página esta alojada en `https://paradigmas-fmi.github.io`
+La página esta alojada en `www.algoritmos3.ar`
 Este repo se creo usando el siguiente comando:
 
 ```
