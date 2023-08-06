@@ -9,6 +9,7 @@ Este es el sitio de la materia **Algoritmos y Programación III**, curso **<span
 ## Links Principales
 
 - Drive con material de la materia: <{{site.data.info.material}}>
+- <a target="_blanck" href="{{site.data.info.canal}}"> Canal de Youtube </a>
 <!-- TODO -->
 
 ## Próximas clases

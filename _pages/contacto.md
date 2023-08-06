@@ -8,4 +8,4 @@ title: Contacto
 <{{site.data.info.mail}}>
 
 ### Slack
-<{{site.data.info.slack}}>
+<a href="{{site.data.info.slack}}" target="_blanck">Inscripción al grupo de Slack</a>
