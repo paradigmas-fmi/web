@@ -12,7 +12,7 @@ title: Régimen de cursada
 * Las condiciones del régimen de promoción son las siguientes:
   - Es necesario aprobar los **dos parciales** y los **tres trabajos prácticos**.
   - El **promedio** de notas de todos los **trabajos prácticos** debe ser al menos 8.
-  - Los dos parciales deben estar aprobados en la **primera instancia** o el **primer recuperatorio**, con una nota **mayor o igual a 7**.
+  - Los dos parciales deben estar aprobados en la **primera instancia**, con una nota **mayor o igual a 7**.
 
 
 ### Trabajos Prácticos
@@ -22,8 +22,10 @@ title: Régimen de cursada
 * Desaprobar un trabajo práctico implica desaprobar la cursada y por lo tanto la materia.
 * Para aprobar un trabajo práctico se debe hacer la entrega correspondiente en tiempo y forma.
 * Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación del trabajo.
-* Cada entrega cuenta con una fecha de entrega, y una fecha final de aprobación, en la cual se consideran potenciales reentregas previas.
+* Cada entrega cuenta con una fecha de entrega y una de re-entrega en caso de desaprobarse la primer entrega.
+* Todos los trabajos prácticos tienen una fecha final de aprobación.
 * Cada grupo tiene asignado un ayudante para la corrección y evaluación de los trabajos prácticos.
+* La evaluación de los trabajos prácticos será tanto grupal, como individual.
 
 
 ### Parcialitos
