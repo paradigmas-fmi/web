@@ -4,6 +4,8 @@ main:
     url: /regimen
   - title: "Calendario"
     url: /calendario
+  - title: "Material"
+    url: /material
   - title: "Docentes"
     url: /docentes
   - title: "Contacto"
