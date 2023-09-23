@@ -11,7 +11,7 @@ Este es el sitio de la materia **Algoritmos y Programación III**, curso **<span
 - <a target="_blanck" href="{{site.data.info.material}}"> Drive con material de la materia </a> (usar mail @fi.uba.ar)
 - <a target="_blanck" href="{{site.data.info.canal}}"> Canal de Youtube </a>
 - <a href="{{site.data.info.slack}}" target="_blanck">Inscripción al grupo de Slack</a> (usar mail @fi.uba.ar)
-<!-- TODO -->
+- <a target="_blanck" href="{{site.data.info.sugerencias}}"> Formulario de sugerencias y feedback </a> (usar mail @fi.uba.ar)
 
 ## Próximas clases
 
