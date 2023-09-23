@@ -5,62 +5,62 @@
     practica: Introducción a Scala para el Paradigma de Programación Funcional. Herramientas. IDE. Git. GitHub.
   viernes: 
     fecha: 2023/08/25
-    teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables.
+    teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
     practica: Ejercitación práctica de Paradigma Funcional.
 - semana: 2
   miercoles: 
     fecha: 2023/08/30
-    teorica: Paradigma Funcional. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
+    teorica: Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying.
     practica: Ejercitación práctica de Paradigma Funcional.
   viernes: 
     fecha: 2023/09/01
-    teorica: Recursividad. Pattern matching. Lazy evaluation. Currying.
+    teorica: Paradigma Orientado a Objetos. Objetos. Clases. Estado y Atributos. Comportamiento, Metodos y Mensajes. Abstracción. Encapsulamiento.
     practica: Ejercitación práctica de Paradigma Funcional.
 - semana: 3
   miercoles: 
     fecha: 2023/09/06
-    teorica: Paradigma Orientado a Objetos. Objetos. Clases. Estado y Atributos. Comportamiento, Metodos y Mensajes. Abstracción. Encapsulamiento.
+    teorica: Interfaces. Herencia. Polimorfismo. Visibilidad. Override.
     practica: Intro a Java. Entorno de desarrollo. Ejercitación práctica de Paradigma Orientado a Objetos.
   viernes: 
     fecha: 2023/09/08
-    teorica: Interfaces. Herencia. Polimorfismo. Visibilidad. Override.
+    teorica: UML. Diagrama de Clases. Diagrama de Secuencias
     practica: Ejercitación práctica de Paradigma Orientado a Objetos.
 - semana: 4
   miercoles: 
     fecha: 2023/09/13
-    teorica: UML. Diagrama de Clases.
+    teorica: Interfaces. Herencia. Polimorfismo. Visibilidad. Override. [Práctica]
     practica: Ejercitación práctica de Paradigma Orientado a Objetos. Diseño y UML.
   viernes: 
     fecha: 2023/09/15
-    teorica: UML. Diagrama de Clases. Diagrama de Secuencias
+    teorica: Ejercitación práctica de Paradigma Orientado a Objetos. Diseño y UML.
     practica: Ejercitación práctica de Paradigma Orientado a Objetos. Diseño y UML.
 - semana: 5
   miercoles: 
     fecha: 2023/09/20
-    teorica: Definición. Tipos de pruebas. Automatización de pruebas.
-    practica: Intro a Framework de Pruebas. Pruebas unitarias. Pruebas e2e.
+    teorica: "Principios de diseño I: TDA. PoLC. PoLA. PoLK. DRY."
+    practica: Ejercitación práctica de modelado con vista.
   viernes: 
     fecha: 2023/09/22
-    teorica: Diseño de pruebas. Desarrollo guiado por pruebas. Refactorización
-    practica: Ejercitación de diseño de pruebas.
+    teorica: "Principios de diseño I: YAGNI. KISS. EDP. KOP. SoC"
+    practica: Ejercitación de diseño aplicando principios de diseño.
 - semana: 6
   miercoles: 
     fecha: 2023/09/27
-    teorica: "Principios de diseño I: TDA. PoLC. PoLA. PoLK. DRY."
+    teorica: "Principios de diseño II: SOLID."
     practica: Ejercitación de diseño aplicando principios de diseño.
   viernes: 
     fecha: 2023/09/29
-    teorica: "Principios de diseño I: YAGNI. KISS. EDP. KOP. SoC"
+    teorica: "Principios de diseño II: FIRST."
     practica: Ejercitación de diseño aplicando principios de diseño.
 - semana: 7
   miercoles: 
     fecha: 2023/10/04
-    teorica: "Principios de diseño II: SOLID."
-    practica: Ejercitación de diseño aplicando principios de diseño.
+    teorica: Definición. Tipos de pruebas. Automatización de pruebas.
+    practica: Intro a Framework de Pruebas. Pruebas unitarias. Pruebas e2e.
   viernes: 
     fecha: 2023/10/06
-    teorica: "Principios de diseño II: FIRST."
-    practica: Ejercitación de diseño aplicando principios de diseño. Práctica pre parcial.
+    teorica: Diseño de pruebas. Desarrollo guiado por pruebas. Refactorización
+    practica: Ejercitación de diseño de pruebas.
 - semana: 8
   miercoles: 
     fecha: 2023/10/11
