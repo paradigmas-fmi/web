@@ -1,138 +1,137 @@
 - semana: 1
-  miercoles: 
+  miercoles:
     fecha: 2023/08/23
     teorica: Presentación de la Materia. Conceptos de paradigmas de programación. Paradigmas fundamentales.
     practica: Introducción a Scala para el Paradigma de Programación Funcional. Herramientas. IDE. Git. GitHub.
-  viernes: 
+  viernes:
     fecha: 2023/08/25
     teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
     practica: Ejercitación práctica de Paradigma Funcional.
 - semana: 2
-  miercoles: 
+  miercoles:
     fecha: 2023/08/30
     teorica: Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying.
     practica: Ejercitación práctica de Paradigma Funcional.
-  viernes: 
+  viernes:
     fecha: 2023/09/01
     teorica: Paradigma Orientado a Objetos. Objetos. Clases. Estado y Atributos. Comportamiento, Metodos y Mensajes. Abstracción. Encapsulamiento.
     practica: Ejercitación práctica de Paradigma Funcional.
 - semana: 3
-  miercoles: 
+  miercoles:
     fecha: 2023/09/06
     teorica: Interfaces. Herencia. Polimorfismo. Visibilidad. Override.
     practica: Intro a Java. Entorno de desarrollo. Ejercitación práctica de Paradigma Orientado a Objetos.
-  viernes: 
+  viernes:
     fecha: 2023/09/08
     teorica: UML. Diagrama de Clases. Diagrama de Secuencias
     practica: Ejercitación práctica de Paradigma Orientado a Objetos.
 - semana: 4
-  miercoles: 
+  miercoles:
     fecha: 2023/09/13
     teorica: Interfaces. Herencia. Polimorfismo. Visibilidad. Override. [Práctica]
     practica: Ejercitación práctica de Paradigma Orientado a Objetos. Diseño y UML.
-  viernes: 
+  viernes:
     fecha: 2023/09/15
     teorica: Ejercitación práctica de Paradigma Orientado a Objetos. Diseño y UML.
     practica: Ejercitación práctica de Paradigma Orientado a Objetos. Diseño y UML.
 - semana: 5
-  miercoles: 
+  miercoles:
     fecha: 2023/09/20
     teorica: "Principios de diseño I: TDA. PoLC. PoLA. PoLK. DRY."
     practica: Ejercitación práctica de modelado con vista.
-  viernes: 
+  viernes:
     fecha: 2023/09/22
     teorica: "Principios de diseño I: YAGNI. KISS. EDP. KOP. SoC"
     practica: Ejercitación de diseño aplicando principios de diseño.
 - semana: 6
-  miercoles: 
+  miercoles:
     fecha: 2023/09/27
     teorica: "Principios de diseño II: SOLID."
     practica: Ejercitación de diseño aplicando principios de diseño.
-  viernes: 
+  viernes:
     fecha: 2023/09/29
-    teorica: "Principios de diseño II: FIRST."
-    practica: Ejercitación de diseño aplicando principios de diseño.
-- semana: 7
-  miercoles: 
-    fecha: 2023/10/04
     teorica: Definición. Tipos de pruebas. Automatización de pruebas.
     practica: Intro a Framework de Pruebas. Pruebas unitarias. Pruebas e2e.
-  viernes: 
-    fecha: 2023/10/06
+- semana: 7
+  miercoles:
+    fecha: 2023/10/04
     teorica: Diseño de pruebas. Desarrollo guiado por pruebas. Refactorización
     practica: Ejercitación de diseño de pruebas.
+  viernes:
+    fecha: 2023/10/06
+    parcial: Práctica pre-parcial
 - semana: 8
-  miercoles: 
+  miercoles:
     fecha: 2023/10/11
     parcial: Primer parcial
-  viernes: 
+  viernes:
     fecha: 2023/10/13
     feriado: true
 - semana: 9
-  miercoles: 
+  miercoles:
     fecha: 2023/10/18
     teorica: Patrones de diseño I
     practica: Ejercitación de patrones de diseño
-  viernes: 
+  viernes:
     fecha: 2023/10/20
     teorica: Patrones de diseño II
     practica: Ejercitación de patrones de diseño
 - semana: 10
-  miercoles: 
+  miercoles:
     fecha: 2023/10/25
     teorica: Excepciones
     practica: Ejercitación de excepciones
-  viernes: 
+  viernes:
     fecha: 2023/10/27
     teorica: Persistencia
     practica: Ejercitación de persistencia
 - semana: 11
-  miercoles: 
+  miercoles:
     fecha: 2023/11/01
     teorica: Interfaz Gráfica
     practica: Ejercitación de interfaz gráfica
-  viernes: 
+  viernes:
     fecha: 2023/11/03
     teorica: Interfaz Gráfica
     practica: Ejercitación de interfaz gráfica
 - semana: 12
-  miercoles: 
+  miercoles:
     fecha: 2023/11/08
     teorica: Concurrencia. Threads
     practica: Ejercitación de concurrencia
-  viernes: 
+  viernes:
     fecha: 2023/11/10
     teorica: Programacion Orientada a Eventos.
     practica: Ejercitación de concurrencia
 - semana: 13
-  miercoles: 
+  miercoles:
     fecha: 2023/11/15
     teorica: Programación con Callbacks. Lazy Evaluation
     practica: Ejercitación de concurrencia
-  viernes: 
+  viernes:
     fecha: 2023/11/17
     teorica: Co-routines. Generators.
     practica: Ejercitación de concurrencia
 - semana: 14
-  miercoles: 
+  miercoles:
     fecha: 2023/11/22
     teorica: Otros Paradigmas
     practica: Práctica pre parcial.
-  viernes: 
+  viernes:
     fecha: 2023/11/24
     teorica: Segundo parcial
     practica: Segundo parcial
 - semana: 15
-  miercoles: 
+  miercoles:
     fecha: 2023/11/29
     tp: Presentacion de Trabajos Practicos
-  viernes: 
+  viernes:
     fecha: 2023/12/01
     parcial: Primer recuperatorio. Primer parcial
 - semana: 16
-  miercoles: 
+  miercoles:
     fecha: 2023/12/06
     parcial: Primer recuperatorio. Segundo parcial
-  viernes: 
+  viernes:
     fecha: 2023/12/08
     parcial: Segundos recuperatorios
