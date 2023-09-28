@@ -12,10 +12,13 @@ title: Material
 - [Guía de paradigma funcional](../assets/pdf/guiaFuncional.pdf)
 - [Repositorio de ejercicios vistos en clase](https://github.com/paradigmas-fmi/ejercicios-clases)
 
+## Material de las clases
+- [S.O.L.I.D.](https://drive.google.com/drive/folders/1zU60qaNMNBfqmOV4B_32gwWolBGQOzPR?usp=sharing)
+
 ## Bibliografía sugerida
 
-- \[2017\] _"Functional Programming, Simplified: (Scala Edition)"_ - Alvin Alexander 
-- \[2002\] _"Types and programming languages"_ - Benjamin C. Pierce 
+- \[2017\] _"Functional Programming, Simplified: (Scala Edition)"_ - Alvin Alexander
+- \[2002\] _"Types and programming languages"_ - Benjamin C. Pierce
 - \[1985\] _"The Structure and Interpretation of Computer Programs"_ - Gerald Jay Sussman, Harold Abelson
 - \[1994\] _"Design Patterns: Elements of Reusable Object-Oriented Software"_ - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
 - \[2004\] _"Head First Design Patterns"_ - Eric Freeman, Elisabeth Robson, Elisabeth Freeman, Kathy Sierra, Bert Bates
