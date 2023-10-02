@@ -80,12 +80,12 @@
 - semana: 10
   miercoles:
     fecha: 2023/10/25
-    teorica: Excepciones
-    practica: Ejercitación de excepciones
-  viernes:
-    fecha: 2023/10/27
     teorica: Persistencia
     practica: Ejercitación de persistencia
+  viernes:
+    fecha: 2023/10/27
+    teorica: Excepciones
+    practica: Ejercitación de excepciones
 - semana: 11
   miercoles:
     fecha: 2023/11/01
@@ -120,8 +120,7 @@
     practica: Práctica pre parcial.
   viernes:
     fecha: 2023/11/24
-    teorica: Segundo parcial
-    practica: Segundo parcial
+    parcial: Segundo parcial
 - semana: 15
   miercoles:
     fecha: 2023/11/29
