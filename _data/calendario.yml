@@ -50,32 +50,33 @@
     practica: Ejercitación de diseño aplicando principios de diseño.
   viernes:
     fecha: 2023/09/29
-    teorica: Definición. Tipos de pruebas. Automatización de pruebas.
-    practica: Intro a Framework de Pruebas. Pruebas unitarias. Pruebas e2e.
+    teorica: Patrones de diseño I
+    practica: Ejercitación de patrones de diseño
 - semana: 7
   miercoles:
     fecha: 2023/10/04
-    teorica: Diseño de pruebas. Desarrollo guiado por pruebas. Refactorización
-    practica: Ejercitación de diseño de pruebas.
+    teorica: Patrones de diseño II
+    practica: Ejercitación de patrones de diseño
   viernes:
     fecha: 2023/10/06
-    parcial: Práctica pre-parcial
+    teorica: Patrones de diseño III
+    practica: Ejercitación de patrones de diseño
 - semana: 8
   miercoles:
     fecha: 2023/10/11
-    parcial: Primer parcial
+    teorica: Definición. Tipos de pruebas. Automatización de pruebas. Diseño de pruebas. Desarrollo guiado por pruebas. Refactorización
+    practica: Intro a Framework de Pruebas. Pruebas unitarias. Pruebas e2e.
   viernes:
     fecha: 2023/10/13
     feriado: true
 - semana: 9
   miercoles:
     fecha: 2023/10/18
-    teorica: Patrones de diseño I
-    practica: Ejercitación de patrones de diseño
+    teorica: Ejercitación de diseño de pruebas.
+    practica: Práctica pre-parcial
   viernes:
     fecha: 2023/10/20
-    teorica: Patrones de diseño II
-    practica: Ejercitación de patrones de diseño
+    parcial: Primer parcial
 - semana: 10
   miercoles:
     fecha: 2023/10/25
