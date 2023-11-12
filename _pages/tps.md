@@ -11,3 +11,7 @@ title: Trabajos Prácticos
 ### TP 2
 - Fecha de Entrega: 03/11/2023
 - [Enunciado](../assets/pdf/TP2.pdf)
+
+### TP 3
+- Fecha de Entrega: 29/11/2023
+- [Enunciado](../assets/pdf/TP3.pdf)
