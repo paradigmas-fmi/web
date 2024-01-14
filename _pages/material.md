@@ -9,8 +9,8 @@ title: Material
 - [Práctica](https://drive.google.com/drive/u/3/folders/1ox6gy7qgMrBuB4CNK7UragwLiFgEBgwM)
 
 ## Guías de ejercicios
-- <a target="_blanck" href="/guia-funcional"> Guía de paradigma funcional </a>
-- <a target="_blanck" href="/guia-poo"> Guía programación orientada a objetos </a>
+- <a href="/guia-funcional"> Guía de paradigma funcional </a>
+- <a href="/guia-poo"> Guía programación orientada a objetos </a>
 
 ## Material de las clases
 - [Repositorio de ejercicios vistos en clase](https://github.com/paradigmas-fmi/ejercicios-clases)
