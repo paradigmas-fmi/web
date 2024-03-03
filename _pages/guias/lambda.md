@@ -12,17 +12,16 @@ title: Guía de Calculo Lambda
 
 ### Comprensión de expresiones Lambda
 
-1. Escribir el equivalente de las siguientes expresiones Lambda en su versión con parentesis explicitos:
+1. Escribir el equivalente de las siguientes expresiones Lambda en su versión con parentesis completos explicitos:
    1. λx. λy. x y
    2. λx. λy. λz. x y z
    3. λa. λb. λc. e
+   4. (λx. xz) λy. w λw. w y z x 
 
-2. Escribir el equivalente de las siguientes expresiones Lambda en su versión con parentesis explicitos:
-   1. λx. λy. x y
-   2. λx. λy. λz. x y z
-   3. λa. λb. λc. e
+2. Simplifica las siguientes expresiones Lambda en su versión de notación corta (removiendo parentesis implicitos):
+   1. TBD
 
-3. Cuales de los siguientes pares de expresione e1 y e2 tiene el mismo árbol de sintaxis abstracto? 
+3. Cuales de los siguientes pares de expresiones e1 y e2 tienen el mismo árbol de sintaxis abstracto? 
 
 | nº   | e1        | e2           |
 | ---- | --------- | ------------ |
@@ -38,7 +37,6 @@ title: Guía de Calculo Lambda
 | x    | λx.λy.x y | λx. (λy.x y) |
 | xi   | λx.λy.x y | (λx. λy.x) y |
 
-
 4. Dibujar el árbol de sintaxis de las siguientes expresiones Lambda:
     1.  λx y.x
     2.  (λx y. x) 1 2 
@@ -46,8 +44,9 @@ title: Guía de Calculo Lambda
     4.  λf. λx. f x
     5.  (λx. λy. λz. xy) z
 
-5. Clasificar las siguientes expresiones Lambda en funciones (aquellas que definen unicamente una funcion) o programas/aplicaciones (aquellas que son resoluciones en valores concretos):
+5. Clasificar las siguientes expresiones Lambda en si son funciones (aquellas que definen unicamente una funcion) o programas/aplicaciones (aquellas que son resoluciones en valores concretos):
    1. TBD
+
 
 ### Desarrollo de expresiones Lambda
 
@@ -69,3 +68,11 @@ title: Guía de Calculo Lambda
     8. `f(x,y,z) = (x + y) * z`
 
 3. Escribir la expresión Lambda que reciba un número y obtenga su factorial.
+
+
+##### Referencias y material util
+
+* [Syntax of the Lambda Calculus [Open DSA]](https://opendsa.cs.vt.edu/ODSA/Books/PL/html/Syntax.html)
+* [Syntax of Lambda Calculus [Alexander Kurz]](https://hackmd.io/@alexhkurz/S1D0yP8Bw#Parsing-Concrete-Syntax)
+* [CMSC330 Fall 2013 Practice Problems [CS Department University of Maryland]](https://www.cs.umd.edu/class/fall2017/cmsc330/tests/prac8-soln-fall13.pdf))
+
