@@ -6,11 +6,14 @@ title: Inicio
 
 Este es el sitio de la materia **Algoritmos y Programación III**, curso **<span id="sorted-names">Cano, Raik, Brasburg</span>**, de la Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA).
 
-## Links Principales
-- <a target="_blanck" href="{{site.data.info.inscripcion}}"> Formulario de inscripción al curso </a>
-- <a target="_blanck" href="{{site.data.info.material}}"> Drive con material de la materia </a> (usar mail @fi.uba.ar)
-- <a target="_blanck" href="{{site.data.info.canal}}"> Canal de Youtube </a>
+## Inicio de clases
+
+- <a target="_blanck" href="{{site.data.info.inscripcion}}"> Formulario de inscripción al curso </a> (usar mail @fi.uba.ar)
 - <a href="{{site.data.info.slack}}" target="_blanck">Inscripción al grupo de Slack</a> (usar mail @fi.uba.ar)
+
+## Links Principales
+
+- <a target="_blanck" href="{{site.data.info.material}}"> Drive con material de la materia </a> (usar mail @fi.uba.ar)
 - <a target="_blanck" href="{{site.data.info.sugerencias}}"> Formulario de sugerencias y feedback </a> (usar mail @fi.uba.ar)
 
 ## Próximas clases
