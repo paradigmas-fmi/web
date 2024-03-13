@@ -2,7 +2,7 @@
   miercoles:
     fecha: 2024/03/13
     teorica: Presentación de la Materia. Conceptos de paradigmas de programación. Paradigmas fundamentales.
-    practica: Herramientas. IDE. Git. GitHub.
+    practica: Git. GitHub.
   viernes:
     fecha: 2024/03/15
     teorica: Paradigma Orientado a Objetos. Objetos. Clases. Estado y Atributos. Comportamiento, Metodos y Mensajes. Abstracción. Encapsulamiento.
