@@ -36,12 +36,12 @@
 - semana: 5
   miercoles:
     fecha: 2024/04/10
-    teorica: Patrones de Diseño II.
-    practica: Ejercitación práctica de Patrones de Diseño.
+    teorica: Paro
+    practica: Paro
   viernes:
     fecha: 2024/04/12
-    teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
-    practica: Introducción a Scala para el Paradigma de Programación Funcional.
+    teorica: Patrones de Diseño II.
+    practica: Ejercitación práctica de Patrones de Diseño.
 - semana: 6
   miercoles:
     fecha: 2024/04/17
@@ -56,29 +56,29 @@
     feriado: true
   viernes:
     fecha: 2024/04/26
-    teorica: Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying.
-    practica: Continuación de Scala para el Paradigma de Programación Funcional. Ejercitación práctica de Paradigma Funcional.
+    teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
+    practica: Introducción a Scala para el Paradigma de Programación Funcional.
 - semana: 8
   miercoles:
     fecha: 2024/05/01
     feriado: true
   viernes:
     fecha: 2024/05/03
-    teorica: Introducción a Calculo Lambda. Historia. Motivación. Cálculo Lambda vs Máquinas de Turing. Conceptos básicos. Reducción beta. Lógica Booleana con Cálculo Lambda.
-    practica: Ejercitación práctica de Paradigma Funcional.
+    teorica: Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying.
+    practica: Continuación de Scala para el Paradigma de Programación Funcional. Ejercitación práctica de Paradigma Funcional.
 - semana: 9
   miercoles:
     fecha: 2024/05/08
-    teorica: Continuación de Cálculo Lambda. Números Naturales con Cálculo Lambda. Tipo de Dato Algebraico. Recursión. call-by-name (lazy evaluation) vs call-by-value (eager evaluation) en Cálculo Lambda. Nociones básicas de Cálculo SKI.
-    practica: Ejercitación práctica de Cálculo Lambda.
+    teorica: Introducción a Calculo Lambda. Historia. Motivación. Cálculo Lambda vs Máquinas de Turing. Conceptos básicos. Reducción beta. Lógica Booleana con Cálculo Lambda.
+    practica: Ejercitación práctica de Paradigma Funcional.
   viernes:
     fecha: 2024/05/10
-    teorica: Definición de Tipos. Reglas de Inferencia. Introducción a Cálculo Lambda Simplemente Tipado. Inferencia de Tipos. Tipos Polimorficos.
+    teorica: Continuación de Cálculo Lambda. Números Naturales con Cálculo Lambda. Tipo de Dato Algebraico. Recursión. call-by-name (lazy evaluation) vs call-by-value (eager evaluation) en Cálculo Lambda. Nociones básicas de Cálculo SKI.
     practica: Ejercitación práctica de Cálculo Lambda.
 - semana: 10
   miercoles:
     fecha: 2024/05/15
-    teorica: Programación Orientada a Eventos.
+    teorica: Definición de Tipos. Reglas de Inferencia. Introducción a Cálculo Lambda Simplemente Tipado. Inferencia de Tipos. Tipos Polimorficos.
     practica: Ejercitación práctica de Cálculo Lambda Simplemente Tipado. Inferencia de Tipos. Tipos Polimorficos.
   viernes:
     fecha: 2024/05/17
