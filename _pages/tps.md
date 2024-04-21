@@ -5,13 +5,8 @@ title: Trabajos Prácticos
 ---
 
 ### TP 1
-- Fecha de Entrega: 06/10/2023
-- [Enunciado](../assets/pdf/TP1.pdf)
+- Fecha de Entrega: 26/04/2024
+- [Enunciado](../assets/pdf/TP1-1c2024.pdf)
 
-### TP 2
-- Fecha de Entrega: 03/11/2023
-- [Enunciado](../assets/pdf/TP2.pdf)
-
-### TP 3
-- Fecha de Entrega: 29/11/2023
-- [Enunciado](../assets/pdf/TP3.pdf)
+### TP 2 (próximamente)
+- Fecha de Entrega: 07/06/2024

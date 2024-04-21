@@ -1,137 +1,135 @@
 - semana: 1
   miercoles:
-    fecha: 2023/08/23
+    fecha: 2024/03/13
     teorica: Presentación de la Materia. Conceptos de paradigmas de programación. Paradigmas fundamentales.
-    practica: Introducción a Scala para el Paradigma de Programación Funcional. Herramientas. IDE. Git. GitHub.
+    practica: Git. GitHub.
   viernes:
-    fecha: 2023/08/25
-    teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
-    practica: Ejercitación práctica de Paradigma Funcional.
+    fecha: 2024/03/15
+    teorica: Paradigma Orientado a Objetos. Objetos. Clases. Estado y Atributos. Comportamiento, Metodos y Mensajes. Abstracción. Encapsulamiento.
+    practica: Intro a Java. Entorno de desarrollo. Ejercitación práctica de Paradigma Orientado a Objetos.
 - semana: 2
   miercoles:
-    fecha: 2023/08/30
-    teorica: Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying.
-    practica: Ejercitación práctica de Paradigma Funcional.
+    fecha: 2024/03/20
+    teorica: Interfaces. Herencia. Polimorfismo. Visibilidad. Override.
+    practica: Herencia. Interfaces. Polimorfismo.
   viernes:
-    fecha: 2023/09/01
-    teorica: Paradigma Orientado a Objetos. Objetos. Clases. Estado y Atributos. Comportamiento, Metodos y Mensajes. Abstracción. Encapsulamiento.
-    practica: Ejercitación práctica de Paradigma Funcional.
+    fecha: 2024/03/22
+    teorica: UML. Diagrama de Clases. Diagrama de Secuencias.
+    practica: Ejercitación práctica de modelado, diseño y UML.
 - semana: 3
   miercoles:
-    fecha: 2023/09/06
-    teorica: Interfaces. Herencia. Polimorfismo. Visibilidad. Override.
-    practica: Intro a Java. Entorno de desarrollo. Ejercitación práctica de Paradigma Orientado a Objetos.
-  viernes:
-    fecha: 2023/09/08
-    teorica: UML. Diagrama de Clases. Diagrama de Secuencias
-    practica: Ejercitación práctica de Paradigma Orientado a Objetos.
-- semana: 4
-  miercoles:
-    fecha: 2023/09/13
-    teorica: Interfaces. Herencia. Polimorfismo. Visibilidad. Override. [Práctica]
-    practica: Ejercitación práctica de Paradigma Orientado a Objetos. Diseño y UML.
-  viernes:
-    fecha: 2023/09/15
-    teorica: Ejercitación práctica de Paradigma Orientado a Objetos. Diseño y UML.
-    practica: Ejercitación práctica de Paradigma Orientado a Objetos. Diseño y UML.
-- semana: 5
-  miercoles:
-    fecha: 2023/09/20
-    teorica: "Principios de diseño I: TDA. PoLC. PoLA. PoLK. DRY."
+    fecha: 2024/03/27
+    teorica: Principios de Diseño I.
     practica: Ejercitación práctica de modelado con vista.
   viernes:
-    fecha: 2023/09/22
-    teorica: "Principios de diseño I: YAGNI. KISS. EDP. KOP. SoC"
-    practica: Ejercitación de diseño aplicando principios de diseño.
+    fecha: 2024/03/29
+    feriado: true
+- semana: 4
+  miercoles:
+    fecha: 2024/04/03
+    teorica: Principios de Diseño II.
+    practica: Ejercitación práctica de Principios de Diseño.
+  viernes:
+    fecha: 2024/04/05
+    teorica: Patrones de Diseño I.
+    practica: Ejercitación práctica de Patrones de Diseño.
+- semana: 5
+  miercoles:
+    fecha: 2024/04/10
+    teorica: Paro
+    practica: Paro
+  viernes:
+    fecha: 2024/04/10
+    teorica: Patrones de Diseño II.
+    practica: Ejercitación práctica de Patrones de Diseño.
 - semana: 6
   miercoles:
-    fecha: 2023/09/27
-    teorica: "Principios de diseño II: SOLID."
-    practica: Ejercitación de diseño aplicando principios de diseño.
+    fecha: 2024/04/17
+    teorica: Practica pre Parcialito 1
+    practica: Practica pre Parcialito 1
   viernes:
-    fecha: 2023/09/29
-    teorica: Patrones de diseño I
-    practica: Ejercitación de patrones de diseño
+    fecha: 2024/04/19
+    parcial: "Parcialito 1: Paradigma Orientado a Objetos. Java. Principios de Diseño. Patrones de Diseño."
 - semana: 7
   miercoles:
-    fecha: 2023/10/04
-    teorica: Patrones de diseño II
-    practica: Ejercitación de patrones de diseño
+    fecha: 2024/04/24
+    teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
+    practica: Introducción a Scala para el Paradigma de Programación Funcional.
   viernes:
-    fecha: 2023/10/06
-    teorica: Patrones de diseño III
-    practica: Ejercitación de patrones de diseño
+    fecha: 2024/04/26
+    teorica: Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying.
+    practica: Continuación de Scala para el Paradigma de Programación Funcional. Ejercitación práctica de Paradigma Funcional.
 - semana: 8
   miercoles:
-    fecha: 2023/10/11
-    teorica: Definición. Tipos de pruebas. Automatización de pruebas. Diseño de pruebas. Desarrollo guiado por pruebas. Refactorización
-    practica: Intro a Framework de Pruebas. Pruebas unitarias. Pruebas e2e.
-  viernes:
-    fecha: 2023/10/13
+    fecha: 2024/05/01
     feriado: true
+  viernes:
+    fecha: 2024/05/03
+    teorica: Introducción a Calculo Lambda. Historia. Motivación. Cálculo Lambda vs Máquinas de Turing. Conceptos básicos. Reducción beta. Lógica Booleana con Cálculo Lambda.
+    practica: Ejercitación práctica de Paradigma Funcional.
 - semana: 9
   miercoles:
-    fecha: 2023/10/18
-    teorica: Ejercitación de diseño de pruebas.
-    practica: Práctica pre-parcial
+    fecha: 2024/05/08
+    teorica: Continuación de Cálculo Lambda. Números Naturales con Cálculo Lambda. Tipo de Dato Algebraico. Recursión. call-by-name (lazy evaluation) vs call-by-value (eager evaluation) en Cálculo Lambda. Nociones básicas de Cálculo SKI.
+    practica: Ejercitación práctica de Cálculo Lambda.
   viernes:
-    fecha: 2023/10/20
-    parcial: Primer parcial
+    fecha: 2024/05/10
+    teorica: Definición de Tipos. Reglas de Inferencia. Introducción a Cálculo Lambda Simplemente Tipado. Inferencia de Tipos. Tipos Polimorficos.
+    practica: Ejercitación práctica de Cálculo Lambda.
 - semana: 10
   miercoles:
-    fecha: 2023/10/25
-    teorica: Persistencia
-    practica: Ejercitación de persistencia
+    fecha: 2024/05/15
+    teorica: Programación Orientada a Eventos.
+    practica: Ejercitación práctica de Cálculo Lambda Simplemente Tipado. Inferencia de Tipos. Tipos Polimorficos.
   viernes:
-    fecha: 2023/10/27
-    teorica: Excepciones
-    practica: Ejercitación de excepciones
+    fecha: 2024/05/17
+    teorica: Practica pre Parcialito 2
+    practica: Practica pre Parcialito 2
 - semana: 11
   miercoles:
-    fecha: 2023/11/01
-    teorica: Interfaz Gráfica
-    practica: Ejercitación de interfaz gráfica
+    fecha: 2024/05/22
+    parcial: "Parcialito 2: Conceptos de paradigmas de programación. Paradigma Funcional. Scala. Cálculo Lambda."
   viernes:
-    fecha: 2023/11/03
-    teorica: Interfaz Gráfica
-    practica: Ejercitación de interfaz gráfica
+    fecha: 2024/05/24
+    teorica: Programación Orientada a Eventos.
+    practica: Ejercitacion practica de POE
 - semana: 12
   miercoles:
-    fecha: 2023/11/08
-    teorica: Concurrencia. Threads
-    practica: Ejercitación de concurrencia
+    fecha: 2024/05/29
+    teorica: Programación Lógica.
+    practica: Introducción a Prolog. Enterno de desarrollo. Ejercitación práctica de Paradigma Lógico.
   viernes:
-    fecha: 2023/11/10
-    teorica: Programacion Orientada a Eventos.
-    practica: Ejercitación de concurrencia
+    fecha: 2024/05/31
+    teorica: Programación Lógica.
+    practica: Ejercitación práctica de Paradigma Lógico.
 - semana: 13
   miercoles:
-    fecha: 2023/11/15
-    teorica: Programación con Callbacks. Lazy Evaluation
-    practica: Ejercitación de concurrencia
+    fecha: 2024/06/05
+    teorica: Programación Concurrente. Concepto de Concurrencia. Concurrencia vs Paralelismo. Threads.
+    practica: Ejercitación práctica de Concurrencia.
   viernes:
-    fecha: 2023/11/17
-    teorica: Co-routines. Generators.
-    practica: Ejercitación de concurrencia
+    fecha: 2024/06/07
+    teorica: Otras formas de concurrencia. Operaciones bloqueantes y no bloqueantes. Programación asincrónica. Future (Promises). Virtual Threads (Coroutines).
+    practica: Ejercitación práctica de Concurrencia.
 - semana: 14
   miercoles:
-    fecha: 2023/11/22
-    teorica: Otros Paradigmas
-    practica: Práctica pre parcial.
+    fecha: 2024/06/12
+    teorica: Practica pre Parcialito 2
+    practica: Cierre de la materia
   viernes:
-    fecha: 2023/11/24
-    parcial: Segundo parcial
+    fecha: 2024/06/14
+    parcial: "Parcialito 3: Programación Orientada a Eventos. Programación Lógica. Concurrencia."
 - semana: 15
   miercoles:
-    fecha: 2023/11/29
-    tp: Presentacion de Trabajos Practicos
+    fecha: 2024/06/19
+    parcial: "Primeros recuperatorios: P1"
   viernes:
-    fecha: 2023/12/01
-    parcial: Primer recuperatorio. Primer parcial
+    fecha: 2024/06/21
+    feriado: true
 - semana: 16
   miercoles:
-    fecha: 2023/12/06
-    parcial: Primer recuperatorio. Segundo parcial
+    fecha: 2024/06/26
+    parcial: "Primeros recuperatorios: P2 y P3"
   viernes:
-    fecha: 2023/12/08
-    parcial: Segundos recuperatorios
+    fecha: 2024/06/28
+    parcial: "Segundos recuperatorios: P1, P2 y P3"
