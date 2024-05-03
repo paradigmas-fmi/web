@@ -23,19 +23,19 @@ title: Guía de Calculo Lambda
 
 3. (★★) Cuales de los siguientes pares de expresiones e1 y e2 tienen el mismo árbol de sintaxis abstracto? 
 
-| nº   | e1        | e2           |
-| ---- | --------- | ------------ |
-| i    | λx.y      | λ x . y      |
-| ii   | x y       | (x y)        |
-| iii  | x y       | ((x y))      |
-| iv   | x y z     | (x y) z      |
-| v    | x y z     | xyz          |
-| vi   | x y z     | x (y z)      |
-| vii  | λx.y z    | λx.(y z)     |
-| viii | λx.y z    | (λx.y) z     |
-| ix   | λx. x     | λy. y        |
-| x    | λx.λy.x y | λx. (λy.x y) |
-| xi   | λx.λy.x y | (λx. λy.x) y |
+    | nº   | e1        | e2           |
+    | ---- | --------- | ------------ |
+    | i    | λx.y      | λ x . y      |
+    | ii   | x y       | (x y)        |
+    | iii  | x y       | ((x y))      |
+    | iv   | x y z     | (x y) z      |
+    | v    | x y z     | xyz          |
+    | vi   | x y z     | x (y z)      |
+    | vii  | λx.y z    | λx.(y z)     |
+    | viii | λx.y z    | (λx.y) z     |
+    | ix   | λx. x     | λy. y        |
+    | x    | λx.λy.x y | λx. (λy.x y) |
+    | xi   | λx.λy.x y | (λx. λy.x) y |
 
 4. (★) Identificar las variables ligadas y libres en las siguientes expresiones:
    1. `λx.x y λz.x z`
@@ -51,17 +51,18 @@ title: Guía de Calculo Lambda
 ### Desarrollo de expresiones Lambda
 
 1. (★★) Desarrollar las siguientes sustituciones:
-   1. `(f (λx.x y) λz.x y z)\[x→g\]`
-   2. `(λx.λy.f x y)\[y→x\]`
-   3. `((λx.f x) λf.f x)\[f→(g x)\]`
-   4. `(λf.λy.f x y)\[x→(f y)\]`
+   1. `(f (λx.x y) λz.x y z)[x→g]`
+   2. `(λx.λy.f x y)[y→x]`
+   3. `((λx.f x) λf.f x)[f→(g x)]`
+   4. `(λf.λy.f x y)[x→(f y)]`
 
 2. (★★) Realizar la reduccion-β de las siguientes expresiones, con ambos conjuntos de parametros indicados: 
-| expr               | params1              | params2           |  
-| ------------------ | -------------------- | ----------------- |
-| λx.λy.x y          | (λb.b F T)), F       | (λb.b T F)), T    |
-| λx.λy.λw. w y x    | T, T, (λp.λq.p q p)) | (λb.b), (λf.f), z |
-| λw.λf.λx.f x f w w | T, (λy.λx.x), T      | T, (λy.λx.y), F   |
+
+    | Expression           | 1st Params             | 2nd Params          |  
+    | -------------------- | ---------------------- | ------------------- |
+    | `λx.λy.x y`          | `(λb.b F T)), F`       | `(λb.b T F)), T`    |
+    | `λx.λy.λw. w y x`    | `T, T, (λp.λq.p q p))` | `(λb.b), (λf.f), z` |
+    | `λw.λf.λx.f x f w w` | `T, (λy.λx.x), T`      | `T, (λy.λx.y), F`   |
 
 
 3. (★★) Realizar la reduccion-β de las siguientes expresiones, utlizando la estrategia _call-by-name_ y la estrategia _call-by-value_: 
