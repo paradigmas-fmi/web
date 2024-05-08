@@ -15,8 +15,8 @@ title: Guía de Calculo Lambda
    4. `(λx. xz) λy. w λw. w y z x`
 
 2. (★★) Dibujar el árbol de sintaxis de las siguientes expresiones Lambda:
-   1.  `λx y.x`
-   2.  `(λx y. x) 1 2`
+   1.  `λx. λy.x`
+   2.  `(λx. λy. x) 1 2`
    3.  `λx. λy. x`
    4.  `λf. λx. f x`
    5.  `(λx. λy. λz. xy) z`
@@ -93,9 +93,6 @@ title: Guía de Calculo Lambda
    6. `f(x,y,z) = x + y + z`
    7. `f(x,y,z) = x * y * z`
    8. `f(x,y,z) = (x + y) * z`
-
-3. (★★★★★) Escribir la expresión Lambda que reciba un numero de Church y obtenga su factorial.
-
 
 ## Referencias y material util
 
