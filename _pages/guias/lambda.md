@@ -25,17 +25,16 @@ title: Guía de Calculo Lambda
 
     | nº   | e1        | e2           |
     | ---- | --------- | ------------ |
-    | i    | λx.y      | λ x . y      |
-    | ii   | x y       | (x y)        |
-    | iii  | x y       | ((x y))      |
-    | iv   | x y z     | (x y) z      |
-    | v    | x y z     | xyz          |
-    | vi   | x y z     | x (y z)      |
-    | vii  | λx.y z    | λx.(y z)     |
-    | viii | λx.y z    | (λx.y) z     |
-    | ix   | λx. x     | λy. y        |
-    | x    | λx.λy.x y | λx. (λy.x y) |
-    | xi   | λx.λy.x y | (λx. λy.x) y |
+    | i    | λx.y      | λx.(y)       |
+    | ii   | x y       | (y x)        |
+    | iii  | x y z     | (x y) z      |
+    | iv   | x y z     | x (y z)      |
+    | v    | λx.y z    | λx.(y z)     |
+    | vi   | λx.y z    | (λx.y) z     |
+    | vii  | λx.x      | λy.y         |
+    | viii | λx.λy.x y | λx. (λy.x y) |
+    | ix   | λx.λy.x y | (λx. λy.x) y |
+    | x    | λx.λy.x y | (λx. λy.x) y |
 
 4. (★) Identificar las variables ligadas y libres en las siguientes expresiones:
    1. `λx.x y λz.x z`
@@ -44,6 +43,8 @@ title: Guía de Calculo Lambda
    4. `λx.x y λx.y x`
    5. `f (λx.x y) λy.y x`
    6. `(λw.λz.z (λx.w x)) x y`
+   7. `(λf.((λx.(f (x x))) (λx.(f (x x))))) (λx.x)`
+   8. `(λu.λf.λx. u ((λu.λx.x (u f)) (λu. x) (λf. f))) (λf.λx.f(f x))`
 
 5. (★★) Para las expresiones (4), (5) y (6) del punto anterior, realizar las conversiones-α necesarias para que no existan variables de igual nombre con presencia tanto en ligadas como libres.
 
@@ -58,11 +59,13 @@ title: Guía de Calculo Lambda
 
 2. (★★) Realizar la reduccion-β de las siguientes expresiones, con ambos conjuntos de parametros indicados: 
 
-    | Expression           | 1st Params             | 2nd Params          |  
-    | -------------------- | ---------------------- | ------------------- |
-    | `λx.λy.x y`          | `(λb.b F T)), F`       | `(λb.b T F)), T`    |
-    | `λx.λy.λw. w y x`    | `T, T, (λp.λq.p q p))` | `(λb.b), (λf.f), z` |
-    | `λw.λf.λx.f x f w w` | `T, (λy.λx.x), T`      | `T, (λy.λx.y), F`   |
+    | Expression           | 1st Params             | 2nd Params             |  
+    | -------------------- | ---------------------- | ---------------------- |
+    | `λx.λy.x y`          | `(λb.b F T)), F`       | `(λb.b T F)), T`       |
+    | `λx.λy.λw. w y x`    | `T, T, (λp.λq.p q p))` | `(λb.b), (λf.f), z`    |
+    | `λw.λf.λx.f x f w w` | `T, (λy.λx.x), T`      | `T, (λy.λx.y), F`      |
+    | `λn.λf.λx.f (n f x)` | `(λf.λx.x)`            | `(λf.λx.f(f x))`       |
+    | `λp.λq.p p q`        | `(λx.λy.x), (λx.λy.y)` | `(λx.λy.y), (λx.λy.y)` |
 
 
 3. (★★) Realizar la reduccion-β de las siguientes expresiones, utlizando la estrategia _call-by-name_ y la estrategia _call-by-value_: 
