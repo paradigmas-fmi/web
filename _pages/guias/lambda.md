@@ -46,7 +46,7 @@ title: Guía de Calculo Lambda
    7. `(λf.((λx.(f (x x))) (λx.(f (x x))))) (λx.x)`
    8. `(λu.λf.λx. u ((λu.λx.x (u f)) (λu. x) (λf. f))) (λf.λx.f(f x))`
 
-5. (★★) Para las expresiones (4), (5) y (6) del punto anterior, realizar las conversiones-α necesarias para que no existan variables de igual nombre con presencia tanto en ligadas como libres.
+5. (★★) Para las expresiones (5) y (6) del punto anterior, realizar las conversiones-α necesarias para que no existan variables de igual nombre con presencia tanto en ligadas como libres.
 
 
 ### Desarrollo de expresiones Lambda
@@ -86,9 +86,11 @@ title: Guía de Calculo Lambda
    3. NOT
    4. NAND
    5. NOR
-   6. EQ (igualdad booleana)
+   6. IF
+   7. XOR
+   8. EQ (igualdad booleana)
 
-2. (★★★★) Escribir la expresiones Lambda que describan las siguientes funciones matematicas:
+2. (★★★★) Escribir la expresiones Lambda que describan las siguientes funciones matematicas en terminos de números de Church:
    1. `f(x) = x * 4`
    2. `f(x) = x * x`
    4. `f(x,y) = x + y`
@@ -96,6 +98,15 @@ title: Guía de Calculo Lambda
    6. `f(x,y,z) = x + y + z`
    7. `f(x,y,z) = x * y * z`
    8. `f(x,y,z) = (x + y) * z`
+   9. `isZero = f(n) = n == 0`
+
+### Calculo Lambda Tipado
+
+WIP
+
+### Adicionales (dificiles)
+
+1. Escribir la expresión Lambda que reciba un numero de Church y obtenga su factorial.
 
 ## Referencias y material util
 
