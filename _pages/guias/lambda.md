@@ -102,7 +102,32 @@ title: Guía de Calculo Lambda
 
 ### Calculo Lambda Tipado
 
-WIP
+1. (★) Analizar las siguientes expresiones, identificando el tipo de las variables, la validez de las expresiones y el tipo de la expresión:
+   1. `λx:Int.x`
+   2. `λx:Int.y`
+   3. `λx:Int.x + 1`
+   4. `(λx:Int.x + 1) true`
+   5. `λx:Int→Bool.λy:Int.x y`
+   6. `λx:Bool. if 0 then true else false`
+   7. `λx:Bool. if x then 1 else false`
+   8. `λx:Int. if iszero x then 0 else x`
+   9. `(λx:Bool. if not x then 0 else 1) (not y)`
+
+2. (★★) Demostrar, usando las reglas de inferencia, si las siguientes expresiones son válidas o no:
+   1. `{} ⊢ if true then 0 else 1 : Int`
+   2. `{} ⊢ (λx:Int.x + 40) 2 : Int`
+   3. `{x : Int, y : Bool} ⊢ if true then false else (λz : Bool. z) true : Bool`
+   4. `{} ⊢ if λx: Bool. x then 0 else 1 : Int`
+   5. `{x : Bool → Int, y : Bool} ⊢ x y : Int`
+   6. `{y : Bool} ⊢ (λx:Bool→Int.x y) (λx:Bool.if not x then 0 else 10) : Int`
+
+3. (★★★) Mediante el uso de las reglas de inferencia, inferir, de ser posible, los tipos de las siguientes expresiones:
+   1. `if x then 1 else z`
+   2. `(λx.x + 40) 2`
+   3. `λx.if iszero x then y else (λz. z) true`
+   4. `λx.λy.λz.if iszero (x y) then y else z + 1`
+   5. `λx.λy.λz.if not (x y z) then y else z + 1`
+   6. `iszero ((λx.x y) (λx.if not x then 0 else 10))`
 
 ### Adicionales (dificiles)
 
