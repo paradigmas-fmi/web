@@ -91,31 +91,31 @@
     parcial: "Parcialito 2: Conceptos de paradigmas de programación. Paradigma Funcional. Scala. Cálculo Lambda."
   viernes:
     fecha: 2024/05/24
-    teorica: Programación Orientada a Eventos.
-    practica: Ejercitacion practica de POE
+    teorica: Programación Concurrente. Concepto de Concurrencia. Concurrencia vs Paralelismo. Threads.
+    practica: Ejercitación práctica de Concurrencia.
 - semana: 12
   miercoles:
     fecha: 2024/05/29
-    teorica: Programación Lógica.
-    practica: Introducción a Prolog. Enterno de desarrollo. Ejercitación práctica de Paradigma Lógico.
+    teorica: Otras formas de concurrencia. Operaciones bloqueantes y no bloqueantes. Programación asincrónica. Future (Promises). Virtual Threads (Coroutines).
+    practica: Ejercitación práctica de Concurrencia. Práctica de POE.
   viernes:
     fecha: 2024/05/31
     teorica: Programación Lógica.
-    practica: Ejercitación práctica de Paradigma Lógico.
+    practica: Introducción a Prolog. Enterno de desarrollo. Ejercitación práctica de Paradigma Lógico.
 - semana: 13
   miercoles:
     fecha: 2024/06/05
-    teorica: Programación Concurrente. Concepto de Concurrencia. Concurrencia vs Paralelismo. Threads.
-    practica: Ejercitación práctica de Concurrencia.
+    teorica: Programación Lógica.
+    practica: Ejercitación práctica de Paradigma Lógico.
   viernes:
     fecha: 2024/06/07
-    teorica: Otras formas de concurrencia. Operaciones bloqueantes y no bloqueantes. Programación asincrónica. Future (Promises). Virtual Threads (Coroutines).
-    practica: Ejercitación práctica de Concurrencia.
+    teorica: Practica pre Parcialito 3
+    practica: Cierre de la materia
 - semana: 14
   miercoles:
     fecha: 2024/06/12
-    teorica: Practica pre Parcialito 2
-    practica: Cierre de la materia
+    teorica: TBD
+    practica: TBD
   viernes:
     fecha: 2024/06/14
     parcial: "Parcialito 3: Programación Orientada a Eventos. Programación Lógica. Concurrencia."
