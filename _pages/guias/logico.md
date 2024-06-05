@@ -16,10 +16,10 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
 ```
 cursa(emiliano, paradigmas).
 cursa(camila, algo2).
-cursa(ramiro, tda).  
+cursa(ramiro, tda).
 cursa(micaela, paradigmas).
 
-dicta(martin, algo2).  
+dicta(martin, algo2).
 dicta(martin, tda).
 dicta(mati, paradigmas).
 dicta(fede, paradigmas).
@@ -43,11 +43,11 @@ profesor(nacho, X)
 
 2. (★★) Partiendo de la relacion `progenitor(a, b)`  que representan que `a` es padre o madre de `b`, y la siguiente base de conocimiento:
 ```
-   father(a,b).  % 1                 
-   father(a,c).  % 2
-   father(b,d).  % 3
-   father(b,e).  % 4
-   father(c,f).  % 5
+   progenitor(a,b).  % 1
+   progenitor(a,c).  % 2
+   progenitor(b,d).  % 3
+   progenitor(b,e).  % 4
+   progenitor(c,f).  % 5
 ```
 
 Definir los siguientes predicados:
@@ -64,7 +64,7 @@ Realizar las consultas correspondientes para determinar:
 * Todos los nietos de `a`
 * Todos los descendientes de `b`
 
-3. (★★★) Sean las palabras en italiano 
+3. (★★★) Sean las palabras en italiano
 
 ```
 astante , astoria , baratto , cobalto , pistola , statale .
@@ -99,6 +99,34 @@ byPlane(losAngeles,auckland).
 
 Escribir un predicado `travel` que permita averiguar si es posible o no viajar de una ciudad a otra, ya sea en uno o más tramos.
 
+### Ejercicios arbol de ejecución
+
+1. Dada la siguiente base de conocimiento y predicados:
+```
+apruebaParcial(ricardo).
+apruebaParcial(juana).
+profesorAmigo(ricardo, profesor1).
+profesorAmigo(santiago, profesor1).
+profesorAmigo(santiago, profesor2).
+esProfesor(profesor1).
+
+apruebaCursada(X) :- apruebaParcial(X), profesorAmigo(X, Y),esProfesor(Y).
+```
+Escribir el arbol de ejecución de Prolog la pregunta `apruebaCursada(ricardo)`.
+
+2. Dada la siguiente base de conocimiento y predicados:
+```
+apruebaParcial(juana).
+apruebaParcial(ricardo).
+profesorAmigo(ricardo, profesor1).
+profesorAmigo(santiago, profesor2).
+profesorAmigo(santiago, profesor1).
+esProfesor(profesor1).
+
+apruebaCursada(X) :- apruebaParcial(X), profesorAmigo(X, Y),esProfesor(Y).
+```
+Escribir el arbol de ejecución de Prolog la pregunta `apruebaCursada(ricardo)`
+
 ### Ejercicios aritmetica
 
 1. (★) Definir la relación `máximo(X,Y,Z)` que se verifique si Z es el máximo de X e Y.
@@ -111,29 +139,29 @@ Escribir un predicado `travel` que permita averiguar si es posible o no viajar d
 
 1. (★) Definir la relación `cons(X,L1,L2)` que se verifique si L2 es la lista obtenida añadiéndole X a L1 como primer elemento.
 
-2. (★) Un palíndromo es una palabra que se lee igual en los dos sentidos, por ejemplo “oso”. Definir la relación `palíndromo(L)` que se verifique si la lista L es un palíndromo. 
+2. (★) Un palíndromo es una palabra que se lee igual en los dos sentidos, por ejemplo “oso”. Definir la relación `palíndromo(L)` que se verifique si la lista L es un palíndromo.
 
-3. (★) Definir la relación `todos_iguales(L)` que se verifique si todos los elementos de la lista L son iguales entre sí. 
+3. (★) Definir la relación `todos_iguales(L)` que se verifique si todos los elementos de la lista L son iguales entre sí.
 
-4. (★★) Definir la relación `max_lista(L,X)` que se verifique si X es el máximo de la lista de números L. 
+4. (★★) Definir la relación `max_lista(L,X)` que se verifique si X es el máximo de la lista de números L.
 
-5. (★★★) Definir la relación `elemento_en(K,L,X)` que se verifique si X es el K–ésimo elemento de la lista L (se empieza a numerar en 1). 
+5. (★★★) Definir la relación `elemento_en(K,L,X)` que se verifique si X es el K–ésimo elemento de la lista L (se empieza a numerar en 1).
 
 ### Ejercicios avanzados
 
-1. (★★★) Se tiene el siguiente mapa compuesto por 5 regiones (A, B, C, D y E), se desea identificar si es posible colorear el 
+1. (★★★) Se tiene el siguiente mapa compuesto por 5 regiones (A, B, C, D y E), se desea identificar si es posible colorear el
 mapa usando solo 4 colores, de forma tal que ninguna region sea adyacente a otra región con el mismo color.
 
 <img src="{{site.baseurl}}/assets/images/4-color-problem.png">
 
-2. (★★★★) Hay 4 estudiantes:  Carrie, Erma, Ora und Tracy. 
+2. (★★★★) Hay 4 estudiantes:  Carrie, Erma, Ora und Tracy.
 Todos ellos estudian una carrera de grado y están becados (todos tienen
 becas distintas y estudian distintas carreras).
 El objetivo es identificar cual es la beca que recibe cada estudiante
 y cual es la carrera de grado que estudia a partir de las siguientes
 pistas:
 
-- Las becas disponibles son: 25000, 30000, 35000 and 40000 USD. 
+- Las becas disponibles son: 25000, 30000, 35000 and 40000 USD.
 - Las carreras disponibles son: Astronomia, Ingles, Filosofía y Física.
 
 - El estudiante que estudia Astronomía tiene una beca menor que la de Ora.
