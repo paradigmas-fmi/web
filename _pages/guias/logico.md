@@ -121,8 +121,8 @@ Escribir el arbol de ejecución de Prolog la pregunta `apruebaCursada(ricardo)`.
 ```
 apruebaParcial(juana).
 apruebaParcial(ricardo).
-profesorAmigo(ricardo, profesor1).
 profesorAmigo(santiago, profesor2).
+profesorAmigo(ricardo, profesor1).
 profesorAmigo(santiago, profesor1).
 esProfesor(profesor1).
 
