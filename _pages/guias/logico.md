@@ -43,11 +43,11 @@ profesor(nacho, X)
 
 2. (★★) Partiendo de la relacion `progenitor(a, b)`  que representan que `a` es padre o madre de `b`, y la siguiente base de conocimiento:
 ```
-   father(a,b).  % 1                 
-   father(a,c).  % 2
-   father(b,d).  % 3
-   father(b,e).  % 4
-   father(c,f).  % 5
+   progenitor(a,b).  % 1                 
+   progenitor(a,c).  % 2
+   progenitor(b,d).  % 3
+   progenitor(b,e).  % 4
+   progenitor(c,f).  % 5
 ```
 
 Definir los siguientes predicados:
