@@ -102,6 +102,7 @@ Escribir un predicado `travel` que permita averiguar si es posible o no viajar d
 ### Ejercicios arbol de ejecución
 
 1. Dada la siguiente base de conocimiento y predicados:
+
 ```
 apruebaParcial(ricardo).
 apruebaParcial(juana).
@@ -112,9 +113,11 @@ esProfesor(profesor1).
 
 apruebaCursada(X) :- apruebaParcial(X), profesorAmigo(X, Y),esProfesor(Y).
 ```
+
 Escribir el arbol de ejecución de Prolog la pregunta `apruebaCursada(ricardo)`.
 
 2. Dada la siguiente base de conocimiento y predicados:
+
 ```
 apruebaParcial(juana).
 apruebaParcial(ricardo).
@@ -125,6 +128,7 @@ esProfesor(profesor1).
 
 apruebaCursada(X) :- apruebaParcial(X), profesorAmigo(X, Y),esProfesor(Y).
 ```
+
 Escribir el arbol de ejecución de Prolog la pregunta `apruebaCursada(ricardo)`
 
 ### Ejercicios aritmetica
