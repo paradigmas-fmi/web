@@ -107,7 +107,7 @@ Escribir un predicado `travel` que permita averiguar si es posible o no viajar d
 apruebaParcial(ricardo).
 apruebaParcial(juana).
 profesorAmigo(ricardo, profesor1).
-profesorAmigo(santiago, profesor1).
+profesorAmigo(ricardo, profesor2).
 profesorAmigo(santiago, profesor2).
 esProfesor(profesor1).
 
@@ -121,7 +121,7 @@ Escribir el arbol de ejecución de Prolog la pregunta `apruebaCursada(ricardo)`.
 ```
 apruebaParcial(juana).
 apruebaParcial(ricardo).
-profesorAmigo(santiago, profesor2).
+profesorAmigo(ricardo, profesor2).
 profesorAmigo(ricardo, profesor1).
 profesorAmigo(santiago, profesor1).
 esProfesor(profesor1).
