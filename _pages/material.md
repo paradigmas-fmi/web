@@ -21,6 +21,9 @@ title: Material
 - [Repositorio de ejercicios vistos en clase](https://github.com/paradigmas-fmi/ejercicios-clases)
 - [S.O.L.I.D.](https://drive.google.com/drive/folders/1zU60qaNMNBfqmOV4B_32gwWolBGQOzPR?usp=sharing)
 
+## Finales de cuatrimestres anteriores
+- En el siguiente [drive](https://drive.google.com/drive/folders/1hhfWCna1Ac6MnjJYSvrkN_HjShbA5NLT?usp=drive_link) podrán encontrar finales tomados en cuatrimestres anteriores. **Importante: Los finales son orientativos, el formato de final y los temas evaluados pueden variar entre cuatrimestres.**
+
 ## Bibliografía sugerida
 
 - \[2017\] _"Functional Programming, Simplified: (Scala Edition)"_ - Alvin Alexander
