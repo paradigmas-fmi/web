@@ -283,7 +283,7 @@ public class Main {
 ## Diseño
 Analizar y modelar la solución al problema usando los conceptos de diseño y programación orientada a objetos vistos en clase, realizando un diagrama de clases UML. Explicar y justificar las decisiones de diseño que creas conveniente
 
-1. Tras la pandemia del COVID-19, la gente empezó a valorar mucho más el deporte y la actividad al aire libre. Es por eso que ha incrementado el número de clubes y polideportivos en la ciudad, que alquilan canchas para realizar deportes. Desde Algoritmos3 notamos una oportunidad de mercado de proveer a estas instituciones un sistema para el alquiler de canchas de distintos deportes. Dicho sistema tiene como requerimientos:
+1. Tras la pandemia del COVID-19, la gente empezó a valorar mucho más el deporte y la actividad al aire libre. Es por eso que ha incrementado el número de clubes y polideportivos en la ciudad, que alquilan canchas para realizar deportes. Desde Paradigmas notamos una oportunidad de mercado de proveer a estas instituciones un sistema para el alquiler de canchas de distintos deportes. Dicho sistema tiene como requerimientos:
 - El sistema debe funcionar tanto para clubes de fútbol como de basquet y tenis, o cualquier combinación de estos.
 - Dentro de cada deporte, puede haber variaciones, como el tipo de suelo (ejemplo, polvo de ladrillo o cemento para tenis y cemento o madera para basquet) y el tamaño de la cancha (F5 o F8, por ejemplo para futbol, cada deporte tiene sus respectivos tamaños).
 - Los clubes pueden tener una cierta cantidad de canchas:

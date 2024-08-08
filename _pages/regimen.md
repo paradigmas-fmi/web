@@ -7,17 +7,17 @@ title: Régimen de cursada
 ### Aprobación
 
 * Para aprobar la **materia** es necesario aprobar la **cursada** y el **final** obligatorio; o bien cumplir las condiciones de **promoción**.
-* Para aprobar la **cursada** es necesario aprobar los **tres parcialitos**, y los **dos trabajos prácticos**.
+* Para aprobar la **cursada** es necesario aprobar los **tres parcialitos**, y los **tres trabajos prácticos**.
 * Para rendir el **final** es necesario tener la **cursada** aprobada.
 * Las condiciones del régimen de promoción son las siguientes:
   - Es necesario aprobar los **tres parcialitos** y los **dos trabajos prácticos**.
-  - El **promedio** de notas de todos los **trabajos prácticos** debe ser al menos 7.
-  - Los dos parcialitos deben estar aprobados en la **primera instancia**, con una nota **mayor o igual a 7**.
+  - Los **trabajos prácticos** debe ser entregadas en la fecha de entrega de forma completa.
+  - Los tres parcialitos deben estar aprobados en la **primera instancia** rendida (no cuentan los ausentes), con una nota **mayor o igual a 7**.
 
 
 ### Trabajos Prácticos
 
-* Hay **dos trabajos prácticos**.
+* Hay **tres trabajos prácticos**.
 * Todos los trabajos prácticos son grupales, en **grupos de cuatro integrantes**.
 * Desaprobar un trabajo práctico implica desaprobar la cursada y por lo tanto la materia.
 * Para aprobar un trabajo práctico se debe hacer la entrega correspondiente en tiempo y forma.
@@ -33,13 +33,12 @@ title: Régimen de cursada
 * Hay **tres parcialitos** con **dos recuperatorios** cada uno.
 * Los parcialitos se aprueban con nota 4 o superior.
 * Todos los recuperatorios se toman una vez finalizadas las clases.
-* Se puede recuperar parcialitos para levantar la nota sin riesgo de empeorarla (se considera la nota mayor de las obtenidas).
 * Copiarse en un parcialito implica desaprobar la cursada y por lo tanto la materia.
 
 ### Final
 * Una vez aprobada la cursada, es necesario rendir un final escrito, en el cuál entran todos los temas vistos en la materia. Tanto en las clases teóricas como en las clases prácticas.
-* Los finales se aprueban con nota 4 o superior.A
-* Aquellos alumnos que hayan cumplido con los requisitos del régimen de promoción, no deben rendir el examen final.
+* Los finales se aprueban con nota 4 o superior.
+* Aquellos alumnos que hayan cumplido con los requisitos del régimen de promoción no deben rendir el examen final.
 
 ### Calificación
 

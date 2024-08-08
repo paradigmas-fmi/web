@@ -1,6 +1,6 @@
-# Web de Algoritmos y Programación 3 - FIUBA - Cátedra Brasbrg, Cano, Raik
+# Web de Paradigmas de programación - FIUBA - Cátedra Brasburg, Raik
 
-La página esta alojada en `www.algoritmos3.ar`
+La página esta alojada en `www.paradigmas.ar`
 Este repo se creo usando el siguiente comando:
 
 ```

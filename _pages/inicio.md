@@ -4,7 +4,7 @@ permalink: /
 title: Inicio
 ---
 
-Este es el sitio de la materia **Algoritmos y Programación III**, curso **<span id="sorted-names">Cano, Raik, Brasburg</span>**, de la Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA).
+Este es el sitio de la materia **Paradigmas de programación**, curso **<span id="sorted-names">Raik, Brasburg</span>**, de la Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA).
 
 ## Inicio de clases
 
