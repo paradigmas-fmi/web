@@ -1,135 +1,132 @@
 - semana: 1
   miercoles:
-    fecha: 2024/03/13
+    fecha: 2024/08/21
     teorica: Presentación de la Materia. Conceptos de paradigmas de programación. Paradigmas fundamentales.
-    practica: Git. GitHub.
+    practica: Herramientas. IDE. Git. GitHub.
   viernes:
-    fecha: 2024/03/15
+    fecha: 2024/08/23
     teorica: Paradigma Orientado a Objetos. Objetos. Clases. Estado y Atributos. Comportamiento, Metodos y Mensajes. Abstracción. Encapsulamiento.
-    practica: Intro a Java. Entorno de desarrollo. Ejercitación práctica de Paradigma Orientado a Objetos.
+    practica: Intro a Java. Entorno de desarrollo.
 - semana: 2
   miercoles:
-    fecha: 2024/03/20
+    fecha: 2024/08/28
     teorica: Interfaces. Herencia. Polimorfismo. Visibilidad. Override.
     practica: Herencia. Interfaces. Polimorfismo.
   viernes:
-    fecha: 2024/03/22
+    fecha: 2024/08/30
     teorica: UML. Diagrama de Clases. Diagrama de Secuencias.
     practica: Ejercitación práctica de modelado, diseño y UML.
 - semana: 3
   miercoles:
-    fecha: 2024/03/27
+    fecha: 2024/09/04
+    elecciones: true
+  viernes:
+    fecha: 2024/09/06
     teorica: Principios de Diseño I.
     practica: Ejercitación práctica de modelado con vista.
-  viernes:
-    fecha: 2024/03/29
-    feriado: true
 - semana: 4
   miercoles:
-    fecha: 2024/04/03
+    fecha: 2024/09/11
     teorica: Principios de Diseño II.
     practica: Ejercitación práctica de Principios de Diseño.
   viernes:
-    fecha: 2024/04/05
-    teorica: Patrones de Diseño I.
-    practica: Ejercitación práctica de Patrones de Diseño.
+    fecha: 2024/09/13
+    teorica: Interfaz gráfica
+    practica: Interfaz gráfica
 - semana: 5
   miercoles:
-    fecha: 2024/04/10
-    teorica: Paro
-    practica: Paro
+    fecha: 2024/09/18
+    teorica: Interfaz gráfica
+    practica: Interfaz gráfica
   viernes:
-    fecha: 2024/04/10
-    teorica: Patrones de Diseño II.
-    practica: Ejercitación práctica de Patrones de Diseño.
+    fecha: 2024/09/20
+    practica: Práctica pre parcialito
 - semana: 6
   miercoles:
-    fecha: 2024/04/17
-    teorica: Practica pre Parcialito 1
-    practica: Practica pre Parcialito 1
+    fecha: 2024/09/25
+    parcial: "Parcialito 1: Paradigma Orientado a Objetos. Java. Principios de Diseño."
   viernes:
-    fecha: 2024/04/19
-    parcial: "Parcialito 1: Paradigma Orientado a Objetos. Java. Principios de Diseño. Patrones de Diseño."
-- semana: 7
-  miercoles:
-    fecha: 2024/04/24
+    fecha: 2024/09/27
     teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
     practica: Introducción a Scala para el Paradigma de Programación Funcional.
-  viernes:
-    fecha: 2024/04/26
-    teorica: Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying.
-    practica: Continuación de Scala para el Paradigma de Programación Funcional. Ejercitación práctica de Paradigma Funcional.
-- semana: 8
+- semana: 7
   miercoles:
-    fecha: 2024/05/01
-    feriado: true
+    fecha: 2024/10/02
+    teorica: Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying.
+    practica: Introducción a Scala para el Paradigma de Programación Funcional.
   viernes:
-    fecha: 2024/05/03
+    fecha: 2024/10/04
     teorica: Introducción a Calculo Lambda. Historia. Motivación. Cálculo Lambda vs Máquinas de Turing. Conceptos básicos. Reducción beta. Lógica Booleana con Cálculo Lambda.
     practica: Ejercitación práctica de Paradigma Funcional.
+- semana: 8
+  miercoles:
+    fecha: 2024/10/09
+    teorica: Continuación de Cálculo Lambda. Números Naturales con Cálculo Lambda. Tipo de Dato Algebraico. Recursión. call-by-name (lazy evaluation) vs call-by-value (eager evaluation) en Cálculo Lambda. Nociones básicas de Cálculo SKI.
+    practica: Ejercitación práctica de Cálculo Lambda
+  viernes:
+    fecha: 2024/10/11
+    feriado: true
 - semana: 9
   miercoles:
-    fecha: 2024/05/08
-    teorica: Continuación de Cálculo Lambda. Números Naturales con Cálculo Lambda. Tipo de Dato Algebraico. Recursión. call-by-name (lazy evaluation) vs call-by-value (eager evaluation) en Cálculo Lambda. Nociones básicas de Cálculo SKI.
-    practica: Ejercitación práctica de Cálculo Lambda.
-  viernes:
-    fecha: 2024/05/10
+    fecha: 2024/10/16
     teorica: Definición de Tipos. Reglas de Inferencia. Introducción a Cálculo Lambda Simplemente Tipado. Inferencia de Tipos. Tipos Polimorficos.
-    practica: Ejercitación práctica de Cálculo Lambda.
+    practica: Modularización en Scala (para el TP). Packages. Classes. Objects. Traits.
+  viernes:
+    fecha: 2024/10/18
+    teorica: Programación Orientada a Eventos.
+    practica: Ejercitación práctica de Cálculo Lambda Simplemente Tipado. Inferencia de Tipos.
 - semana: 10
   miercoles:
-    fecha: 2024/05/15
-    teorica: Programación Orientada a Eventos.
-    practica: Ejercitación práctica de Cálculo Lambda Simplemente Tipado. Inferencia de Tipos. Tipos Polimorficos.
+    fecha: 2024/10/23
+    practica: Práctica pre parcialito
   viernes:
-    fecha: 2024/05/17
-    teorica: Practica pre Parcialito 2
-    practica: Practica pre Parcialito 2
+    fecha: 2024/10/25
+    parcial: "Parcialito 2: Conceptos de paradigmas de programación. Paradigma Funcional. Scala. Cálculo Lambda."
 - semana: 11
   miercoles:
-    fecha: 2024/05/22
-    parcial: "Parcialito 2: Conceptos de paradigmas de programación. Paradigma Funcional. Scala. Cálculo Lambda."
-  viernes:
-    fecha: 2024/05/24
-    teorica: Programación Concurrente. Concepto de Concurrencia. Concurrencia vs Paralelismo. Threads.
-    practica: Ejercitación práctica de Concurrencia.
-- semana: 12
-  miercoles:
-    fecha: 2024/05/29
-    teorica: Otras formas de concurrencia. Operaciones bloqueantes y no bloqueantes. Programación asincrónica. Future (Promises). Virtual Threads (Coroutines).
-    practica: Ejercitación práctica de Concurrencia. Práctica de POE.
-  viernes:
-    fecha: 2024/05/31
+    fecha: 2024/10/30
     teorica: Programación Lógica.
     practica: Introducción a Prolog. Enterno de desarrollo. Ejercitación práctica de Paradigma Lógico.
-- semana: 13
-  miercoles:
-    fecha: 2024/06/05
+  viernes:
+    fecha: 2024/11/01
     teorica: Programación Lógica.
     practica: Ejercitación práctica de Paradigma Lógico.
+- semana: 12
+  miercoles:
+    fecha: 2024/11/06
+    teorica: Programación Concurrente. Concepto de Concurrencia. Concurrencia vs Paralelismo. Threads.
+    practica: Ejercitación práctica de Concurrencia. Ejercitacion practica de POE
   viernes:
-    fecha: 2024/06/07
-    teorica: Practica pre Parcialito 3
-    practica: Cierre de la materia
+    fecha: 2024/11/08
+    teorica: Otras formas de concurrencia. Operaciones bloqueantes y no bloqueantes. Programación asincrónica. Future (Promises). Virtual Threads (Coroutines).
+    practica: Ejercitación práctica de Concurrencia.
+- semana: 13
+  miercoles:
+    fecha: 2024/11/13
+    teorica: Otras formas de concurrencia. Operaciones bloqueantes y no bloqueantes. Programación asincrónica. Future (Promises). Virtual Threads (Coroutines).
+    practica: Ejercitación práctica de Concurrencia.
+  viernes:
+    fecha: 2024/11/15
+    teorica: Otros paradigmas y como elegirlos
 - semana: 14
   miercoles:
-    fecha: 2024/06/12
-    teorica: TBD
-    practica: TBD
+    fecha: 2024/11/20
+    teorica: Cierre de la materia
+    practica: Práctica pre parcialito
   viernes:
-    fecha: 2024/06/14
-    parcial: "Parcialito 3: Programación Orientada a Eventos. Programación Lógica. Concurrencia."
+    fecha: 2024/11/22
+    teorica: "Parcialito 3: Programación Orientada a Eventos. Programación Lógica. Concurrencia."
 - semana: 15
   miercoles:
-    fecha: 2024/06/19
-    parcial: "Primeros recuperatorios: P1"
+    fecha: 2024/11/27
+    parcial: "1ros Recuperatorios: P1"
   viernes:
-    fecha: 2024/06/21
-    feriado: true
+    fecha: 2024/11/29
+    parcial: "1ros Recuperatorios: P2 y P3"
 - semana: 16
   miercoles:
-    fecha: 2024/06/26
-    parcial: "Primeros recuperatorios: P2 y P3"
+    fecha: 2024/12/04
+    parcial: X
   viernes:
-    fecha: 2024/06/28
-    parcial: "Segundos recuperatorios: P1, P2 y P3"
+    fecha: 2024/12/06
+    parcial: "2dos Recuperatorios: P1, P2 y P3"
