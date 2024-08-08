@@ -32,3 +32,9 @@ search: false
 div.highlighter-rouge,figure.highlight {
     font-size: 0.65em;
 }
+
+figcaption {
+    font-family: inherit; /* Hereda la fuente del contenedor padre */
+    font-size: inherit;   /* Hereda el tamaño de fuente del contenedor padre */
+    color: inherit;       /* Hereda el color del contenedor padre */
+}
