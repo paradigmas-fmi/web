@@ -9,8 +9,11 @@ title: Docentes
 <div class="row justify-content-center">
   <table class="tg" style="width: 100%;">
     <tbody>
+      {% for docente in site.data.docentes %}
+      {% assign cantFila = forloop.index0 | modulo:3 %}
+      {% if cantFila == 0 %}
       <tr>
-        {% for docente in site.data.docentes %}
+      {% endif %} 
         <td class="tg-0lax" style="text-align:center; vertical-align:top; width: 33%;">
           <figure class="figure d-block" style="display: inline-block; text-align: center;">
             <img class="figure-img rounded img-fluid" style="height:180px;width:auto;" title="{{docente.nombre}}"
@@ -32,8 +35,10 @@ title: Docentes
             </figcaption>
           </figure>
         </td>
-        {% endfor %}
+      {% if cantFila == 2 || forloop.last %}
       </tr>
+      {% endif %}
+      {% endfor %}
     </tbody>
   </table>
 </div>
