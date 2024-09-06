@@ -5,7 +5,8 @@ title: Trabajos Prácticos
 ---
 
 ### TP 1
-- Fecha de Entrega: XX/XX/2024
+- Fecha de Entrega: 10/10/2024
+- [Enunciado](../assets/pdf/TP1-2c2024.pdf)
 
 ### TP 2
 - Fecha de Entrega: XXX/XX/2024
