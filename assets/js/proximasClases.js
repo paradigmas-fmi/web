@@ -15,10 +15,10 @@ function renderizarFila(dia) {
             <td class="tg-0lax">${dia.fecha}</td>
             <td class="tg-0lax" style="background-color:Ivory;" colspan="2">${dia.tp}</td>
         `
-    } else if (dia.feriado) {
+    } else if (dia.noclases) {
         return `
             <td class="tg-0lax">${dia.fecha}</td>
-            <td class="tg-0lax" style="background-color:LightGray;" colspan="2">Feriado</td>
+            <td class="tg-0lax" style="background-color:LightGray;" colspan="2">${dia.noclases}</td>
         `
     } else {
         return `

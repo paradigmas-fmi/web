@@ -19,7 +19,7 @@
 - semana: 3
   miercoles:
     fecha: 2024/09/04
-    elecciones: true
+    noclases: "Elecciones"
   viernes:
     fecha: 2024/09/06
     teorica: Principios de Diseño I.
@@ -47,34 +47,34 @@
     parcial: "Parcialito 1: Paradigma Orientado a Objetos. Java. Principios de Diseño."
   viernes:
     fecha: 2024/09/27
-    teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
-    practica: Introducción a Scala para el Paradigma de Programación Funcional.
+    teorica: Introducción a Calculo Lambda. Historia. Motivación. Cálculo Lambda vs Máquinas de Turing. Conceptos básicos. Reducción beta. Lógica Booleana con Cálculo Lambda.
+    practica: Ejercitación práctica de Cálculo Lambda.
 - semana: 7
   miercoles:
     fecha: 2024/10/02
-    teorica: Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying.
-    practica: Introducción a Scala para el Paradigma de Programación Funcional.
+    noclases: "Marcha universitaria"
   viernes:
     fecha: 2024/10/04
-    teorica: Introducción a Calculo Lambda. Historia. Motivación. Cálculo Lambda vs Máquinas de Turing. Conceptos básicos. Reducción beta. Lógica Booleana con Cálculo Lambda.
-    practica: Ejercitación práctica de Paradigma Funcional.
+    teorica: Continuación de Cálculo Lambda. Números Naturales con Cálculo Lambda. Tipo de Dato Algebraico. Recursión. call-by-name (lazy evaluation) vs call-by-value (eager evaluation) en Cálculo Lambda. Nociones básicas de Cálculo SKI.
+    practica: Ejercitación práctica de Cálculo Lambda
 - semana: 8
   miercoles:
     fecha: 2024/10/09
-    teorica: Continuación de Cálculo Lambda. Números Naturales con Cálculo Lambda. Tipo de Dato Algebraico. Recursión. call-by-name (lazy evaluation) vs call-by-value (eager evaluation) en Cálculo Lambda. Nociones básicas de Cálculo SKI.
-    practica: Ejercitación práctica de Cálculo Lambda
+    teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
+    practica: Introducción a Scala para el Paradigma de Programación Funcional.
   viernes:
     fecha: 2024/10/11
-    feriado: true
+    noclases: "Feriado"
 - semana: 9
   miercoles:
     fecha: 2024/10/16
-    teorica: Definición de Tipos. Reglas de Inferencia. Introducción a Cálculo Lambda Simplemente Tipado. Inferencia de Tipos. Tipos Polimorficos.
-    practica: Modularización en Scala (para el TP). Packages. Classes. Objects. Traits.
+    teorica: Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying.
+    practica: Ejercitación práctica de Paradigma Funcional.
   viernes:
     fecha: 2024/10/18
-    teorica: Programación Orientada a Eventos.
+    teorica: Definición de Tipos. Reglas de Inferencia. Introducción a Cálculo Lambda Simplemente Tipado. Inferencia de Tipos. Tipos Polimorficos.
     practica: Ejercitación práctica de Cálculo Lambda Simplemente Tipado. Inferencia de Tipos.
+    practica: Modularización en Scala (para el TP). Packages. Classes. Objects. Traits.
 - semana: 10
   miercoles:
     fecha: 2024/10/23
@@ -85,8 +85,8 @@
 - semana: 11
   miercoles:
     fecha: 2024/10/30
-    teorica: Programación Lógica.
-    practica: Introducción a Prolog. Enterno de desarrollo. Ejercitación práctica de Paradigma Lógico.
+    teorica: Programación Orientada a Eventos. Programación Lógica.
+    practica: Modularización en Scala (para el TP). Packages. Classes. Objects. Traits. + Introducción a Prolog. Enterno de desarrollo. Ejercitación práctica de Paradigma Lógico.
   viernes:
     fecha: 2024/11/01
     teorica: Programación Lógica.

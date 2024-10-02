@@ -33,12 +33,9 @@ Cada clase estará dividida en una parte teórica y una práctica, de 1:30 hs ca
     {% elsif semana.miercoles.tp %}
       <td class="tg-0lax">{{semana.miercoles.fecha}}</td>
       <td class="tg-0lax" style="background-color:Ivory;" colspan="2">{{semana.miercoles.tp}}</td>
-    {% elsif semana.miercoles.feriado %}
+    {% elsif semana.miercoles.noclases %}
       <td class="tg-0lax">{{semana.miercoles.fecha}}</td>
-      <td class="tg-0lax" style="background-color:LightGray;" colspan="2">Feriado</td>
-    {% elsif semana.miercoles.elecciones %}
-      <td class="tg-0lax">{{semana.miercoles.fecha}}</td>
-      <td class="tg-0lax" style="background-color:LightGray;" colspan="2">Elecciones</td>
+      <td class="tg-0lax" style="background-color:LightGray;" colspan="2">{{semana.miercoles.noclases}}</td>
     {% else %}
       <td class="tg-0lax">{{semana.miercoles.fecha}}</td>
       <td class="tg-0lax" style="background-color:AliceBlue;">{{semana.miercoles.teorica}}</td>
@@ -53,12 +50,9 @@ Cada clase estará dividida en una parte teórica y una práctica, de 1:30 hs ca
     {% elsif semana.viernes.tp %}
       <td class="tg-0lax">{{semana.viernes.fecha}}</td>
       <td class="tg-0lax" style="background-color:Ivory;" colspan="2">{{semana.viernes.tp}}</td>
-    {% elsif semana.viernes.feriado %}
+    {% elsif semana.viernes.noclases %}
       <td class="tg-0lax">{{semana.viernes.fecha}}</td>
-      <td class="tg-0lax" style="background-color:LightGray;" colspan="2">Feriado</td>
-    {% elsif semana.viernes.elecciones %}
-      <td class="tg-0lax">{{semana.viernes.fecha}}</td>
-      <td class="tg-0lax" style="background-color:LightGray;" colspan="2">Elecciones</td>
+      <td class="tg-0lax" style="background-color:LightGray;" colspan="2">{{semana.viernes.noclases}}</td>
     {% else %}
       <td class="tg-0lax">{{semana.viernes.fecha}}</td>
       <td class="tg-0lax" style="background-color:AliceBlue;">{{semana.viernes.teorica}}</td>
