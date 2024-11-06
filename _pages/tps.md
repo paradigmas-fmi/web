@@ -13,4 +13,4 @@ title: Trabajos Prácticos
 - [Enunciado](../assets/pdf/TP2-2c2024.pdf)
 
 ### TP 3
-- Fecha de Entrega: XX/XX/2024
+- Regalo de fin de año: No hay TP 3
