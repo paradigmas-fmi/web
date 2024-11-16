@@ -21,6 +21,9 @@ title: Material
 - [Repositorio de ejercicios vistos en clase](https://github.com/paradigmas-fmi/ejercicios-clases)
 - [S.O.L.I.D.](https://drive.google.com/drive/folders/1zU60qaNMNBfqmOV4B_32gwWolBGQOzPR?usp=sharing)
 
+## Parciales de cuatrimestres anteriores
+- En el siguiente [drive](https://drive.google.com/drive/folders/1z4gVxip4LveFgSQqv0KB0uIeHHiqt-eP?usp=drive_link) podrán encontrar parciales tomados en cuatrimestres anteriores. **Importante: Los parciales son orientativos. El formato y los ejercicios pueden variar.**
+
 ## Finales de cuatrimestres anteriores
 - En el siguiente [drive](https://drive.google.com/drive/folders/1hhfWCna1Ac6MnjJYSvrkN_HjShbA5NLT?usp=drive_link) podrán encontrar finales tomados en cuatrimestres anteriores. **Importante: Los finales son orientativos, el formato de final y los temas evaluados pueden variar entre cuatrimestres.**
 
