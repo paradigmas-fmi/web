@@ -32,7 +32,7 @@ function renderizarFila(dia) {
 function renderizarProximasClases() {
     var hoy = new Date();
     var inicioCuatrimestre = new Date(Date.parse("{{site.data.info.inicio_cuatrimestre}}"));
-    
+
     var semana = Math.floor((hoy - inicioCuatrimestre)/(1000 * 3600 * 24 * 7));
     if (semana < 0) {
         semana = 0;
@@ -58,12 +58,12 @@ function renderizarProximasClases() {
         <tbody>
             <tr>
                 <td class="tg-0lax" rowspan="2">${calendario[semana].semana}</td>
-                <td class="tg-0lax">Miércoles</td>
-                ${renderizarFila(calendario[semana].miercoles)}
+                <td class="tg-0lax">Martes</td>
+                ${renderizarFila(calendario[semana].martes)}
             </tr>
             <tr>
-                <td class="tg-0lax">Viernes</td>
-                ${renderizarFila(calendario[semana].viernes)}
+                <td class="tg-0lax">Miércoles</td>
+                ${renderizarFila(calendario[semana].miercoles)}
             </tr>
         </tbody>
         </table>
