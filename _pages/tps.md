@@ -4,13 +4,11 @@ permalink: /tps
 title: Trabajos Prácticos
 ---
 
+### TP 0
+- Fecha de Entrega: 25/03/2024
+
 ### TP 1
-- Fecha de Entrega: 10/10/2024
-- [Enunciado](../assets/pdf/TP1-2c2024.pdf)
+- Fecha de Entrega: XX/XX/2025
 
 ### TP 2
-- Fecha de Entrega: 12/11/2024
-- [Enunciado](../assets/pdf/TP2-2c2024.pdf)
-
-### TP 3
-- Regalo de fin de año: No hay TP 3
+- Fecha de Entrega: XX/XX/2024
