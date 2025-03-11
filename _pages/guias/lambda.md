@@ -128,6 +128,11 @@ title: Guía de Calculo Lambda
    4. `λx.λy.λz.if iszero (x y) then y else z + 1`
    5. `λx.λy.λz.if not (x y z) then y else z + 1`
    6. `iszero ((λx.x y) (λx.if not x then 0 else 10))`
+   7. `λa.λb.if iszero (( λx. f x ) (a + b)) then a else b`
+   8. `λx.λy. not (f (if not(g x) then y else (x+y)))`
+   9. `λa.if iszero (( λb.f (a+b)) c ) then (λx. g x) a else c`
+   10. `λx.λy.λz.if not (iszero (g y) ) then f (x + z) else not y`
+
 
 ### Adicionales (dificiles)
 
