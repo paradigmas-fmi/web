@@ -39,6 +39,3 @@ title: Docentes
       </tr>
       {% endif %}
       {% endfor %}
-    </tbody>
-  </table>
-</div>
