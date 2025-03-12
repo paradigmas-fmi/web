@@ -8,7 +8,7 @@ title: Trabajos Prácticos
 - Fecha de Entrega: 25/03/2024
 
 ### TP 1
-- Fecha de Entrega: XX/XX/2025
+- Fecha de Entrega: XX/XX/XXXX
 
 ### TP 2
 - Fecha de Entrega: XX/XX/2024
