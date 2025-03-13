@@ -17,8 +17,8 @@ title: Material
 Contamos con una [carpeta de Drive](https://drive.google.com/drive/folders/12Ok0Azyaat3MdEslrCeNBNGlNWuUj30C?usp=drive_link) con el material del curso (requiere usar mail @fi.uba.ar para tener acceso), dentro del cual se encuentra:
 
 ### Diapositivas de clases
-- [Teórica](https://drive.google.com/drive/u/3/folders/1h0nTjJqxPlkVIyFzU2llpfi3YppZTZy-)
-- [Práctica](https://drive.google.com/drive/u/3/folders/1ox6gy7qgMrBuB4CNK7UragwLiFgEBgwM)
+- [Teórica](https://drive.google.com/drive/folders/1uFBPG3BZx4AEUfqJf-nA6aSr1ScSCi7Y?usp=drive_link)
+- [Práctica](https://drive.google.com/drive/folders/1ISIlw10U1SVuzaamSJMSvHxAceb5uHPt?usp=drive_link)
 
 ### Parciales y finales de cuatrimestres anteriores
 > _**Importante:**  Los examenes son orientativos, los formates y los temas evaluados pueden variar tanto en contenido como orden, entre cuatrimestres_.
