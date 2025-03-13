@@ -25,74 +25,76 @@ cada elemento de lista
 todos los elementos de la lista.
 
 ## Ejercicios funciones impuras
+
 Indicar y justificar cuales de las siguientes funciones son impuras
+
 1.
-```
-def f ( x : Int , y : Int ) : Int = {
-    x + y
-}
-```
+  ```
+  def f ( x : Int , y : Int ) : Int = {
+      x + y
+  }
+  ```
 
 2.
-```
-def fecha () : String = {
-    LocalDate.now.format(DateTimeFormatter.ofPattern ("yyyyMMdd "))
-}
-```
+  ```
+  def fecha () : String = {
+      LocalDate.now.format(DateTimeFormatter.ofPattern ("yyyyMMdd "))
+  }
+  ```
 
 3.
-```
-def contar(l: List[Int], e: Int): Int = {
-  var cont = 0;
-  l.foreach(elemento => {
-    if(elemento == e) {
-      cont = cont + 1
-    }
-  })
-  cont
-}
-```
+  ```
+  def contar(l: List[Int], e: Int): Int = {
+    var cont = 0;
+    l.foreach(elemento => {
+      if(elemento == e) {
+        cont = cont + 1
+      }
+    })
+    cont
+  }
+  ```
 
 4.
-```
-import scala.collection.mutable.Map
+  ```
+  import scala.collection.mutable.Map
 
-def actualizarAUno(mapa: Map[Int, Int]) = {
-  for (k, v) <- mapa do
-    mapa(k) = 1
-}
-```
+  def actualizarAUno(mapa: Map[Int, Int]) = {
+    for (k, v) <- mapa do
+      mapa(k) = 1
+  }
+  ```
 
 5.
-```
-import scala.collection.mutable.Map
+  ```
+  import scala.collection.mutable.Map
 
-def randomEntre(a: Int, b: Int): Int = {
-  val rand = new scala.util.Random
-  rand.between(a, b)
-}
-```
+  def randomEntre(a: Int, b: Int): Int = {
+    val rand = new scala.util.Random
+    rand.between(a, b)
+  }
+  ```
 
 6.
-```
-def merge[A](list1: List[A], list2: List[A]): List[A] = {
-  list1 ::: list2
-}
-```
+  ```
+  def merge[A](list1: List[A], list2: List[A]): List[A] = {
+    list1 ::: list2
+  }
+  ```
 
 7.
-```
-import java.io.PrintWriter
+  ```
+  import java.io.PrintWriter
 
-def guardarEnArchivo(texto: String, ruta: String): Unit = {
-  val escritor = new PrintWriter(ruta)
-  try {
-    escritor.write(texto)
-  } finally {
-    writer.close()
+  def guardarEnArchivo(texto: String, ruta: String): Unit = {
+    val escritor = new PrintWriter(ruta)
+    try {
+      escritor.write(texto)
+    } finally {
+      writer.close()
+    }
   }
-}
-```
+  ```
 
 ## Ejercicios avanzados
 Los ejercicios no están ordenados por complejidad.
