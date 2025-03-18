@@ -10,7 +10,7 @@ title: Material
 ## Guías de ejercicios
 - <a href="/guia-poo"> Guía programación orientada a objetos </a>
 - <a href="/guia-funcional"> Guía de paradigma funcional </a>
-- <a href="/guia-calculo-lambda"> Guía de Calculo Lambda </a>
+- <a href="/guia-calculo-lambda"> Guía de calculo lambda </a>
 - <a href="/guia-logico"> Guía de paradigma lógico </a>
 
 ## Drive
@@ -21,7 +21,7 @@ Contamos con una [carpeta de Drive](https://drive.google.com/drive/folders/12Ok0
 - [Práctica](https://drive.google.com/drive/folders/1ISIlw10U1SVuzaamSJMSvHxAceb5uHPt?usp=drive_link)
 
 ### Parciales y finales de cuatrimestres anteriores
-> _**Importante:**  Los examenes son orientativos, los formates y los temas evaluados pueden variar tanto en contenido como orden, entre cuatrimestres_.
+> _**Importante:**  Los examenes son orientativos, los formatos y los temas evaluados pueden variar tanto en contenido como orden, entre cuatrimestres_.
 
 - [Parciales](https://drive.google.com/drive/folders/1z4gVxip4LveFgSQqv0KB0uIeHHiqt-eP?usp=drive_link)
 - [Finales](https://drive.google.com/drive/folders/1hhfWCna1Ac6MnjJYSvrkN_HjShbA5NLT?usp=drive_link)
