@@ -16,7 +16,7 @@ title: Material
 - <a href="/guia-funcional"> Guía de paradigma funcional </a>
 - <a href="/guia-calculo-lambda"> Guía de Calculo Lambda </a>
 - <a href="/guia-logico"> Guía de paradigma lógico </a>
-- [Ejercicios resueltos]([https://github.com/paradigmas-fmi/ejercicios-clases](https://drive.google.com/drive/u/2/folders/1CVcnZq7qP6FPGy5tVNrYy6mMEgE69JL7)
+En esta carpeta del Drive, [encontrarán ejercicios](https://drive.google.com/drive/folders/1CVcnZq7qP6FPGy5tVNrYy6mMEgE69JL7?usp=sharing) resueltos de cada guía.
 
 ## Material de las clases
 - [Repositorio de ejercicios vistos en clase](https://github.com/paradigmas-fmi/ejercicios-clases)
