@@ -12,6 +12,7 @@ title: Material
 - <a href="/guia-funcional"> Guía de paradigma funcional </a>
 - <a href="/guia-calculo-lambda"> Guía de Calculo Lambda </a>
 - <a href="/guia-logico"> Guía de paradigma lógico </a>
+En esta carpeta del Drive, [encontrarán ejercicios](https://drive.google.com/drive/folders/1CVcnZq7qP6FPGy5tVNrYy6mMEgE69JL7?usp=sharing) resueltos de cada guía.
 
 ## Drive
 Contamos con una [carpeta de Drive](https://drive.google.com/drive/folders/12Ok0Azyaat3MdEslrCeNBNGlNWuUj30C?usp=drive_link) con el material del curso (requiere usar mail @fi.uba.ar para tener acceso), dentro del cual se encuentra:
