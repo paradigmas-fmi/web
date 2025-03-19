@@ -12,4 +12,4 @@ title: Trabajos Prácticos
 - Fecha de Entrega: XX/XX/XXXX
 
 ### TP 2
-- Fecha de Entrega: XX/XX/2024
+- Fecha de Entrega: XX/XX/XXXX
