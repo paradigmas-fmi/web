@@ -32,7 +32,7 @@ Hay 4 científicos: Newton, Tesla, Curie y Darwin. Cada uno hizo un descubrimien
 - Curie nació en 1867 o 1856.
 - El que descubrió la Gravitación nació 166 años antes que quien estudió la Evolución.
 - Newton nació antes que la persona que descubrió la Electricidad.
-- Darwin invento la evolución.
-- El ano de Curie es mayor al de la persona que invento la electricidad.
+- Darwin descubrió la evolución.
+- El año de Curie es mayor al de la persona que invento la electricidad.
 
 El sistema debe poder responder la pregunta `?-cientificos(N, T, C, D)`
