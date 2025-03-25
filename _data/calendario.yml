@@ -6,131 +6,128 @@
   miercoles:
     fecha: 2025/03/12
     teorica: Programación lógica.
-    practica: Introducción a Prolog. Enterno de desarrollo. Ejercitación práctica de Paradigma Lógico.
+    practica: Introducción a Prolog. Entorno de desarrollo. Ejercitación práctica de Paradigma Lógico.
 - semana: 2
   martes:
     fecha: 2025/03/18
-    teorica: Programación lógica.
-    practica: Ejercitación práctica de Paradigma Lógico.
+    noclases: Paro.
   miercoles:
     fecha: 2025/03/19
-    teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
-    practica: Introducción a Scala para el Paradigma de Programación Funcional.
+    teorica: Programación lógica.
+    practica: Ejercitación práctica de Paradigma Lógico.
 - semana: 3
   martes:
     fecha: 2025/03/25
-  martes:
-    fecha:
-    teorica: Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying.
+    teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
     practica: Introducción a Scala para el Paradigma de Programación Funcional.
   miercoles:
     fecha: 2025/03/26
-    teorica: Introdución a cálculo lambda
-    practica: Ejercitación cálculo lambda
+    teorica: Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying.
+    practica: Introducción a Scala para el Paradigma de Programación Funcional.
 - semana: 4
   martes:
     fecha: 2025/04/01
-    teorica: Continuación cálculo lambda
-    practica: Ejercitación cálculo lambda
+    teorica: Introducción a cálculo lambda.
+    practica: Ejercitación cálculo lambda.
   miercoles:
     fecha: 2025/04/02
-    teorica: Definición de Tipos. Reglas de Inferencia. Introducción a Cálculo Lambda Simplemente Tipado. Inferencia de Tipos. Tipos Polimorficos.
-    practica: Ejercitación práctica de tipado
+    noclases: Feriado.
 - semana: 5
   martes:
     fecha: 2025/04/08
-    noclases: Feriado
+    teorica: Continuación cálculo lambda.
+    practica: Ejercitación cálculo lambda.
   miercoles:
     fecha: 2025/04/09
-    practica: Práctica pre parcialito
+    teorica: Definición de Tipos. Reglas de Inferencia. Introducción a Cálculo Lambda Simplemente Tipado. Inferencia de Tipos. Tipos Polimorficos.
+    practica: Ejercitación práctica de tipado.
 - semana: 6
   martes:
     fecha: 2025/04/15
-    parcial: "Parcialito 1: Conceptos de paradigmas de programación. Paradigma Funcional. Scala. Cálculo Lambda. Lógico."
+    practica: Práctica pre parcialito.
   miercoles:
     fecha: 2025/04/16
-    teorica: Paradigma Orientado a Objetos. Objetos. Clases. Estado y Atributos. Comportamiento, Metodos y Mensajes. Abstracción. Encapsulamiento.
-    practica: Intro a Java. Entorno de desarrollo. Ejercitación práctica de Paradigma Orientado a Objetos.
+    parcial: "Parcialito 1: Conceptos de paradigmas de programación. Paradigma Funcional. Scala. Cálculo Lambda. Lógico."
 - semana: 7
   martes:
     fecha: 2025/04/22
-    teorica: Interfaces. Herencia. Polimorfismo. Visibilidad. Override.
-    practica: Herencia. Interfaces. Polimorfismo.
+    teorica: Paradigma Orientado a Objetos. Objetos. Clases. Estado y Atributos. Comportamiento, Métodos y Mensajes. Abstracción. Encapsulamiento.
+    practica: Intro a Java. Entorno de desarrollo. Ejercitación práctica de Paradigma Orientado a Objetos.
   miercoles:
     fecha: 2025/04/23
-    teorica: UML. Diagrama de Clases. Diagrama de Secuencias.
-    practica: Ejercitación práctica de modelado, diseño y UML.
+    teorica: Interfaces. Herencia. Polimorfismo. Visibilidad. Override.
+    practica: Herencia. Interfaces. Polimorfismo.
 - semana: 8
   martes:
     fecha: 2025/04/29
-    teorica: Principios de Diseño I.
-    practica: Ejercitación práctica de modelado
+    teorica: UML. Diagrama de Clases. Diagrama de Secuencias.
+    practica: Ejercitación práctica de modelado, diseño y UML.
   miercoles:
     fecha: 2025/04/30
-    teorica: Principios de Diseño II.
-    practica: Ejercitación práctica de principios de diseño
+    teorica: Principios de Diseño I.
+    practica: Ejercitación práctica de modelado.
 - semana: 9
   martes:
     fecha: 2025/05/06
-    practica: Taller de UML
+    teorica: Principios de Diseño II.
+    practica: Ejercitación práctica de principios de diseño.
   miercoles:
     fecha: 2025/05/07
-    teorica: Patrones de diseño I
-    practica: Ejercitación patrones
+    practica: Taller de UML.
 - semana: 10
   martes:
     fecha: 2025/05/13
-    teorica: Patrones de diseño II
-    practica: Ejercitación patrones
+    teorica: Patrones de diseño I.
+    practica: Ejercitación patrones.
   miercoles:
     fecha: 2025/05/14
-    practica: Práctica pre parcialito
+    teorica: Patrones de diseño II.
+    practica: Ejercitación patrones.
 - semana: 11
   martes:
     fecha: 2025/05/20
-    parcial: "Parcialito 2: Paradigma Orientado a Objetos. Java. Principios de Diseño."
+    practica: Práctica pre parcialito.
   miercoles:
     fecha: 2025/05/21
-    teorica: Programación Concurrente. Concepto de Concurrencia. Concurrencia vs Paralelismo. Threads.
-    practica: Ejercitación práctica de concurencia.
+    parcial: "Parcialito 2: Paradigma Orientado a Objetos. Java. Principios de Diseño."
 - semana: 12
   martes:
     fecha: 2025/05/27
-    teorica: Otras formas de concurrencia. Operaciones bloqueantes y no bloqueantes. Programación asincrónica. Future (Promises). Virtual Threads (Coroutines).
-    practica: Ejercitación práctica de Concurrencia. Ejercitacion practica de POE
+    teorica: Programación Concurrente. Concepto de Concurrencia. Concurrencia vs Paralelismo. Threads.
+    practica: Ejercitación práctica de concurrencia.
   miercoles:
     fecha: 2025/05/28
-    teorica: Programación Orientada a Eventos. Programación lineal.
-    practica: Práctica de POE y programación lineal
+    teorica: Otras formas de concurrencia. Operaciones bloqueantes y no bloqueantes. Programación asincrónica. Future (Promises). Virtual Threads (Coroutines).
+    practica: Ejercitación práctica de Concurrencia. Ejercitación práctica de POE.
 - semana: 13
   martes:
     fecha: 2025/06/03
-    teorica: Otros paradigmas y como elegirlos
-    practica: Otros paradigmas y como elegirlos
+    teorica: Programación Orientada a Eventos. Programación lineal.
+    practica: Práctica de POE y programación lineal.
   miercoles:
     fecha: 2025/06/04
-    teorica: Otros paradigmas y como elegirlos. Cierre de la materia
-    practica: Otros paradigmas y como elegirlos
+    teorica: Otros paradigmas y cómo elegirlos.
+    practica: Otros paradigmas y cómo elegirlos.
 - semana: 14
   martes:
     fecha: 2025/06/10
-    teorica: X
-    practica: X
+    teorica: Cierre de la materia.
+    practica: Otros paradigmas y cómo elegirlos.
   miercoles:
     fecha: 2025/06/11
-    teorica: X
-    practica: X
+    teorica: X.
+    practica: X.
 - semana: 15
   martes:
     fecha: 2025/06/17
-    parcial: "1ros Recuperatorios: P1"
+    parcial: "1ros Recuperatorios: P1."
   miercoles:
     fecha: 2025/06/18
-    parcial: "1ros Recuperatorios: P2 y P3"
+    parcial: "1ros Recuperatorios: P2 y P3."
 - semana: 16
   martes:
     fecha: 2025/06/24
-    parcial: "2do Recuperatorio: P1 - Examen promoción"
+    parcial: "2do Recuperatorio: P1 - Examen promoción."
   miercoles:
     fecha: 2025/06/25
-    parcial: "2dos Recuperatorios: P2 y P3"
+    parcial: "2dos Recuperatorios: P2 y P3."
