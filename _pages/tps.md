@@ -9,7 +9,8 @@ title: Trabajos Prácticos
 - <a href="/tp0"> Enunciado </a>
 
 ### TP 1
-- Fecha de Entrega: XX/XX/XXXX
+- Fecha de Entrega: 25/04/2025
+- [Enunciado](../assets/pdf/TP1-1c2025.pdf)
 
 ### TP 2
 - Fecha de Entrega: XX/XX/XXXX
