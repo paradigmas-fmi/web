@@ -13,4 +13,5 @@ title: Trabajos Prácticos
 - [Enunciado](../assets/pdf/TP1-1c2025.pdf)
 
 ### TP 2
-- Fecha de Entrega: XX/XX/XXXX
+- Fecha de Entrega: 11/06/2025
+- [Enunciado](../assets/pdf/TP2-1c2025.pdf)
