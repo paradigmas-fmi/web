@@ -15,6 +15,7 @@ title: Material
 - <a href="/guia-calculo-lambda"> Guía de calculo lambda </a>
 - <a href="/guia-logico"> Guía de paradigma lógico </a>
 - <a href="/guia-concurrencia"> Guía de programación concurrente </a>
+- <a href="/guia-integradora"> Guía de ejercicios integradores </a>
 
 Adicionalmente, en [esta carpeta](https://drive.google.com/drive/folders/1CVcnZq7qP6FPGy5tVNrYy6mMEgE69JL7?usp=sharing) del Drive, encontrarán ejercicios resueltos de cada una de las guías.
 
