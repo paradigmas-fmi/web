@@ -11,7 +11,7 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
 
 ### Ejercicios básicos
 
-1. (★) Identificar la base de conocimientos y sus partes (hechos y reglas de inferencia) y la/s consultas.
+1. (★) Identificar la base de conocimientos y sus partes (hechos y reglas de inferencia) y las consultas.
 
    ```
    vehiculo(auto).
@@ -56,14 +56,14 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
    Cómo responde Prolog a las siguientes consultas?
 
    ```
-   cursa(emiliano, algo2).
-   cursa(emiliano, paradigmas).
-   cursa(emiliano, algo3).
-   dicta(mati, paradigmas).
-   dicta(fede, X).
-   dicta(X, paradigmas).
-   profesor(martin, emiliano).
-   profesor(nacho, X)
+   ?- cursa(emiliano, algo2).
+   ?- cursa(emiliano, paradigmas).
+   ?- cursa(emiliano, algo3).
+   ?- dicta(mati, paradigmas).
+   ?- dicta(fede, X).
+   ?- dicta(X, paradigmas).
+   ?- profesor(martin, emiliano).
+   ?- profesor(nacho, X)
    ```
 
 4. (★★) Partiendo de la relacion `progenitor(a, b)`  que representan que `a` es padre o madre de `b`, y la siguiente base de conocimiento:
@@ -172,7 +172,7 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
    10. `2 =/= 2.`
    11. `6 =/= 100.`
 
-2. (★) ¿Cuál es la diferencia entre is, =:= y = ?. ¿Cuál usarías para asignar un resultado a una variable?. Asignar a X el resultado de 2 + 2 (o bien cualquier cosa que se necesite).
+2. (★) ¿Cuál es la diferencia entre `is`, `=:=` y `=` ?. ¿Cuál usarías para asignar un resultado a una variable?. Asignar a X el resultado de 2 + 2 (o bien cualquier cosa que se necesite).
 
 ### Ejercicios aritmetica
 
@@ -208,7 +208,7 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
    supervisa(carla,franco).
    ```
 
-   1. Definir una regla esJefe(X, Y) que devuelva verdadero si X supervisa directa o indirectamente a Y.
+   1. Definir una regla esJefe(X,Y) que devuelva verdadero si X supervisa directa o indirectamente a Y.
    2. Mostrar el árbol DFS de ejecución de la pregunta esJefe(ana,franco).
 
 
