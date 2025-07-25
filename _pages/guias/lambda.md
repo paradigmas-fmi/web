@@ -74,9 +74,6 @@ title: Guía de Calculo Lambda
    3. `(λc.c (λa.λb.b)) ((λa.λb.λf.f a b) p q)`
    4. `(λf.f add (f mul (f add 5))) (λg.λx.g x x)`
 
-4. (★★) Encontrar la forma normal de las siguientes expresiones normalizables:
-   1. TBD
-
 
 ### Logica Booleana y Matematica de Church
 
