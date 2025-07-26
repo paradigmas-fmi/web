@@ -7,7 +7,7 @@ title: Guía programación orientada a objetos
 ## Principios de diseño
 
 Identificar y justificar todos los *principios de diseño* que se violan.
-Proponer e implementar una posible solución que respete dichos principios. Justificar por que el patrón elegido resuelve los problemas identificados.
+Proponer e implementar una posible solución que respete dichos principios.
 
 1.
 ```
@@ -98,6 +98,120 @@ public class GeneradorDeReportes {
     }
 }
 ```
+
+5.
+
+```
+public class Juego {
+    public void saludar() {
+        System.out.println("Iniciando Juego...");
+        // logica de juego
+    }
+}
+```
+
+6.
+
+```
+public class Usuario {
+    private String nombre;
+
+    public void guardarEnBaseDeDatos() {
+        System.out.println("Guardando usuario...");
+    }
+
+    public void enviarCorreoBienvenida() {
+        System.out.println("Enviando correo de bienvenida...");
+    }
+
+    public void validarEmail() {
+        System.out.println("Validando email...");
+    }
+}
+```
+
+7.
+
+```
+public class Calculadora {
+    public int operar(String operacion, int a, int b) {
+        if (operacion.equals("suma")) {
+            return a + b;
+        } else if (operacion.equals("resta")) {
+            return a - b;
+        }
+        return 0; 
+    }
+}
+```
+
+8.
+
+```
+public class Animal {
+    public void caminar() {
+        System.out.println("El animal corre");
+    }
+
+    public void volar() {
+        System.out.println("El animal vuela");
+    }
+}
+
+public class Perro extends Animal {
+    @Override
+    public void volar() {
+        throw new Exception("El perro no puede volar");
+    }
+}
+
+public class Pajaro extends Animal {
+
+}
+```
+
+9.
+
+```
+public interface Estacionamiento {
+	void aparcarCoche(); 
+	void sacarCoche(); 
+	void getCapacidad();
+	double calcularTarifa(Coche coche); 
+	void hacerPago(Coche coche);
+}
+
+public class EstacionamientoGratis implements Estacionamiento {
+    @Override
+    public void aparcarCoche() {
+        System.out.println("Aparcando coche");
+    }
+    @Override
+    public void sacarCoche() {
+        System.out.println("Sacando coche");
+    }
+    @Override
+    public void getCapacidad() {
+        System.out.println("Capacidad de la estacionamiento...");
+    }
+    @Override
+    public double calcularTarifa(Coche coche) {
+        return 0;
+    }
+    @Override
+    public void hacerPago(Coche coche) {
+        throw new Exception("Estacionamiento es gratis");
+    }
+}
+```
+
+## Patrones de diseño
+
+Identificar y justificar todos los *principios de diseño* que se violan.
+Proponer e implementar una posible solución usando los patrones vistos en clase. Justificar por qué el patrón elegido resuelve el problema.
+
+
+
 
 ## Diseño
 
