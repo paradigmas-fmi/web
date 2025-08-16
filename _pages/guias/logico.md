@@ -11,7 +11,32 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
 
 ### Ejercicios básicos
 
-1. (★) Sea la siguiente base de conocimiento:
+1. (★) Identificar la base de conocimientos y sus partes (hechos y reglas de inferencia) y las consultas.
+
+   ```
+   vehiculo(auto).
+   vehiculo(bicicleta).
+   vehiculo(moto).
+
+   tieneMotor(auto).
+   tieneMotor(moto).
+
+   vehiculoConMotor(X) :- vehiculo(X), tienemotor(X).
+
+   ?- vehiculoConMotor(auto).
+   ```
+
+2. (★) Clasificar los siguientes términos en variables, números, átomos o términos compuestos. Explicar brevemente cada uno.
+
+   1. X.
+   2. juan.
+   3. Persona.
+   4. persona(juan).
+   5. 20.
+   6. pedro.
+
+
+3. (★) Sea la siguiente base de conocimiento:
 
    ```
    cursa(emiliano, paradigmas).
@@ -31,23 +56,23 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
    Cómo responde Prolog a las siguientes consultas?
 
    ```
-   cursa(emiliano, algo2).
-   cursa(emiliano, paradigmas).
-   cursa(emiliano, algo3).
-   dicta(mati, paradigmas).
-   dicta(fede, X).
-   dicta(X, paradigmas).
-   profesor(martin, emiliano).
-   profesor(nacho, X)
+   ?- cursa(emiliano, algo2).
+   ?- cursa(emiliano, paradigmas).
+   ?- cursa(emiliano, algo3).
+   ?- dicta(mati, paradigmas).
+   ?- dicta(fede, X).
+   ?- dicta(X, paradigmas).
+   ?- profesor(martin, emiliano).
+   ?- profesor(nacho, X)
    ```
 
-2. (★★) Partiendo de la relacion `progenitor(a, b)`  que representan que `a` es padre o madre de `b`, y la siguiente base de conocimiento:
+4. (★★) Partiendo de la relacion `progenitor(a, b)`  que representan que `a` es padre o madre de `b`, y la siguiente base de conocimiento:
    ```
-      progenitor(a,b).  % 1
-      progenitor(a,c).  % 2
-      progenitor(b,d).  % 3
-      progenitor(b,e).  % 4
-      progenitor(c,f).  % 5
+      progenitor(a,b).  
+      progenitor(a,c). 
+      progenitor(b,d).
+      progenitor(b,e). 
+      progenitor(c,f). 
    ```
 
    Definir los siguientes predicados:
@@ -64,7 +89,7 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
    * Todos los nietos de `a`
    * Todos los descendientes de `b`
 
-3. (★★★) Sean las palabras en italiano
+5. (★★★) Sean las palabras en italiano
 
    ```
    astante , astoria , baratto , cobalto , pistola , statale .
@@ -76,7 +101,7 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
 
    Escribir una base de datos y una consulta que encuentre una solución al problema.
 
-4. (★★★) Dadas la siguiente base de conocimiento:
+6. (★★★) Dadas la siguiente base de conocimiento:
 
    ```
    byCar(auckland,hamilton).
@@ -131,6 +156,24 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
 
    Escribir el arbol de ejecución de Prolog la pregunta `apruebaCursada(ricardo)`
 
+### Ejercicios sobre operadores aritmeticos
+
+1. (★) Indicar si las siguientes consultas dan true o false. Justificar.
+
+   1. `2 is 2.`
+   2. `2 is 1 + 1.`
+   3. `2 = 2.`
+   4. `2 = 1 + 1.`
+   5. `3 + 2 = 3 + 2.`
+   6. `4 =:= 4.`
+   7. `4 =:= 2 + 2.`
+   8. `2 < 6.`
+   9. `3 > 4.`
+   10. `2 =/= 2.`
+   11. `6 =/= 100.`
+
+2. (★) ¿Cuál es la diferencia entre `is`, `=:=` y `=` ?. ¿Cuál usarías para asignar un resultado a una variable?. Asignar a X el resultado de 2 + 2 (o bien cualquier cosa que se necesite).
+
 ### Ejercicios aritmetica
 
 1. (★) Definir la relación `máximo(X,Y,Z)` que se verifique si Z es el máximo de X e Y.
@@ -138,6 +181,8 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
 2. (★★) Definir la relación `fatorial(X,Y)` que se verifique si Y es el factorial de X.
 
 3. (★★★) La sucesión de Fibonacci es `0,1,1,2,3,5,8,13,21,. . .` en la que cada término, salvo los dos primeros, es la suma de los dos anteriores. Definir la relación `fibonai(N,X)` que se verifique si X es el N–ésimo término de la sucesión de Fibonacci.
+
+4. (★★★) Definir la relación potencia(Base, Exp, Resultado) que se verifique si el Resultado es igual a Base elevado al Exp.
 
 ### Ejercicios listas
 
@@ -153,12 +198,26 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
 
 ### Ejercicios avanzados
 
-1. (★★★) Se tiene el siguiente mapa compuesto por 5 regiones (A, B, C, D y E), se desea identificar si es posible colorear el
+1. (★★★) Dada la siguiente base de conocimientos:
+
+   ```
+   supervisa(ana,bruno).
+   supervisa(bruno,carla).
+   supervisa(bruno,dario).
+   supervisa(dario,elena).
+   supervisa(carla,franco).
+   ```
+
+   1. Definir una regla esJefe(X,Y) que devuelva verdadero si X supervisa directa o indirectamente a Y.
+   2. Mostrar el árbol DFS de ejecución de la pregunta esJefe(ana,franco).
+
+
+2. (★★★) Se tiene el siguiente mapa compuesto por 5 regiones (A, B, C, D y E), se desea identificar si es posible colorear el
 mapa usando solo 4 colores, de forma tal que ninguna region sea adyacente a otra región con el mismo color.
 
    <img src="{{site.baseurl}}/assets/images/4-color-problem.png">
 
-2. (★★★★) Hay 4 estudiantes:  Carrie, Erma, Ora und Tracy.
+3. (★★★★) Hay 4 estudiantes:  Carrie, Erma, Ora und Tracy.
    Todos ellos estudian una carrera de grado y están becados (todos tienen
    becas distintas y estudian distintas carreras).
    El objetivo es identificar cual es la beca que recibe cada estudiante
