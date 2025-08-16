@@ -15,6 +15,7 @@ Este es el sitio de la materia **Paradigmas de programación**, curso **<span id
 
 - <a target="_blanck" href="{{site.data.info.material}}"> Drive con material de la materia </a> (usar mail @fi.uba.ar)
 - <a target="_blanck" href="{{site.data.info.sugerencias}}"> Formulario de sugerencias y feedback </a> (usar mail @fi.uba.ar)
+- <a target="_blanck" href="{{site.data.info.consultaNotas}}"> Página de consulta de notas </a> (usar mail @fi.uba.ar)
 
 ## Próximas clases
 
