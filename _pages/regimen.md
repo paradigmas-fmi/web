@@ -22,18 +22,18 @@ title: Régimen de cursada
 * Desaprobar un trabajo práctico implica desaprobar la cursada y por lo tanto la materia.
 * Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación del trabajo y por tanto la desaprobación de la cursada y materia.
 
-#### Parcialitos
+#### Parciales
 
-* Hay **dos parcialitos** con **dos recuperatorios** cada uno.
-* Los parcialitos se aprueban con nota 4 o superior.
+* Hay **dos parciales** con **dos recuperatorios** cada uno.
+* Los parciales se aprueban con nota 4 o superior.
 * Todos los recuperatorios se toman una vez finalizadas las clases.
-* Copiarse en un parcialito implica desaprobar inmediatamente la cursada y por lo tanto la materia.
+* Copiarse en un parcial implica desaprobar inmediatamente la cursada y por lo tanto la materia.
 
 ### Aprobación y calificación
 
 * Para aprobar la **materia** es necesario aprobar la **cursada**, y el **final** obligatorio o bien cumplir las condiciones de **promoción**.
-* Para aprobar la **cursada** es necesario aprobar los **dos parcialitos**, y los **tres trabajos prácticos**.
-  - La nota de la cursada surge del promedio entre: el promedio de la nota de los parcialitos y el promedio de la nota de los trabajos prácticos (con redondeo conceptual por parte del ayudante asignado).
+* Para aprobar la **cursada** es necesario aprobar los **dos parciales**, y los **tres trabajos prácticos**.
+  - La nota de la cursada surge del promedio entre: el promedio de la nota de los parciales y el promedio de la nota de los trabajos prácticos (con redondeo conceptual por parte del ayudante asignado).
 * Para rendir el **final** es necesario tener la **cursada** aprobada.
 * Aquellos alumnos que hayan cumplido con los requisitos del régimen de promoción no deben rendir el examen final.
 * La nota definitiva de la materia:
@@ -45,9 +45,10 @@ title: Régimen de cursada
 Las condiciones del régimen de promoción son las siguientes:
 * Es necesario aprobar la **cursada**.
 * Los **trabajos prácticos** deben ser entregados en la fecha de entrega de forma completa.
-* Los dos parcialitos deben estar aprobados dentro de las **primeras 2 instancias** (parcial y primer recuperatorio), con una nota **mayor o igual a 7**. 
+* Cada parcial debe aprobarse con una **nota mínima de 7 (siete)**, obtenida en la primera oportunidad en que se rinda dicho examen, ya sea el parcial original o su primer recuperatorio.
 * Se deberá aprobar un **examen promocional** al final de la cursada.
+
 #### Final
 
-* Una vez aprobada la cursada, y en caso de no haber promocionado, será necesario rendir un final escrito, en el cuál entran todos los temas vistos en la materia. Tanto en las clases teóricas como en las clases prácticas.
+* Una vez aprobada la cursada, y en caso de no haber promocionado, será necesario rendir un final escrito en el cuál entran todos los temas vistos en la materia tanto en las clases teóricas como en las clases prácticas.
 * Los finales se aprueban con nota 4 o superior.
