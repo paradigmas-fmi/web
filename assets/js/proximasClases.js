@@ -62,8 +62,8 @@ function renderizarProximasClases() {
                 ${renderizarFila(calendario[semana].martes)}
             </tr>
             <tr>
-                <td class="tg-0lax">Miércoles</td>
-                ${renderizarFila(calendario[semana].miercoles)}
+                <td class="tg-0lax">Jueves</td>
+                ${renderizarFila(calendario[semana].jueves)}
             </tr>
         </tbody>
         </table>

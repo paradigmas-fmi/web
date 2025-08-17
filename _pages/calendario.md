@@ -8,7 +8,7 @@ La materia será dictada en 32 clases a lo largo de 16 semanas.
 Cada clase estará dividida en una parte teórica y una práctica, de 1:30 hs cada una. Los horarios serán:
 
 * Martes de 18:30 a 21:30
-* Miércoles de 18:30 a 21:30
+* Jueves de 18:30 a 21:30
 
 ## Clases
 
@@ -43,20 +43,20 @@ Cada clase estará dividida en una parte teórica y una práctica, de 1:30 hs ca
     {% endif %}
   </tr>
   <tr>
-    <td class="tg-0lax">Miércoles</td>
-    {% if semana.miercoles.parcial %}
-      <td class="tg-0lax">{{semana.miercoles.fecha}}</td>
-      <td class="tg-0lax" style="background-color:MistyRose;" colspan="2">{{semana.miercoles.parcial}}</td>
-    {% elsif semana.miercoles.tp %}
-      <td class="tg-0lax">{{semana.miercoles.fecha}}</td>
-      <td class="tg-0lax" style="background-color:Ivory;" colspan="2">{{semana.miercoles.tp}}</td>
-    {% elsif semana.miercoles.noclases %}
-      <td class="tg-0lax">{{semana.miercoles.fecha}}</td>
-      <td class="tg-0lax" style="background-color:LightGray;" colspan="2">{{semana.miercoles.noclases}}</td>
+    <td class="tg-0lax">Jueves</td>
+    {% if semana.jueves.parcial %}
+      <td class="tg-0lax">{{semana.jueves.fecha}}</td>
+      <td class="tg-0lax" style="background-color:MistyRose;" colspan="2">{{semana.jueves.parcial}}</td>
+    {% elsif semana.jueves.tp %}
+      <td class="tg-0lax">{{semana.jueves.fecha}}</td>
+      <td class="tg-0lax" style="background-color:Ivory;" colspan="2">{{semana.jueves.tp}}</td>
+    {% elsif semana.jueves.noclases %}
+      <td class="tg-0lax">{{semana.jueves.fecha}}</td>
+      <td class="tg-0lax" style="background-color:LightGray;" colspan="2">{{semana.jueves.noclases}}</td>
     {% else %}
-      <td class="tg-0lax">{{semana.miercoles.fecha}}</td>
-      <td class="tg-0lax" style="background-color:AliceBlue;">{{semana.miercoles.teorica}}</td>
-      <td class="tg-0lax" style="background-color:MintCream;">{{semana.miercoles.practica}}</td>
+      <td class="tg-0lax">{{semana.jueves.fecha}}</td>
+      <td class="tg-0lax" style="background-color:AliceBlue;">{{semana.jueves.teorica}}</td>
+      <td class="tg-0lax" style="background-color:MintCream;">{{semana.jueves.practica}}</td>
     {% endif %}
   </tr>
   {% endfor %}

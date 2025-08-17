@@ -14,22 +14,22 @@
     practica: Ejercitación práctica de Paradigma Lógico.
   jueves:
     fecha: 28/08/2025
-    teorica: Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones.
-    practica: Introducción a Scala para el Paradigma de Programación Funcional. Detalles: Entorno de desarrollo en Scala. Instalación de Scala. Características de Scala como lenguaje de programación. Programación funcional en Scala. val (funcional) vs var (no funcional). Tipos. Recomendaciones de estilo. Condicionales (no funcional). Ciclos (no funcional). Guardas en ciclos.
+    teorica: "Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones."
+    practica: Introducción a Scala para el Paradigma de Programación Funcional. Entorno de desarrollo en Scala. Instalación de Scala. Características de Scala como lenguaje de programación. Programación funcional en Scala. val (funcional) vs var (no funcional). Tipos. Recomendaciones de estilo. Condicionales (no funcional). Ciclos (no funcional). Guardas en ciclos.
 - semana: 3
   martes:
     fecha: 02/09/2025
     teorica: Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying.
-    practica: Introducción a Scala para el Paradigma de Programación Funcional. Ejercitación práctica de Paradigma Funcional. Detalles: Listas. Vector. Map. Ejercitación de la guía de Paradigma Funcional.
+    practica: Introducción a Scala para el Paradigma de Programación Funcional. Ejercitación práctica de Paradigma Funcional. Listas. Vector. Map. Ejercitación de la guía de Paradigma Funcional.
   jueves:
     fecha: 04/09/2025
     teorica: Introducción a Calculo Lambda. Historia. Motivación. Cálculo Lambda vs Máquinas de Turing. Conceptos básicos. Reducción beta. Lógica Booleana con Cálculo Lambda.
-    practica: Ejercitación práctica de Cálculo Lambda Detalles: Ejercitación de interpretación de expresiones lambda y AST. Ejercitación de reducciones beta y conversión alpha. Ejercitación de call-by-name vs call-by-value.
+    practica: Ejercitación práctica de Cálculo Lambda. Ejercitación de interpretación de expresiones lambda y AST. Ejercitación de reducciones beta y conversión alpha. Ejercitación de call-by-name vs call-by-value.
 - semana: 4
   martes:
     fecha: 09/09/2025
     teorica: Continuación de Cálculo Lambda. Números Naturales con Cálculo Lambda. Tipo de Dato Algebraico. Recursión. call-by-name (lazy evaluation) vs call-by-value (eager evaluation) en Cálculo Lambda. Nociones básicas de Cálculo SKI.
-    practica: Ejercitación práctica de Cálculo Lambda Detalles: Continuación de Ejercitación de reducciones. Ejercitación de Lógica Booleana. Ejercitación de Matemática de Church
+    practica: Ejercitación práctica de Cálculo Lambda. Continuación de Ejercitación de reducciones. Ejercitación de Lógica Booleana. Ejercitación de Matemática de Church
   jueves:
     fecha: 11/09/2025
     teorica: Definición de Tipos. Reglas de Inferencia. Introducción a Cálculo Lambda Simplemente Tipado. Inferencia de Tipos. Tipos Polimorficos.
@@ -41,43 +41,43 @@
     practica: 
   jueves:
     fecha: 18/09/2025
-    parcial: Parcial 1: Conceptos de paradigmas de programación. Paradigma Funcional. Scala. Cálculo Lambda. Lógico.
+    parcial: "Parcial 1: Conceptos de paradigmas de programación. Paradigma Funcional. Scala. Cálculo Lambda. Lógico."
 - semana: 6
   martes:
     fecha: 23/09/2025
     teorica: Paradigma Orientado a Objetos. Objetos. Clases. Estado y Atributos. Comportamiento, Metodos y Mensajes. Abstracción. Encapsulamiento.
-    practica: Intro a Java. Entorno de desarrollo. Ejercitación práctica de Paradigma Orientado a Objetos. Detalles: Cómo crear un proyecto en Intellij. Proyectos Maven. Ejecución de código en Intellij. Repaso de conceptos de POO. Tipos nativos en Java (Int vs int). Constructor, getter, setter con clase Alumno y Materia. Métodos, comportamiento y estado con método "aprobarMateria". Abstracción. Encapsulamiento. Niveles de acceso en Java.
+    practica: Intro a Java. Entorno de desarrollo. Ejercitación práctica de Paradigma Orientado a Objetos. Cómo crear un proyecto en Intellij. Proyectos Maven. Ejecución de código en Intellij. Repaso de conceptos de POO. Tipos nativos en Java (Int vs int). Constructor, getter, setter con clase Alumno y Materia. Métodos, comportamiento y estado con método "aprobarMateria". Abstracción. Encapsulamiento. Niveles de acceso en Java.
   jueves:
     fecha: 25/09/2025
     teorica: Interfaces. Herencia. Polimorfismo. Visibilidad. Override.
-    practica: Herencia. Interfaces. Polimorfismo. Detalles: Concepto de Herencia con ejemplo de Animal, Mamifero, Perro y Gato. Clases abstractas, override de métodos y referencia a clase padre con super. Generalizar instancias de clases hijas usando clases padres, y casteo entre clases. Polimorfismo con ejercicio de Figuras. Arbol de herencia y documentación de clase HashMap.
+    practica: Herencia. Interfaces. Polimorfismo. Concepto de Herencia con ejemplo de Animal, Mamifero, Perro y Gato. Clases abstractas, override de métodos y referencia a clase padre con super. Generalizar instancias de clases hijas usando clases padres, y casteo entre clases. Polimorfismo con ejercicio de Figuras. Arbol de herencia y documentación de clase HashMap.
 - semana: 7
   martes:
     fecha: 30/09/2025
     teorica: UML. Diagrama de Clases. Diagrama de Secuencias.
-    practica: Ejercitación práctica de modelado, diseño y UML. Detalles: Ejercicio de Calendario. Calendarios Publico y Privado. Calendario de Equipo. Notificaciones. Eventos. Diagrama de clases. Entitdades del dominio. Atributos publicos vs privados. Agregación vs Composición. Herencia vs Interfaz. Comportamiento de clases. Diagrama de secuencia. Flujo de notificaciones.
+    practica: Ejercitación práctica de modelado, diseño y UML. Ejercicio de Calendario. Calendarios Publico y Privado. Calendario de Equipo. Notificaciones. Eventos. Diagrama de clases. Entitdades del dominio. Atributos publicos vs privados. Agregación vs Composición. Herencia vs Interfaz. Comportamiento de clases. Diagrama de secuencia. Flujo de notificaciones.
   jueves:
     fecha: 02/10/2025
     teorica: Principios de Diseño I.
-    practica: Ejercitación práctica de modelado SIN VISTA Detalles: Ejercicio de TaTeDrez. Responsabilidades de clase Juego y modularización. Separación de modelo y vista. Diagrama de clases. Implementación en Java.
+    practica: Ejercitación práctica de modelado SIN VISTA. Ejercicio de TaTeDrez. Responsabilidades de clase Juego y modularización. Separación de modelo y vista. Diagrama de clases. Implementación en Java.
 - semana: 8
   martes:
     fecha: 07/10/2025
     teorica: Principios de Diseño II.
-    practica: Ejercitación práctica de Principios de Diseño. Detalles: Ejercicios de Principios de diseño más importantes. Por qué se viola cada principio y resolución.
+    practica: Ejercitación práctica de Principios de Diseño. Ejercicios de Principios de diseño más importantes. Por qué se viola cada principio y resolución.
   jueves:
     fecha: 09/10/2025
     teorica: Patrones de Diseño I.
-    practica: Ejercitación práctica de Patrones de Diseño. Detalles: Ejercicios de Patrones de diseños vistos en clase. Qué principios se violan y resolución usando patrones de diseño.
+    practica: Ejercitación práctica de Patrones de Diseño. Ejercicios de Patrones de diseños vistos en clase. Qué principios se violan y resolución usando patrones de diseño.
 - semana: 9
   martes:
     fecha: 14/10/2025
     teorica: Patrones de Diseño II.
-    practica: Ejercitación práctica de Patrones de Diseño. Detalles: Ejercicios de Patrones de diseños vistos en clase. Qué principios se violan y resolución usando patrones de diseño.
+    practica: Ejercitación práctica de Patrones de Diseño. Ejercicios de Patrones de diseños vistos en clase. Qué principios se violan y resolución usando patrones de diseño.
   jueves:
     fecha: 16/10/2025
     teorica: Patrones de Diseño III.
-    practica: Ejercitación práctica de Patrones de Diseño. Detalles: Ejercicios de Patrones de diseños vistos en clase. Qué principios se violan y resolución usando patrones de diseño.
+    practica: Ejercitación práctica de Patrones de Diseño. Ejercicios de Patrones de diseños vistos en clase. Qué principios se violan y resolución usando patrones de diseño.
 - semana: 10
   martes:
     fecha: 21/10/2025
@@ -90,7 +90,7 @@
 - semana: 11
   martes:
     fecha: 28/10/2025
-    parcial: Parcial 2: Paradigma Orientado a Objetos. Java. Principios de Diseño.
+    parcial: "Parcial 2: Paradigma Orientado a Objetos. Java. Principios de Diseño."
   jueves:
     fecha: 30/10/2025
     teorica: Programación Concurrente. Concepto de Concurrencia. Concurrencia vs Paralelismo. Threads.
@@ -125,14 +125,14 @@
 - semana: 15
   martes:
     fecha: 25/11/2025
-    parcial: 1er Recuperatorio: P1
+    parcial: "1er Recuperatorio: P1"
   jueves:
     fecha: 27/11/2025
-    parcial: 1er Recuperatorio: P2
+    parcial: "1er Recuperatorio: P2"
 - semana: 16
   martes:
     fecha: 02/12/2025
-    parcial: 2do Recuperatorio: P1 - Examen promoción
+    parcial: "2do Recuperatorio: P1. Examen promoción"
   jueves:
     fecha: 04/12/2025
-    parcial: 2do Recuperatorio: P2
+    parcial: "2do Recuperatorio: P2"
