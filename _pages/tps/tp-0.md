@@ -26,7 +26,7 @@ La entrega debe estar completa teniendo en cuenta todo lo mencionado en este doc
 
 Hay 4 músicos de los Beatles: John, Paul, George y Ringo. Cada uno tocaba un instrumento diferente y tenía un día de nacimiento distinto. El objetivo es determinar qué instrumento tocaba cada uno y en qué día nació, a partir de las siguientes pistas:
 
-- Los instrumentos son: Guitarra rítmica, Bajo, Guitarra solista y Batería.
+- Los instrumentos son: guitarraRitmica, bajo, guitarraSolista y bateria.
 - Los días son: 7, 9, 18 y 25.
 - Paul tocaba el Bajo.
 - La persona que tocaba la guitarra solista nació el día 25 o 7.
@@ -36,4 +36,4 @@ Hay 4 músicos de los Beatles: John, Paul, George y Ringo. Cada uno tocaba un in
 - Ringo tiene un día de nacimiento anterior que la persona que tocaba la guitarra rítmica.
 - John nació el día 7.
 
-El sistema debe responder la pregunta `?-musicos(P, J, G, R)`
+El sistema debe responder la pregunta `?-musicos(P, J, G, R)`. Cada elemento devuelto tiene que tener la estructura `musico(nombre, instrumento, dia)`.
