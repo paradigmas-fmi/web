@@ -17,10 +17,10 @@ Se contará con 1 semana completa para llevar a cabo el desarrollo del TP.
 
 
 ## Modalidad de entrega
-Mandar un mail a algoritmos3.fiuba@gmail.com donde el asunto tenga el formato `TP0 - <padron>`. El mail debe contener adjunto un archivo único el cual debe tener extension `.pl`. So el formato no es el pedido la entrega no será tenida en cuenta.
+Mandar un mail a algoritmos3.fiuba@gmail.com donde el asunto tenga el formato `TP0 - <padron>`. El mail debe contener adjunto un archivo único el cual debe tener extension `.pl`. Si el formato no es el pedido la entrega no será tenida en cuenta.
 
 ## Fecha de entrega
-La entrega debe estar completa teniendo en cuenta todo lo mencionado en este documento y debe realizarse con anterioridad a las 23:59hs del 02/09/2025. El TP se considera aprobado una vez que se recibe un mail con la respuesta de la entrega, dicho mail NO es automático. La nota también puede revisarse en la página de notas de la materia.
+La entrega debe estar completa teniendo en cuenta todo lo mencionado en este documento y debe realizarse con anterioridad a las 23:59hs del 02/09/2025. El TP se considera aprobado una vez que recibe una respuesta con nota "Aprobado" de la entrega, dicho mail NO es automático. La nota también puede revisarse en la página de notas de la materia.
 
 ## Enunciado
 
