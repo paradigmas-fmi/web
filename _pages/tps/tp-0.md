@@ -34,6 +34,6 @@ Hay 4 músicos de los Beatles: John, Paul, George y Ringo. Cada uno tocaba un in
 - La persona que tocaba la batería tiene un día de nacimiento anterior al de George.
 - La persona que tocaba el bajo nació 9 días después que la que tocaba la guitarra rítmica.
 - Ringo tiene un día de nacimiento anterior que la persona que tocaba la guitarra rítmica.
-- John nació el día 7.
+- John nació el día 9.
 
 El sistema debe responder la pregunta `?-musicos(P, J, G, R)`. Cada elemento devuelto tiene que tener la estructura `musico(nombre, instrumento, dia)`.
