@@ -20,7 +20,9 @@ title: Régimen de cursada
   - Ante algún incoveniente para poder entregar en fecha, comunicar **lo antes posible** a los docentes, indicando la causa.
   - En caso de no haber previamente avisado y de no entregar en la fecha indicada, implica la desaprobación definitiva del trabajo práctico.
 * Desaprobar un trabajo práctico implica desaprobar la cursada y por lo tanto la materia.
+* Para la aprobación de la cursada es **obligatorio** que cada estudiante tenga una participación activa y sostenida en **todos** los trabajos prácticos, demostrable mediante contribuciones de código propias y verificables. Los docentes podrán solicitar explicaciones individuales sobre el código entregado y ajustar la calificación o desaprobar la cursada en caso de no evidenciarse dicha participación.
 * Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación del trabajo y por tanto la desaprobación de la cursada y materia.
+* La utilización de herramientas de **inteligencia artificial** u otros asistentes automáticos para generar total o parcialmente las soluciones de los trabajos prácticos se considera equivalente a copiarse. Su detección implica la desaprobación del trabajo práctico involucrado y, en consecuencia, la desaprobación de la cursada y de la materia.
 
 #### Parciales
 
