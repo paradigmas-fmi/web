@@ -18,11 +18,11 @@ b. Modificar el programa anterior para que los hilos compartan el acceso a un co
 c. ¿Qué operaciones mencionadas arriba deben ser sincronizadas para evitar condiciones de carrera? Usar bloques synchronized para ello. <b>Pista:</b> Keep Synchronized Sections Small
 
 d. Definí en tus palabras qué es cada concepto en el contexto de la programación concurrente:
-i. una race condition
+i. una *race condition*
 ii. el principio de exclusión mutua
 iii. un monitor
 
-<b>BONUS:</b> Investigar sobre la clase <a src="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/AtomicInteger.html">AtomicInteger</a> de Java. Utilizar los métodos proporcionados por la clase para asegurar el comportamiento esperado en el punto b.
+<b>BONUS:</b> Investigar sobre la clase <a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/AtomicInteger.html">AtomicInteger</a> de Java. Utilizar los métodos proporcionados por la clase para asegurar el comportamiento esperado en el punto b.
 
 ### 2. Pares e impares
 
@@ -34,7 +34,7 @@ b. Resolver el problema utilizando instancias de ambas clases
 
 ### 3. Movimientos de inventario
 
-Modela un sistema de control de inventario donde varias sucursales pueden transferir stock entre sí. Haz una clase Sucursal con un campo stock, y una clase MovimientoStock para mover stock de una sucursal a otra. Implementa una simulación con N sucursales, M movimientos y T threads, asegurando la integridad del stock total.
+Modelar un sistema de control de inventario donde varias sucursales pueden transferir stock entre sí. Definir una clase `Sucursal` con un campo `stock`, y una clase `MovimientoStock` para mover stock de una sucursal a otra. Implementar una simulación con N sucursales, M movimientos y T threads, asegurando la integridad del stock total.
 
 ## Ejercicios intermedios
 
@@ -73,7 +73,7 @@ Implementar una clase ColaSincronizada, que recibe como parámetro un número en
 
 ### 7. Suma en paralelo
 
-Crea un programa en Java que calcule la suma de un gran arreglo de números en paralelo utilizando varios hilos. Dividir el arreglo en partes iguales y asignar cada parte a un hilo para que calcule su suma. Luego, sumar los resultados parciales para obtener el resultado final.
+Crear un programa en Java que calcule la suma de un gran arreglo de números en paralelo utilizando varios hilos. Dividir el arreglo en partes iguales y asignar cada parte a un hilo para que calcule su suma. Luego, sumar los resultados parciales para obtener el resultado final.
 
 Analizar diferencias entre realizarlo con:
 
@@ -115,16 +115,16 @@ Implementar una solución al problema de los filósofos cenando utilizando hilos
 
 ### 10. Problema del barbero durmiente
 
-Imagine una barbería hipotética con un barbero, un sillón y una sala de espera con n sillas (n puede ser 0) para los clientes. Se aplican las siguientes reglas:
+Imaginar una barbería hipotética con un barbero, un sillón y una sala de espera con `n` sillas (`n` puede ser 0) para los clientes. Se aplican las siguientes reglas:
 
 1. Si no hay clientes, el barbero se duerme en el sillón.
-2. Si un cliente duerme, debe despertar al barbero.
+2. Si un cliente llega mientras el barbero duerme, debe despertarlo.
 3. Si un cliente llega mientras el barbero está trabajando, se marcha si todas las sillas están ocupadas y se sienta en una silla vacía si está disponible.
 4. Cuando el barbero termina de cortar el pelo, inspecciona la sala de espera para ver si hay clientes esperando y se duerme si no hay ninguno.
 
 Estas reglas suponen los siguientes posibles problemas:
 
-1. Existe el riesgo de que el barbero duerma mientras un cliente espera a que lo atienda para un corte de pelo, porque todas las acciones (revisar la sala de espera, entrar en la tienda, tomar una silla en la sala de espera) toman una cierta cantidad de tiempo. un cliente puede llegar y encontrar al barbero cortando el pelo, por lo que regresa a la sala de espera para tomar asiento, pero mientras camina de regreso a la sala de espera, el barbero termina el corte de pelo y se dirige a la sala de espera, que encuentra vacía (porque el cliente camina lentamente o fue al baño) y, por lo tanto, se queda dormido en la silla del barbero.
+1. Existe el riesgo de que el barbero duerma mientras un cliente espera a que lo atienda para un corte de pelo, porque todas las acciones (revisar la sala de espera, entrar en la tienda, tomar una silla en la sala de espera) toman una cierta cantidad de tiempo. Un cliente puede llegar y encontrar al barbero cortando el pelo, por lo que regresa a la sala de espera para tomar asiento, pero mientras camina de regreso a la sala de espera, el barbero termina el corte de pelo y se dirige a la sala de espera, que encuentra vacía (porque el cliente camina lentamente o fue al baño) y, por lo tanto, se queda dormido en la silla del barbero.
 2. Cuando dos clientes llegan al mismo tiempo cuando solo hay un asiento vacío en la sala de espera y ambos intentan sentarse en la única silla; solo la primera persona en llegar a la silla podrá sentarse.
 
 Modelar el problema y proponer una solución utilizando Locks, Conditions, Semaphores o cualquier otra herramienta de sincronización provista por Java.

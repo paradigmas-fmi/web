@@ -3,19 +3,19 @@ layout: single
 permalink: /guia-poo
 title: Guía programación orientada a objetos
 ---
-## Ejercicios Basicos
+## Ejercicios básicos
 
 1. Se quiere modelar figuras geométricas: círculo, rectángulo, triángulo. Todas pueden calcular su área y su perímetro, pero cada una lo hace de forma diferente. Diseñar una solución que represente estas figuras.
 
 2. Una empresa de transporte necesita modelar distintos tipos de vehículos, como autos, bicicletas y barcos.
-Todos los vehículos comparten ciertas características comunes como marca, modelo y año de fabricación, y todos se pueden mover, aunque cada uno lo hace de manera diferente .
+Todos los vehículos comparten ciertas características comunes como marca, modelo y año de fabricación, y todos se pueden mover, aunque cada uno lo hace de manera diferente.
 Diseñar una solución orientada a objetos que represente los distintos tipos de vehículos, reutilizando lo que tienen en común y permitiendo modelar sus diferencias en el comportamiento al moverse.
 
 3. Se desea desarrollar un sistema que permita obtener la hora desde distintos tipos de dispositivos, como un reloj, un celular y una computadora.
 Aunque estos dispositivos son diferentes entre sí y pueden obtener la hora de distintas maneras, todos deben poder brindar la hora actual de manera uniforme.
 Diseñar una solución que permita representar estos dispositivos de forma que compartan la funcionalidad común de mostrar la hora.
 
-4. Se quiere modelar distintos instrumentos, todos tienen el material del que están hechos y todos se pueden tocar. Por un lado tenemos instrumentos de cuerda (como la guitarra o el violín) que tienen una cantidad de cuerdas y se pueden afinar. Diseñar una solución que represente a los instrumentos y que sea escalable para más tipos de instrumentos como los de percusión.
+4. Se quiere modelar distintos instrumentos: todos tienen el material del que están hechos y todos se pueden tocar. Por un lado tenemos instrumentos de cuerda (como la guitarra o el violín) que tienen una cantidad de cuerdas y se pueden afinar. Diseñar una solución que represente a los instrumentos y que sea escalable para más tipos de instrumentos, como los de percusión.
 
 
 ## Principios de diseño
@@ -206,7 +206,7 @@ public class EstacionamientoGratis implements Estacionamiento {
     }
     @Override
     public void getCapacidad() {
-        System.out.println("Capacidad de la estacionamiento...");
+        System.out.println("Capacidad del estacionamiento...");
     }
     @Override
     public double calcularTarifa(Coche coche) {
@@ -214,7 +214,7 @@ public class EstacionamientoGratis implements Estacionamiento {
     }
     @Override
     public void hacerPago(Coche coche) {
-        throw new Exception("Estacionamiento es gratis");
+        throw new Exception("El estacionamiento es gratis");
     }
 }
 ```
@@ -399,7 +399,7 @@ public class Semaforo {
 
 ## Diseño
 
-Analizar y modelar la solución al problema usando los conceptos de diseño y programación orientada a objetos vistos en clase, realizando un diagrama de clases UML. Explicar y justificar las decisiones de diseño que creas conveniente
+Analizar y modelar la solución al problema usando los conceptos de diseño y programación orientada a objetos vistos en clase, realizando un diagrama de clases UML. Explicar y justificar las decisiones de diseño que creas convenientes.
 
 ### (★) Dibujando
 Dibujar un posible diagrama de clases y uno de secuencia para el siguiente fragmento de código:

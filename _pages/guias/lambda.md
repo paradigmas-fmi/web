@@ -1,14 +1,14 @@
 ---
 layout: single
 permalink: /guia-calculo-lambda
-title: Guía de Calculo Lambda
+title: Guía de Cálculo Lambda
 ---
 
 ## Ejercicios
 
 ### Comprensión de expresiones Lambda
 
-1. (★) Escribir el equivalente de las siguientes expresiones Lambda en su versión con parentesis completos explicitos:
+1. (★) Escribir el equivalente de las siguientes expresiones Lambda en su versión con paréntesis completos explícitos:
    1. `λx. λy. x y`
    2. `λx. λy. λz. x y z`
    3. `λa. λb. λc. e`
@@ -21,7 +21,7 @@ title: Guía de Calculo Lambda
    4.  `λf. λx. f x`
    5.  `(λx. λy. λz. xy) z`
 
-3. (★★) Cuales de los siguientes pares de expresiones e1 y e2 tienen el mismo árbol de sintaxis abstracto? 
+3. (★★) ¿Cuáles de los siguientes pares de expresiones `e1` y `e2` tienen el mismo árbol de sintaxis abstracto? 
 
     | nº   | e1        | e2           |
     | ---- | --------- | ------------ |
@@ -46,7 +46,7 @@ title: Guía de Calculo Lambda
    7. `(λf.((λx.(f (x x))) (λx.(f (x x))))) (λx.x)`
    8. `(λu.λf.λx. u ((λu.λx.x (u f)) (λu. x) (λf. f))) (λf.λx.f(f x))`
 
-5. (★★) Para las expresiones (5) y (6) del punto anterior, realizar las conversiones-α necesarias para que no existan variables de igual nombre con presencia tanto en ligadas como libres.
+5. (★★) Para las expresiones (5) y (6) del punto anterior, realizar las conversiones-α necesarias para que no existan variables de igual nombre presentes tanto como ligadas como libres.
 
 
 ### Desarrollo de expresiones Lambda
@@ -57,7 +57,7 @@ title: Guía de Calculo Lambda
    3. `((λx.f x) λf.f x)[f→(g x)]`
    4. `(λf.λy.f x y)[x→(f y)]`
 
-2. (★★) Realizar la reduccion-β de las siguientes expresiones, con ambos conjuntos de parametros indicados: 
+2. (★★) Realizar la reducción-β de las siguientes expresiones, con ambos conjuntos de parámetros indicados: 
 
     | Expression           | 1st Params             | 2nd Params             |  
     | -------------------- | ---------------------- | ---------------------- |
@@ -68,16 +68,16 @@ title: Guía de Calculo Lambda
     | `λp.λq.p p q`        | `(λx.λy.x), (λx.λy.y)` | `(λx.λy.y), (λx.λy.y)` |
 
 
-3. (★★) Realizar la reduccion-β de las siguientes expresiones, utlizando la estrategia _call-by-name_ y la estrategia _call-by-value_: 
+3. (★★) Realizar la reducción-β de las siguientes expresiones, utilizando la estrategia _call-by-name_ y la estrategia _call-by-value_: 
    1. `(λg.g 5) (λx.(add x 3))`
    2. `(λx.x x x) (λx.x x x)`
    3. `(λc.c (λa.λb.b)) ((λa.λb.λf.f a b) p q)`
    4. `(λf.f add (f mul (f add 5))) (λg.λx.g x x)`
 
 
-### Logica Booleana y Matematica de Church
+### Lógica Booleana y Matemática de Church
 
-1. (★★★) Considerando los valores booleanos en Calculo Lambda como las funciones `True=λx.λy.x` y `False=λx.λy.y`, escribir las expresiones Lambda que emulen las siguientes operaciones booleanas:
+1. (★★★) Considerando los valores booleanos en Cálculo Lambda como las funciones `True=λx.λy.x` y `False=λx.λy.y`, escribir las expresiones Lambda que emulen las siguientes operaciones booleanas:
    1. AND
    2. OR
    3. NOT
@@ -87,7 +87,7 @@ title: Guía de Calculo Lambda
    7. XOR
    8. EQ (igualdad booleana)
 
-2. (★★★★) Escribir la expresiones Lambda que describan las siguientes funciones matematicas en terminos de números de Church:
+2. (★★★★) Escribir las expresiones Lambda que describan las siguientes funciones matemáticas en términos de números de Church:
    1. `f(x) = x * 4`
    2. `f(x) = x * x`
    4. `f(x,y) = x + y`
@@ -97,7 +97,7 @@ title: Guía de Calculo Lambda
    8. `f(x,y,z) = (x + y) * z`
    9. `isZero = f(n) = n == 0`
 
-### Calculo Lambda Tipado
+### Cálculo Lambda Tipado
 
 1. (★) Analizar las siguientes expresiones, identificando el tipo de las variables, la validez de las expresiones y el tipo de la expresión:
    1. `λx:Int.x`
@@ -131,13 +131,13 @@ title: Guía de Calculo Lambda
    10. `λx.λy.λz.if not (iszero (g y) ) then f (x + z) else not y`
 
 
-### Adicionales (dificiles)
+### Adicionales (difíciles)
 
-1. Escribir la expresión Lambda que reciba un numero de Church y obtenga su factorial.
+1. Escribir la expresión Lambda que reciba un número de Church y obtenga su factorial.
 
-## Referencias y material util
+## Referencias y material útil
 
-* [Syntax of the Lambda Calculus [Open DSA]](https://opendsa.cs.vt.edu/ODSA/Books/PL/html/Syntax.html)
-* [Syntax of Lambda Calculus [Alexander Kurz]](https://hackmd.io/@alexhkurz/S1D0yP8Bw#Parsing-Concrete-Syntax)
-* [CMSC330 Fall 2013 Practice Problems [CS Department University of Maryland]](https://www.cs.umd.edu/class/fall2017/cmsc330/tests/prac8-soln-fall13.pdf))
+* [Syntax of the Lambda Calculus \[Open DSA\]](https://opendsa.cs.vt.edu/ODSA/Books/PL/html/Syntax.html)
+* [Syntax of Lambda Calculus \[Alexander Kurz\]](https://hackmd.io/@alexhkurz/S1D0yP8Bw#Parsing-Concrete-Syntax)
+* [CMSC330 Fall 2013 Practice Problems \[CS Department University of Maryland\]](https://www.cs.umd.edu/class/fall2017/cmsc330/tests/prac8-soln-fall13.pdf)
 

@@ -6,8 +6,8 @@ title: Guía de programación lógica
 
 ## Guía programación lógica
 
-Los siguientes ejercicios deben ser pensados dentro del paradigma lógico. Pueden ser resueltos utilizando otros paradigmas pero el objetivo es el de lograr resolverlos utilizándolo, específicamente utilizando el lenguaje Prolog.
-Para resolverlos se deben utilizar los conceptos y las herramientas vistas en clase, aunque puede ser necesario para resolverlos investigar otras herramientas por propia cuenta.
+Los siguientes ejercicios deben ser pensados dentro del paradigma lógico. Pueden ser resueltos utilizando otros paradigmas, pero el objetivo es resolverlos en dicho paradigma, específicamente utilizando el lenguaje Prolog.
+Para resolverlos se deben utilizar los conceptos y las herramientas vistas en clase, aunque puede ser necesario investigar otras herramientas por cuenta propia.
 
 ### Ejercicios básicos
 
@@ -53,7 +53,7 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
    profesor(X,Y) :- dicta(X, Z), cursa(Y, Z).
    ```
 
-   Cómo responde Prolog a las siguientes consultas?
+   ¿Cómo responde Prolog a las siguientes consultas?
 
    ```
    ?- cursa(emiliano, algo2).
@@ -66,7 +66,7 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
    ?- profesor(nacho, X)
    ```
 
-4. (★★) Partiendo de la relacion `progenitor(a, b)`  que representan que `a` es padre o madre de `b`, y la siguiente base de conocimiento:
+4. (★★) Partiendo de la relación `progenitor(a, b)` que representa que `a` es padre o madre de `b`, y la siguiente base de conocimiento:
    ```
       progenitor(a,b).  
       progenitor(a,c). 
@@ -89,7 +89,7 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
    * Todos los nietos de `a`
    * Todos los descendientes de `b`
 
-5. (★★★) Sean las palabras en italiano
+5. (★★★) Sean las siguientes palabras en italiano:
 
    ```
    astante , astoria , baratto , cobalto , pistola , statale .
@@ -124,7 +124,7 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
 
    Escribir un predicado `travel` que permita averiguar si es posible o no viajar de una ciudad a otra, ya sea en uno o más tramos.
 
-### Ejercicios arbol de ejecución
+### Ejercicios árbol de ejecución
 
 1. Dada la siguiente base de conocimiento y predicados:
 
@@ -136,10 +136,10 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
    profesorAmigo(santiago, profesor2).
    esProfesor(profesor1).
 
-   apruebaCursada(X) :- apruebaParcial(X), profesorAmigo(X, Y),esProfesor(Y).
+   apruebaCursada(X) :- apruebaParcial(X), profesorAmigo(X, Y), esProfesor(Y).
    ```
 
-   Escribir el arbol de ejecución de Prolog la pregunta `apruebaCursada(ricardo)`.
+   Escribir el árbol de ejecución de Prolog para la pregunta `apruebaCursada(ricardo)`.
 
 2. Dada la siguiente base de conocimiento y predicados:
 
@@ -151,12 +151,12 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
    profesorAmigo(santiago, profesor1).
    esProfesor(profesor1).
 
-   apruebaCursada(X) :- apruebaParcial(X), profesorAmigo(X, Y),esProfesor(Y).
+   apruebaCursada(X) :- apruebaParcial(X), profesorAmigo(X, Y), esProfesor(Y).
    ```
 
-   Escribir el arbol de ejecución de Prolog la pregunta `apruebaCursada(ricardo)`
+   Escribir el árbol de ejecución de Prolog para la pregunta `apruebaCursada(ricardo)`.
 
-### Ejercicios sobre operadores aritmeticos
+### Ejercicios sobre operadores aritméticos
 
 1. (★) Indicar si las siguientes consultas dan true o false. Justificar.
 
@@ -172,15 +172,15 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
    10. `2 =/= 2.`
    11. `6 =/= 100.`
 
-2. (★) ¿Cuál es la diferencia entre `is`, `=:=` y `=` ?. ¿Cuál usarías para asignar un resultado a una variable?. Asignar a X el resultado de 2 + 2 (o bien cualquier cosa que se necesite).
+2. (★) ¿Cuál es la diferencia entre `is`, `=:=` y `=`? ¿Cuál usarías para asignar un resultado a una variable? Asignar a X el resultado de 2 + 2 (o bien cualquier cosa que se necesite).
 
-### Ejercicios aritmetica
+### Ejercicios aritmética
 
 1. (★) Definir la relación `máximo(X,Y,Z)` que se verifique si Z es el máximo de X e Y.
 
 2. (★★) Definir la relación `fatorial(X,Y)` que se verifique si Y es el factorial de X.
 
-3. (★★★) La sucesión de Fibonacci es `0,1,1,2,3,5,8,13,21,. . .` en la que cada término, salvo los dos primeros, es la suma de los dos anteriores. Definir la relación `fibonai(N,X)` que se verifique si X es el N–ésimo término de la sucesión de Fibonacci.
+3. (★★★) La sucesión de Fibonacci es `0,1,1,2,3,5,8,13,21,. . .` en la que cada término, salvo los dos primeros, es la suma de los dos anteriores. Definir la relación `fibonacci(N,X)` que se verifique si X es el N–ésimo término de la sucesión de Fibonacci.
 
 4. (★★★) Definir la relación potencia(Base, Exp, Resultado) que se verifique si el Resultado es igual a Base elevado al Exp.
 
@@ -208,16 +208,16 @@ Para resolverlos se deben utilizar los conceptos y las herramientas vistas en cl
    supervisa(carla,franco).
    ```
 
-   1. Definir una regla esJefe(X,Y) que devuelva verdadero si X supervisa directa o indirectamente a Y.
-   2. Mostrar el árbol DFS de ejecución de la pregunta esJefe(ana,franco).
+   1. Definir una regla `esJefe(X,Y)` que devuelva verdadero si X supervisa directa o indirectamente a Y.
+   2. Mostrar el árbol DFS de ejecución de la pregunta `esJefe(ana,franco)`.
 
 
-2. (★★★) Se tiene el siguiente mapa compuesto por 5 regiones (A, B, C, D y E), se desea identificar si es posible colorear el
-mapa usando solo 4 colores, de forma tal que ninguna region sea adyacente a otra región con el mismo color.
+2. (★★★) Se tiene el siguiente mapa compuesto por 5 regiones (A, B, C, D y E). Se desea identificar si es posible colorear el
+mapa usando solo 4 colores, de forma tal que ninguna región sea adyacente a otra región con el mismo color.
 
    <img src="{{site.baseurl}}/assets/images/4-color-problem.png">
 
-3. (★★★★) Hay 4 estudiantes:  Carrie, Erma, Ora und Tracy.
+3. (★★★★) Hay 4 estudiantes: Carrie, Erna, Ora y Tracy.
    Todos ellos estudian una carrera de grado y están becados (todos tienen
    becas distintas y estudian distintas carreras).
    El objetivo es identificar cual es la beca que recibe cada estudiante
@@ -225,10 +225,58 @@ mapa usando solo 4 colores, de forma tal que ninguna region sea adyacente a otra
    pistas:
 
    - Las becas disponibles son: 25000, 30000, 35000 and 40000 USD.
-   - Las carreras disponibles son: Astronomia, Ingles, Filosofía y Física.
+   - Las carreras disponibles son: Astronomía, Inglés, Filosofía y Física.
    - El estudiante que estudia Astronomía tiene una beca menor que la de Ora.
    - Ora estudia Ingles o Filosofía
    - El estudiante que estudia Física, tiene una beca 5000 USD mayor que la beca de Carrie.
    - Erna tiene una beca 10000 USD mayor que la beca de Carrie.
    - Tracy tiene una beca mayor que la que tiene el que estudia Ingles.
 
+
+## Ejercicios de parcial
+
+1. Dado el siguiente problema, escribir una base de conocimientos y al menos una regla en Prolog que permita resolverlo:
+
+   > “En el mundo existen múltiples formas de viajar de un punto a otro. A partir de conocer los viajes posibles entre diferentes puntos y su costo se quiere poder responder si se puede viajar de un punto V1 a otro punto V2 disponiendo de X dinero. El viaje entre los nodos pedidos puede ser de forma directa o indirecta recorriendo varios puntos entre V1 y V2.  
+   > Se conoce, por ejemplo, que el viaje para ir de Buenos Aires a Rosario tiene un costo de 100.”
+
+2. Se dispone de los siguientes conocimientos:
+
+   - `X` viaja en subte (hay solo uno).  
+   - `X` viaja en el colectivo de la línea `N`.
+
+   Se pide proponer una base de conocimientos y una regla `viaja_acompañado(X, Y)` que sea verdadera si y solo si `X` e `Y` comparten medio de transporte (ambos viajan en subte o toman un mismo colectivo).
+
+3. Se dispone de una base de conocimientos con el siguiente formato:
+
+   ```prolog
+   padre(juan, ana).
+   padre(ana, pedro).
+   padre(pedro, lucia).
+   padre(lucia, carla).
+   ```
+
+   Donde `padre(X, Y)` indica que “Y es progenitor (padre o madre) de X”. La base de conocimiento presentada es únicamente a modo de ejemplo; se requiere proponer una base de conocimientos más completa.
+
+   Definir en Prolog el predicado `ancestroConLimite(Y, X, N)` que se cumple si `Y` es ancestro de `X` (padre, abuelo, etc.) y hay a lo sumo `N` personas en el medio entre `Y` y `X`. Por ejemplo:
+
+   - Con `N = 0`, solo sería verdadero si `Y` es padre de `X`.  
+   - Con `N = 1`, sería verdadero si `Y` es padre o abuelo de `X`.
+
+4. Un hincha puede comprar entradas para un partido de una determinada fecha de campeonato si cumple alguna de las siguientes dos condiciones:
+
+   - Es socio de alguno de los dos clubes que disputan el partido.  
+   - Fue a ver al menos un partido en alguna de las dos fechas anteriores (sin importar a qué equipos fue a ver; pueden ser partidos entre equipos cualesquiera).
+
+   Dada la siguiente base de conocimientos:
+
+   ```prolog
+   socio(Hernan, Atlanta).               % socio(hincha, club)
+   socio(Juan, Ferro).
+
+   asistio(Hernan, Atlanta, Almagro, 6). % asistio(hincha, club1, club2, nrofecha)
+   asistio(Juan, Ferro, Brown, 5).
+   asistio(Juan, Chacarita, Chicago, 8).
+   ```
+
+   Se pide escribir una regla `puedeComprar(X, C1, C2, F)` que responda si un hincha `X` está en condiciones de comprar una entrada para el partido entre `C1` y `C2` por la fecha `F`.
