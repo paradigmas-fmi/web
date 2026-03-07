@@ -4,12 +4,10 @@ permalink: /docentes
 title: Docentes
 ---
 
-<!-- TODO: Mejorar página de docentes -->
-
 <div class="row justify-content-center">
   <table class="tg" style="width: 100%;">
-    <tbody>
-      <!-- Nombrados -->
+    <!-- Nombrados -->
+    <tbody id="docentes-nombrados">
       {% for docente in site.data.docentes.nombrados %}
       {% assign cantFila = forloop.index0 | modulo:3 %}
       {% assign cantFilaIndex1 = cantFila | plus: 1 %}
@@ -19,8 +17,8 @@ title: Docentes
       {% endif %} 
         <td class="tg-0lax" style="text-align:center; vertical-align:top; width: '{{anchoEntrada}}%';">
           <figure class="figure d-block" style="display: inline-block; text-align: center;">
-            <img class="figure-img rounded img-fluid" style="height:180px;width:auto;" title="{{docente.nombre}}"
-                src="{{site.baseurl}}{{docente.foto}}" alt="{{docente.nombre}}">
+            <img class="figure-img rounded img-fluid" style="height:180px;width:180px;object-fit:cover;" title="{{docente.nombre}}"
+                src="{{ docente.foto | relative_url }}" alt="{{docente.nombre}}">
             <figcaption class="docente-social mt-2">
               <div style="text-align: center; font-weight: bold; color: black;">
                 <span>{{docente.nombre}}</span>
@@ -42,7 +40,9 @@ title: Docentes
       </tr>
       {% endif %}
       {% endfor %}
-      <!-- Colabs -->
+    </tbody>
+    <!-- Colabs -->
+    <tbody id="docentes-colaboradores">
       {% for docente in site.data.docentes.colaboradores %}
       {% assign cantFila = forloop.index0 | modulo:3 %}
       {% assign cantFilaIndex1 = cantFila | plus: 1 %}
@@ -52,8 +52,8 @@ title: Docentes
       {% endif %} 
         <td class="tg-0lax" style="text-align:center; vertical-align:top; width: '{{anchoEntrada}}%';">
           <figure class="figure d-block" style="display: inline-block; text-align: center;">
-            <img class="figure-img rounded img-fluid" style="height:180px;width:auto;" title="{{docente.nombre}}"
-                src="{{site.baseurl}}{{docente.foto}}" alt="{{docente.nombre}}">
+            <img class="figure-img rounded img-fluid" style="height:180px;width:180px;object-fit:cover;" title="{{docente.nombre}}"
+                src="{{ docente.foto | relative_url }}" alt="{{docente.nombre}}">
             <figcaption class="docente-social mt-2">
               <div style="text-align: center; font-weight: bold; color: black;">
                 <span>{{docente.nombre}}</span>
@@ -79,3 +79,4 @@ title: Docentes
   </table>
 </div>
 
+<script src="{{ '/assets/js/shuffleDocentes.js' | relative_url }}"></script>
