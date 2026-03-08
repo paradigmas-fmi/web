@@ -5,7 +5,7 @@ title: Trabajos Prácticos
 ---
 
 ### TP 0
-- Fecha de Entrega: XX/XX/2026
+- Fecha de Entrega: 26/03/2026
 - [Enunciado](/tp0)
 
 ### TP 1

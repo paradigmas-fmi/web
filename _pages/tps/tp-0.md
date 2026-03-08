@@ -20,20 +20,21 @@ Se contará con 1 semana completa para llevar a cabo el desarrollo del TP.
 Mandar un mail a algoritmos3.fiuba@gmail.com donde el asunto tenga el formato `TP0 - <padron>`, por ejemplo `TP0 - 12345`. El mail debe contener adjunto un archivo único el cual debe tener extension `.pl`. Si el formato no es el pedido la entrega no será tenida en cuenta.
 
 ## Fecha de entrega
-La entrega debe estar completa teniendo en cuenta todo lo mencionado en este documento y debe realizarse con anterioridad a las 23:59hs del 02/09/2025. El TP se considera aprobado una vez que recibe una respuesta con nota "Aprobado" de la entrega, dicho mail NO es automático. La nota también puede revisarse en la página de notas de la materia.
+La entrega debe estar completa teniendo en cuenta todo lo mencionado en este documento y debe realizarse con anterioridad a las 23:59hs del 26/03/2026. El TP se considera aprobado una vez que recibe una respuesta con nota "Aprobado" de la entrega, dicho mail NO es automático. La nota también puede revisarse en la página de notas de la materia.
 
 ## Enunciado
 
-Hay 4 músicos de los Beatles: John, Paul, George y Ringo. Cada uno tocaba un instrumento diferente y tenía un día de nacimiento distinto. El objetivo es determinar qué instrumento tocaba cada uno y en qué día nació, a partir de las siguientes pistas:
+Hay 4 amigos fanáticos de los juegos de mesa: Ana, Bruno, Carla y Diego.  
+Cada uno tiene un juego favorito distinto y obtuvo un puntaje distinto en un torneo.  
+El objetivo es determinar qué juego prefiere cada uno y qué puntaje obtuvo, a partir de las siguientes pistas:
 
-- Los instrumentos son: guitarraRitmica, bajo, guitarraSolista y bateria.
-- Los días son: 7, 9, 18 y 25.
-- Paul tocaba el Bajo.
-- La persona que tocaba la guitarra solista nació el día 25 o 7.
-- La persona que tocaba la guitarra rítmica nació antes que Paul.
-- La persona que tocaba la batería tiene un día de nacimiento anterior al de George.
-- La persona que tocaba el bajo nació 9 días después que la que tocaba la guitarra rítmica.
-- Ringo tiene un día de nacimiento anterior que la persona que tocaba la guitarra rítmica.
-- John nació el día 9.
+- Los juegos son: `ajedrez`, `go`, `catan` y `carcassonne`.
+- Los puntajes posibles son: `10`, `20`, `30` y `40`.
+- El juego favorito de Bruno es el `catan` o el `ajedrez`. 
+- La persona que juega a `ajedrez` obtuvo menos puntos que Carla.
+- Diego obtuvo exactamente 10 puntos más que quien juega a `carcassonne`.
+- La persona que juega a `catan` obtuvo exactamente 20 puntos menos que Carla.
+- Ana obtuvo más puntos que Bruno.
 
-El sistema debe responder la pregunta `?-musicos(P, J, G, R)`. Cada elemento devuelto tiene que tener la estructura `musico(nombre, instrumento, dia)`.
+El sistema debe responder la pregunta `?-jugadores(A, B, C, D)`.  
+Cada elemento devuelto tiene que tener la estructura `jugador(Nombre, Juego, Puntaje)`.
