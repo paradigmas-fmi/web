@@ -15,8 +15,7 @@
     practica: "Ejercitación práctica de Paradigma Lógico."
   jueves:
     fecha: "19/03/2026"
-    teorica: "Introducción a Paradigma Funcional. Programas como funciones. Funciones puras. Datos inmutables. Funciones de primera clase. Funciones de orden superior. Composición de funciones."
-    practica: "Introducción a Scala para el Paradigma de Programación Funcional."
+    noclases: "NO HAY CLASES"
 
 - semana: 3
   martes:
