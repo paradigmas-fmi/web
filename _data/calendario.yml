@@ -23,7 +23,7 @@
     noclases: "FERIADO"
   jueves:
     fecha: "26/03/2026"
-    teorica: "Paradigma Funcional. Recursividad. Pattern matching. Lazy evaluation. Currying. Monadas."
+    teorica: "Introducción a Scala para el Paradigma de Programación Funcional. Entorno de desarrollo en Scala. Instalación de Scala. Características de Scala como lenguaje de programación. Programación funcional en Scala. val (funcional) vs var (no funcional). Tipos. Recomendaciones de estilo. Guardas en ciclos."
     practica: "Introducción a Scala para el Paradigma de Programación Funcional."
 
 - semana: 4
