@@ -13,7 +13,8 @@ title: Trabajos Prácticos
 - [Enunciado](../assets/pdf/TP1-2026c1.pdf)
 
 ### TP 2
-- Fecha de Entrega: XX/XX/2026
+- Fecha de Entrega: 10/06/2026
+- [Enunciado](../assets/pdf/TP2-2026c1.pdf)
 
 
 <!-- - [Enunciado](https://docs.google.com/document/d/1JC1PIoOPpAV0dAY5Flvzfdx4fvdX8VoRsx306IkoQ1o/edit?usp=sharing) -->
