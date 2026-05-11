@@ -13,7 +13,6 @@ title: Régimen de cursada
 * Todos los trabajos prácticos grupales son en **grupos de cuatro integrantes**. Cada grupo tiene asignado un ayudante para la corrección y calificar de los trabajos prácticos.
 * La evaluación de los trabajos prácticos será tanto grupal, como individual.
 * Cada TP cuenta con una fecha de entrega, y una de re-entrega en caso de desaprobarse la primer entrega. 
-  - La nota máxima en caso de una re-entrega será la mínima (un 4).
   - En caso de desaprobar ambas instancias, se considerará desaprobado el TP.
   - Cada trabajo práctico tiene una fecha final de aprobación. De no estar aprobado aún para esta fecha, se considerará desaprobado el TP.
 * Para aprobar un trabajo práctico se debe hacer la entrega correspondiente en tiempo y forma, y en caso que lo hubiera en la consigna, cumpliendo los requisitos mínimos definidos.
