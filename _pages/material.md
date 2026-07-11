@@ -19,6 +19,10 @@ title: Material
 
 Adicionalmente, en [esta carpeta](https://drive.google.com/drive/folders/1CVcnZq7qP6FPGy5tVNrYy6mMEgE69JL7?usp=sharing) del Drive, encontrarán ejercicios resueltos de cada una de las guías.
 
+## Finales resueltos
+
+- <a href="/final-2026c1-fecha2"> Final 2026 - 2ª fecha (07/07/2026) </a>
+
 ## Drive
 
 Contamos con una [carpeta de Drive](https://drive.google.com/drive/folders/12Ok0Azyaat3MdEslrCeNBNGlNWuUj30C?usp=drive_link) con el material del curso (requiere usar mail @fi.uba.ar para tener acceso), dentro del cual se encuentra:
