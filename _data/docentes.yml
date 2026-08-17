@@ -52,3 +52,17 @@ colaboradores:
     mail: lconti@fi.uba.ar
     foto: /assets/images/ludmila.png
     github: ludmila-conti
+# Docentes que ya no forman parte de la cátedra.
+exdocentes:
+  - nombre: Aylen Reynoso
+    foto: /assets/images/aylenr.png
+  - nombre: Juan José Torga
+    foto: /assets/images/juant.png
+  - nombre: Iván Maximoff
+    foto: /assets/images/ivanmax.png
+  - nombre: Mariano Merlinsky
+    foto: /assets/images/marianmer.png
+  - nombre: Sebastián Blázquez
+    foto: /assets/images/seblaz.png
+  - nombre: Ing. Matías Cano
+    foto: /assets/images/matic.png

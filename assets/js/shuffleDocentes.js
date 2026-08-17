@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  function shuffleDocentes(tbodyId, perRow, centerIfSingleRow) {
+  function shuffleDocentes(tbodyId, perRow, centerIfSingleRow, mantenerOrden) {
     var tbody = document.getElementById(tbodyId);
     if (!tbody) return;
 
@@ -10,11 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
     if (tds.length <= 1) return;
 
     // Barajamos el array de TDs (Fisher–Yates)
-    for (var i = tds.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var tmp = tds[i];
-      tds[i] = tds[j];
-      tds[j] = tmp;
+    if (!mantenerOrden) {
+      for (var i = tds.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = tds[i];
+        tds[i] = tds[j];
+        tds[j] = tmp;
+      }
     }
 
     // Limpiamos las filas actuales
@@ -64,6 +66,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // 4 columnas por fila. Nombrados (2 personas) centrados.
   shuffleDocentes("docentes-nombrados", 4, true);
   shuffleDocentes("docentes-colaboradores", 4, false);
+  // Ex docentes: mismo layout, pero respetando el orden cronológico del yml.
+  shuffleDocentes("docentes-ex", 4, false, true);
 });
 
 
