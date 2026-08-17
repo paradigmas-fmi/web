@@ -4,13 +4,14 @@ permalink: /regimen
 title: Régimen de cursada
 ---
 
-### Evaluación de cursada
+La materia se aprueba **en su totalidad** aprobando los **dos parciales** —en alguna de las instancias habilitadas— y los **dos trabajos prácticos** en tiempo y forma. **No hay examen final ni régimen de promoción.**
+
+### Evaluación
 
 #### Trabajos Prácticos
 
-* Hay **tres trabajos prácticos**.
-* 1 individual y 2 grupales.
-* Todos los trabajos prácticos grupales son en **grupos de cuatro integrantes**. Cada grupo tiene asignado un ayudante para la corrección y calificar de los trabajos prácticos.
+* Hay **dos trabajos prácticos**, ambos grupales.
+* Todos los trabajos prácticos son en **grupos de cuatro integrantes**. Cada grupo tiene asignado un ayudante para la corrección y calificar de los trabajos prácticos.
 * La evaluación de los trabajos prácticos será tanto grupal, como individual.
 * Cada TP cuenta con una fecha de entrega, y una de re-entrega en caso de desaprobarse la primer entrega. 
   - En caso de desaprobar ambas instancias, se considerará desaprobado el TP.
@@ -18,38 +19,23 @@ title: Régimen de cursada
 * Para aprobar un trabajo práctico se debe hacer la entrega correspondiente en tiempo y forma, y en caso que lo hubiera en la consigna, cumpliendo los requisitos mínimos definidos.
   - Ante algún incoveniente para poder entregar en fecha, comunicar **lo antes posible** a los docentes, indicando la causa.
   - En caso de no haber previamente avisado y de no entregar en la fecha indicada, implica la desaprobación definitiva del trabajo práctico.
-* Desaprobar un trabajo práctico implica desaprobar la cursada y por lo tanto la materia.
-* Para la aprobación de la cursada es **obligatorio** que cada estudiante tenga una participación activa y sostenida en **todos** los trabajos prácticos, demostrable mediante contribuciones de código propias y verificables. Los docentes podrán solicitar explicaciones individuales sobre el código entregado y ajustar la calificación o desaprobar la cursada en caso de no evidenciarse dicha participación.
-* Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación del trabajo y por tanto la desaprobación de la cursada y materia.
-* La utilización de herramientas de **inteligencia artificial** u otros asistentes automáticos para generar total o parcialmente las soluciones de los trabajos prácticos se considera equivalente a copiarse. Su detección implica la desaprobación del trabajo práctico involucrado y, en consecuencia, la desaprobación de la cursada y de la materia.
+* Desaprobar un trabajo práctico implica desaprobar la materia.
+* Para la aprobación de la materia es **obligatorio** que cada estudiante tenga una participación activa y sostenida en **todos** los trabajos prácticos, demostrable mediante contribuciones de código propias y verificables. Los docentes podrán solicitar explicaciones individuales sobre el código entregado y ajustar la calificación o desaprobar la materia en caso de no evidenciarse dicha participación.
+* Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación del trabajo y por tanto la desaprobación de la materia.
+* La utilización de herramientas de **inteligencia artificial** u otros asistentes automáticos para generar total o parcialmente las soluciones de los trabajos prácticos se considera equivalente a copiarse. Su detección implica la desaprobación del trabajo práctico involucrado y, en consecuencia, la desaprobación de la materia.
 
 #### Parciales
 
 * Hay **dos parciales** con **dos recuperatorios** cada uno.
+* Cada parcial puede aprobarse en cualquiera de sus **instancias habilitadas**: el parcial original, el primer recuperatorio o el segundo recuperatorio.
 * Los parciales se aprueban con nota 4 o superior.
 * Todos los recuperatorios se toman una vez finalizadas las clases.
-* Copiarse en un parcial implica desaprobar inmediatamente la cursada y por lo tanto la materia.
+* Copiarse en un parcial implica desaprobar inmediatamente la materia.
 
 ### Aprobación y calificación
 
-* Para aprobar la **materia** es necesario aprobar la **cursada**, y el **final** obligatorio o bien cumplir las condiciones de **promoción**.
-* Para aprobar la **cursada** es necesario aprobar los **dos parciales**, y los **tres trabajos prácticos**.
-  - La nota de la cursada surge del promedio entre: el promedio de la nota de los parciales y el promedio de la nota de los trabajos prácticos (con redondeo conceptual por parte del ayudante asignado).
-* Para rendir el **final** es necesario tener la **cursada** aprobada.
-* Aquellos alumnos que hayan cumplido con los requisitos del régimen de promoción no deben rendir el examen final.
-* La nota definitiva de la materia:
-  - En caso de promoción, la nota de la materia será igual a la nota de la cursada.
-  - En otro caso, es una ponderación que contempla la nota del final y la nota de la cursada.
-
-#### Promoción 
-
-Las condiciones del régimen de promoción son las siguientes:
-* Es necesario aprobar la **cursada**.
-* Los **trabajos prácticos** deben ser entregados en la fecha de entrega de forma completa.
-* Cada parcial debe aprobarse con una **nota mínima de 7 (siete)**, obtenida en la primera oportunidad en que se rinda dicho examen, ya sea el parcial original o su primer recuperatorio.
-* Se deberá aprobar un **examen promocional** al final de la cursada.
-
-#### Final
-
-* Una vez aprobada la cursada, y en caso de no haber promocionado, será necesario rendir un final escrito en el cuál entran todos los temas vistos en la materia tanto en las clases teóricas como en las clases prácticas.
-* Los finales se aprueban con nota 4 o superior.
+* Para aprobar la **materia** es necesario aprobar los **dos parciales** —en cualquiera de las instancias habilitadas— y los **dos trabajos prácticos** en tiempo y forma.
+* **No hay examen final**: aprobando ambos parciales y ambos trabajos prácticos la materia queda aprobada en su totalidad.
+* **No hay régimen de promoción**: no existen requisitos ni exámenes adicionales para aprobar la materia sin final.
+* La nota de la materia surge del promedio entre: el promedio de la nota de los parciales y el promedio de la nota de los trabajos prácticos.
+  - Ese promedio puede verse afectado por la **nota de concepto**, que asigna el ayudante a cargo del grupo en función del desempeño a lo largo de la cursada.
