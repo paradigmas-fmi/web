@@ -4,18 +4,21 @@ permalink: /docentes
 title: Docentes
 ---
 
+{% comment %} Docentes por fila. Tiene que coincidir con el perRow de shuffleDocentes.js {% endcomment %}
+{% assign porFila = 5 %}
+{% assign ultimaCol = porFila | minus: 1 %}
+{% assign anchoEntrada = 100 | divided_by: porFila %}
+
 <div class="row justify-content-center">
   <table class="tg" style="width: 100%;">
     <!-- Nombrados -->
     <tbody id="docentes-nombrados">
       {% for docente in site.data.docentes.nombrados %}
-      {% assign cantFila = forloop.index0 | modulo:3 %}
-      {% assign cantFilaIndex1 = cantFila | plus: 1 %}
-      {% assign anchoEntrada = 100 | divided_by: cantFilaIndex1 %}
+      {% assign cantFila = forloop.index0 | modulo: porFila %}
       {% if cantFila == 0 %}
       <tr>
       {% endif %} 
-        <td class="tg-0lax" style="text-align:center; vertical-align:top; width: '{{anchoEntrada}}%';">
+        <td class="tg-0lax" style="text-align:center; vertical-align:top; width: {{anchoEntrada}}%;">
           <figure class="figure d-block" style="display: inline-block; text-align: center;">
             <img class="figure-img rounded img-fluid" style="height:180px;width:180px;object-fit:cover;" title="{{docente.nombre}}"
                 src="{{ docente.foto | relative_url }}" alt="{{docente.nombre}}">
@@ -36,7 +39,7 @@ title: Docentes
             </figcaption>
           </figure>
         </td>
-      {% if cantFila == 2 or forloop.last %}
+      {% if cantFila == ultimaCol or forloop.last %}
       </tr>
       {% endif %}
       {% endfor %}
@@ -44,13 +47,11 @@ title: Docentes
     <!-- Colabs -->
     <tbody id="docentes-colaboradores">
       {% for docente in site.data.docentes.colaboradores %}
-      {% assign cantFila = forloop.index0 | modulo:3 %}
-      {% assign cantFilaIndex1 = cantFila | plus: 1 %}
-      {% assign anchoEntrada = 100 | divided_by: cantFilaIndex1 %}
+      {% assign cantFila = forloop.index0 | modulo: porFila %}
       {% if cantFila == 0 %}
       <tr>
       {% endif %} 
-        <td class="tg-0lax" style="text-align:center; vertical-align:top; width: '{{anchoEntrada}}%';">
+        <td class="tg-0lax" style="text-align:center; vertical-align:top; width: {{anchoEntrada}}%;">
           <figure class="figure d-block" style="display: inline-block; text-align: center;">
             <img class="figure-img rounded img-fluid" style="height:180px;width:180px;object-fit:cover;" title="{{docente.nombre}}"
                 src="{{ docente.foto | relative_url }}" alt="{{docente.nombre}}">
@@ -71,7 +72,7 @@ title: Docentes
             </figcaption>
           </figure>
         </td>
-      {% if cantFila == 2 or forloop.last %}
+      {% if cantFila == ultimaCol or forloop.last %}
       </tr>
       {% endif %}
       {% endfor %}
@@ -87,13 +88,11 @@ title: Docentes
   <table class="tg" style="width: 100%;">
     <tbody id="docentes-ex">
       {% for docente in site.data.docentes.exdocentes %}
-      {% assign cantFila = forloop.index0 | modulo:3 %}
-      {% assign cantFilaIndex1 = cantFila | plus: 1 %}
-      {% assign anchoEntrada = 100 | divided_by: cantFilaIndex1 %}
+      {% assign cantFila = forloop.index0 | modulo: porFila %}
       {% if cantFila == 0 %}
       <tr>
       {% endif %} 
-        <td class="tg-0lax" style="text-align:center; vertical-align:top; width: '{{anchoEntrada}}%';">
+        <td class="tg-0lax" style="text-align:center; vertical-align:top; width: {{anchoEntrada}}%;">
           <figure class="figure d-block" style="display: inline-block; text-align: center;">
             <img class="figure-img rounded img-fluid" style="height:180px;width:180px;object-fit:cover;" title="{{docente.nombre}}"
                 src="{{ docente.foto | relative_url }}" alt="{{docente.nombre}}">
@@ -104,7 +103,7 @@ title: Docentes
             </figcaption>
           </figure>
         </td>
-      {% if cantFila == 2 or forloop.last %}
+      {% if cantFila == ultimaCol or forloop.last %}
       </tr>
       {% endif %}
       {% endfor %}
@@ -112,4 +111,5 @@ title: Docentes
   </table>
 </div>
 
-<script src="{{ '/assets/js/shuffleDocentes.js' | relative_url }}"></script>
+<!-- El ?v= cambia en cada build para que el navegador no sirva una versión cacheada. -->
+<script src="{{ '/assets/js/shuffleDocentes.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>

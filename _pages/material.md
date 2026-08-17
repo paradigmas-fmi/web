@@ -4,9 +4,15 @@ permalink: /material
 title: Material
 ---
 
-## Grabaciones de clases
+Buena parte del material está en la <a target="_blank" href="{{site.data.info.material}}">carpeta de Drive</a> de la cátedra. Para acceder hay que usar el mail @fi.uba.ar.
 
-- <a target="_blanck" href="{{site.data.info.canal}}"> Canal de Youtube </a>
+## Clases
+
+- <a target="_blank" href="{{site.data.info.canal}}"> Grabaciones de las clases (canal de YouTube) </a>
+- [Diapositivas de las clases teóricas](https://drive.google.com/drive/folders/1uFBPG3BZx4AEUfqJf-nA6aSr1ScSCi7Y?usp=drive_link)
+- [Diapositivas de las clases prácticas](https://drive.google.com/drive/folders/1ISIlw10U1SVuzaamSJMSvHxAceb5uHPt?usp=drive_link)
+- [Repositorio de ejercicios vistos en clase](https://github.com/paradigmas-fmi/ejercicios-clases)
+- [S.O.L.I.D.](https://drive.google.com/drive/folders/1zU60qaNMNBfqmOV4B_32gwWolBGQOzPR?usp=sharing)
 
 ## Guías de ejercicios
 
@@ -17,32 +23,20 @@ title: Material
 - <a href="/guia-concurrencia"> Guía de programación concurrente </a>
 - <a href="/guia-integradora"> Guía de ejercicios integradores </a>
 
-Adicionalmente, en [esta carpeta](https://drive.google.com/drive/folders/1CVcnZq7qP6FPGy5tVNrYy6mMEgE69JL7?usp=sharing) del Drive, encontrarán ejercicios resueltos de cada una de las guías.
+Los ejercicios resueltos de cada una de las guías están en [esta carpeta](https://drive.google.com/drive/folders/1CVcnZq7qP6FPGy5tVNrYy6mMEgE69JL7?usp=sharing) del Drive.
 
-## Finales resueltos
-
-- <a href="/final-2026c1-fecha2"> Final 2026 - 2ª fecha (07/07/2026) </a>
-
-## Drive
-
-Contamos con una [carpeta de Drive](https://drive.google.com/drive/folders/12Ok0Azyaat3MdEslrCeNBNGlNWuUj30C?usp=drive_link) con el material del curso (requiere usar mail @fi.uba.ar para tener acceso), dentro del cual se encuentra:
-
-### Diapositivas de clases
-
-- [Teórica](https://drive.google.com/drive/folders/1uFBPG3BZx4AEUfqJf-nA6aSr1ScSCi7Y?usp=drive_link)
-- [Práctica](https://drive.google.com/drive/folders/1ISIlw10U1SVuzaamSJMSvHxAceb5uHPt?usp=drive_link)
-
-### Parciales y finales de cuatrimestres anteriores
+## Parciales y finales
 
 > _**Importante:** Los examenes son orientativos, los formatos y los temas evaluados pueden variar tanto en contenido como orden, entre cuatrimestres_.
+
+De cuatrimestres anteriores:
 
 - [Parciales](https://drive.google.com/drive/folders/1z4gVxip4LveFgSQqv0KB0uIeHHiqt-eP?usp=drive_link)
 - [Finales](https://drive.google.com/drive/folders/1hhfWCna1Ac6MnjJYSvrkN_HjShbA5NLT?usp=drive_link)
 
-## Material adicional de las clases
+Resueltos por la cátedra:
 
-- [Repositorio de ejercicios vistos en clase](https://github.com/paradigmas-fmi/ejercicios-clases)
-- [S.O.L.I.D.](https://drive.google.com/drive/folders/1zU60qaNMNBfqmOV4B_32gwWolBGQOzPR?usp=sharing)
+- <a href="/final-2026c1-fecha2"> Final 2026 - 2ª fecha (07/07/2026) </a>
 
 ## Bibliografía sugerida
 
