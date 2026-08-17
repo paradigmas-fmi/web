@@ -230,6 +230,9 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  # GitHub Pages lo activa solo; lo declaramos para poder previsualizar local
+  # (sin esto el remote_theme no se baja y falla el build de assets/css/main.scss)
+  - jekyll-remote-theme
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -238,6 +241,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 
 # Archives

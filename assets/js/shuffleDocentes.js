@@ -22,30 +22,24 @@ document.addEventListener("DOMContentLoaded", function () {
       tbody.removeChild(tbody.firstChild);
     }
 
-    // Si queremos centrar en una sola fila (caso nombrados)
+    // Si queremos centrar en una sola fila (caso nombrados).
+    // Las columnas que sobran se reparten en dos celdas vacías, una de cada lado,
+    // de media columna de ancho cada una si el sobrante es impar. Así el bloque
+    // queda centrado de verdad y no corrido media columna.
     if (centerIfSingleRow && tds.length <= perRow) {
       var trCenter = document.createElement("tr");
       tbody.appendChild(trCenter);
 
-      var offset = Math.floor((perRow - tds.length) / 2); // para 2 en 4 => 1
-      var idx = 0;
+      var anchoColumna = 100 / perRow;
+      var sobran = perRow - tds.length;
+      var anchoLado = (sobran / 2) * anchoColumna;
 
-      for (var col = 0; col < perRow; col++) {
-        if (col >= offset && idx < tds.length) {
-          // Usamos un TD existente y forzamos ancho uniforme
-          var td = tds[idx++];
-          td.style.width = (100 / perRow) + "%";
-          trCenter.appendChild(td);
-        } else {
-          // Celda vacía para centrar
-          var emptyTd = document.createElement("td");
-          emptyTd.className = "tg-0lax";
-          emptyTd.style.textAlign = "center";
-          emptyTd.style.verticalAlign = "top";
-          emptyTd.style.width = (100 / perRow) + "%";
-          trCenter.appendChild(emptyTd);
-        }
+      if (sobran > 0) trCenter.appendChild(celdaVacia(perRow, anchoLado));
+      for (var idx = 0; idx < tds.length; idx++) {
+        tds[idx].style.width = anchoColumna + "%";
+        trCenter.appendChild(tds[idx]);
       }
+      if (sobran > 0) trCenter.appendChild(celdaVacia(perRow, anchoLado));
       return;
     }
 
@@ -59,6 +53,26 @@ document.addEventListener("DOMContentLoaded", function () {
       tdItem.style.width = (100 / perRow) + "%";
       tbody.lastChild.appendChild(tdItem);
     }
+
+    // Completamos la última fila con celdas vacías para que las columnas queden
+    // alineadas y la línea divisoria de abajo no quede cortada.
+    completarFila(tbody.lastChild, perRow);
+  }
+
+  function completarFila(tr, perRow) {
+    if (!tr) return;
+    while (tr.children.length % perRow !== 0) {
+      tr.appendChild(celdaVacia(perRow));
+    }
+  }
+
+  function celdaVacia(perRow, ancho) {
+    var td = document.createElement("td");
+    td.className = "tg-0lax";
+    td.style.textAlign = "center";
+    td.style.verticalAlign = "top";
+    td.style.width = (ancho === undefined ? 100 / perRow : ancho) + "%";
+    return td;
   }
 
   // 5 columnas por fila (tiene que coincidir con el porFila de docentes.md).
