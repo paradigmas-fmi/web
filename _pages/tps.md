@@ -5,8 +5,9 @@ title: Trabajos Prácticos
 ---
 
 ### TP 1
-- Fecha de Presentación: XX/XX/2026
-- Fecha de Entrega: XX/XX/2026
+- Fecha de Presentación: 08/09/2026
+- Fecha de Entrega: 06/10/2026
+- [Enunciado](../assets/pdf/TP1-2026c2.pdf)
 
 ### TP 2
 - Fecha de Presentación: XX/XX/2026
