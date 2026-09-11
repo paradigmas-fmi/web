@@ -41,11 +41,10 @@
 - semana: 5
   martes:
     fecha: "15/09/2026"
-    teorica: "Patrones de Diseño III."
-    practica: "Ejercitación práctica de Patrones de Diseño."
+    teorica: "Taller de UML"
   jueves:
     fecha: "17/09/2026"
-    teorica: "Taller de UML + Práctica pre parcialito"
+    teorica: "Práctica pre parcialito"
 
 - semana: 6
   martes:
