@@ -12,6 +12,8 @@ Cada clase estará dividida en una parte teórica y una práctica, de 1:30 hs ca
 
 ## Clases
 
+**Atención:** el martes 10/11 podría ser feriado por la visita del Papa (todavía no está confirmado). Si es feriado, el Parcial 2 pasa al jueves 12/11, el martes 17/11 queda libre y los exámenes de TP y la entrega de los Parciales 2 pasan al jueves 19/11. El resto del calendario no cambia.
+
 <table class="tg">
 <thead>
   <tr>

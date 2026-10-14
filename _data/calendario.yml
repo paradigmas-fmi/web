@@ -116,18 +116,18 @@
 - semana: 13
   martes:
     fecha: "10/11/2026"
-    parcial: "Parcial 2: Conceptos de paradigmas de programación. Paradigma Funcional. Scala. Cálculo Lambda. Lógico. Otros paradigmas"
+    parcial: "Parcial 2: Conceptos de paradigmas de programación. Paradigma Funcional. Scala. Cálculo Lambda. Lógico. Otros paradigmas — Si el 10/11 es feriado, se pasa al jueves 12/11"
   jueves:
     fecha: "12/11/2026"
-    noclases: "NO HAY CLASES"
+    noclases: "NO HAY CLASES — Si el 10/11 es feriado: Parcial 2"
 
 - semana: 14
   martes:
     fecha: "17/11/2026"
-    parcial: "Exámenes de TPs"
+    parcial: "Exámenes de TPs y entrega de Parciales 2 — Si el 10/11 es feriado, este día es libre (pasa al jueves 19/11)"
   jueves:
     fecha: "19/11/2026"
-    noclases: "NO HAY CLASES"
+    noclases: "NO HAY CLASES — Si el 10/11 es feriado: Exámenes de TPs y entrega de Parciales 2"
 
 - semana: 15
   martes:
