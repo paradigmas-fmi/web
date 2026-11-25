@@ -135,12 +135,29 @@
     parcial: "1ros Recuperatorios: P1"
   jueves:
     fecha: "26/11/2026"
-    parcial: "1ros Recuperatorios: P2"
+    noclases: "No hay examen. No hay clases"
 
 - semana: 16
   martes:
     fecha: "01/12/2026"
-    parcial: "2do Recuperatorio: P1"
+    parcial: "1ros Recuperatorios: P2"
   jueves:
     fecha: "03/12/2026"
+    parcial: "2dos Recuperatorios: P1"
+
+- semana: 17
+  martes:
+    fecha: "08/12/2026"
+    noclases: "Feriado"
+  jueves:
+    fecha: "10/12/2026"
+    noclases: "Libre"
+
+- semana: 18
+  martes:
+    fecha: "15/12/2026"
     parcial: "2dos Recuperatorios: P2"
+  jueves:
+    fecha: "17/12/2026"
+    noclases: "Libre"
+
